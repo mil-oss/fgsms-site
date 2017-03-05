@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SLARuleInterface.html" title="org.miloss.fgsms.plugins.sla.SLARuleInterface" alt="" coords="16,11,136,53"/>
+<area shape="rect" id="node1" href="./SLARuleInterface.html" title="&lt;TABLE&gt;" alt="" coords="5,5,147,59"/>
+<area shape="rect" id="node2_1" href="./SLAActionInterface.html" title="org.miloss.fgsms.plugins.sla.SLAActionInterface" alt="" coords="181,11,312,53"/>
+<area shape="rect" id="node2" href="./SLAActionInterface.html" title="&lt;TABLE&gt;" alt="" coords="171,5,323,59"/>
+<area shape="rect" id="node3_2" href="./AlertType.html" title="org.miloss.fgsms.plugins.sla.AlertType" alt="" coords="357,11,461,53"/>
+<area shape="rect" id="node3" href="./AlertType.html" title="&lt;TABLE&gt;" alt="" coords="347,5,472,59"/>
+<area shape="rect" id="node4_3" href="./AlertContainer.html" title="org.miloss.fgsms.plugins.sla.AlertContainer" alt="" coords="507,19,608,45"/>
+<area shape="rect" id="node4" href="./AlertContainer.html" title="&lt;TABLE&gt;" alt="" coords="496,8,619,56"/>
+</map>

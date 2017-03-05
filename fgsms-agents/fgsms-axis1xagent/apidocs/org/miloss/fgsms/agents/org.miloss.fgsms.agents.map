@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Axis1MonitorOutbound.html" title="org.miloss.fgsms.agents.Axis1MonitorOutbound" alt="" coords="16,17,168,42"/>
+<area shape="rect" id="node1" href="./Axis1MonitorOutbound.html" title="&lt;TABLE&gt;" alt="" coords="5,5,179,53"/>
+<area shape="rect" id="node2_1" href="./Axis1MonitorInbound.html" title="org.miloss.fgsms.agents.Axis1MonitorInbound" alt="" coords="214,17,354,42"/>
+<area shape="rect" id="node2" href="./Axis1MonitorInbound.html" title="&lt;TABLE&gt;" alt="" coords="203,5,365,53"/>
+</map>

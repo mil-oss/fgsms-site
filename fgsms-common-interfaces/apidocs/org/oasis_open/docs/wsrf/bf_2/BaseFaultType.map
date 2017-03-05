@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BaseFaultType.html" title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" alt="" coords="2019,17,2125,42"/>
+<area shape="rect" id="node1" href="./BaseFaultType.html" title="&lt;TABLE&gt;" alt="" coords="2008,5,2136,53"/>
+<area shape="rect" id="node2_1" href="../rp_2/UpdateResourcePropertiesRequestFailedFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.UpdateResourcePropertiesRequestFailedFaultType" alt="" coords="16,113,331,138"/>
+<area shape="rect" id="node2" href="../rp_2/UpdateResourcePropertiesRequestFailedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="5,101,341,149"/>
+<area shape="rect" id="node3_2" href="../rp_2/UnknownQueryExpressionDialectFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.UnknownQueryExpressionDialectFaultType" alt="" coords="376,113,645,138"/>
+<area shape="rect" id="node3" href="../rp_2/UnknownQueryExpressionDialectFaultType.html" title="&lt;TABLE&gt;" alt="" coords="365,101,656,149"/>
+<area shape="rect" id="node4_3" href="../rp_2/UnableToPutResourcePropertyDocumentFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.UnableToPutResourcePropertyDocumentFaultType" alt="" coords="691,113,1005,138"/>
+<area shape="rect" id="node4" href="../rp_2/UnableToPutResourcePropertyDocumentFaultType.html" title="&lt;TABLE&gt;" alt="" coords="681,101,1015,149"/>
+<area shape="rect" id="node5_4" href="../rp_2/UnableToModifyResourcePropertyFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.UnableToModifyResourcePropertyFaultType" alt="" coords="1051,113,1323,138"/>
+<area shape="rect" id="node5" href="../rp_2/UnableToModifyResourcePropertyFaultType.html" title="&lt;TABLE&gt;" alt="" coords="1040,101,1333,149"/>
+<area shape="rect" id="node6_5" href="../rp_2/SetResourcePropertyRequestFailedFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.SetResourcePropertyRequestFailedFaultType" alt="" coords="1369,113,1653,138"/>
+<area shape="rect" id="node6" href="../rp_2/SetResourcePropertyRequestFailedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="1358,101,1663,149"/>
+<area shape="rect" id="node7_6" href="../rp_2/QueryEvaluationErrorFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.QueryEvaluationErrorFaultType" alt="" coords="1698,113,1897,138"/>
+<area shape="rect" id="node7" href="../rp_2/QueryEvaluationErrorFaultType.html" title="&lt;TABLE&gt;" alt="" coords="1687,101,1907,149"/>
+<area shape="rect" id="node8_7" href="../rp_2/InvalidResourcePropertyQNameFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.InvalidResourcePropertyQNameFaultType" alt="" coords="1942,113,2202,138"/>
+<area shape="rect" id="node8" href="../rp_2/InvalidResourcePropertyQNameFaultType.html" title="&lt;TABLE&gt;" alt="" coords="1931,101,2213,149"/>
+<area shape="rect" id="node9_8" href="../rp_2/InvalidQueryExpressionFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.InvalidQueryExpressionFaultType" alt="" coords="2247,113,2459,138"/>
+<area shape="rect" id="node9" href="../rp_2/InvalidQueryExpressionFaultType.html" title="&lt;TABLE&gt;" alt="" coords="2237,101,2470,149"/>
+<area shape="rect" id="node10_9" href="../rp_2/InvalidModificationFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.InvalidModificationFaultType" alt="" coords="2505,113,2685,138"/>
+<area shape="rect" id="node10" href="../rp_2/InvalidModificationFaultType.html" title="&lt;TABLE&gt;" alt="" coords="2494,101,2695,149"/>
+<area shape="rect" id="node11_10" href="../rp_2/InsertResourcePropertiesRequestFailedFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.InsertResourcePropertiesRequestFailedFaultType" alt="" coords="2730,113,3035,138"/>
+<area shape="rect" id="node11" href="../rp_2/InsertResourcePropertiesRequestFailedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="2719,101,3046,149"/>
+<area shape="rect" id="node12_11" href="../rp_2/DeleteResourcePropertiesRequestFailedFaultType.html" title="org.oasis_open.docs.wsrf.rp_2.DeleteResourcePropertiesRequestFailedFaultType" alt="" coords="3081,113,3391,138"/>
+<area shape="rect" id="node12" href="../rp_2/DeleteResourcePropertiesRequestFailedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="3070,101,3402,149"/>
+<area shape="rect" id="node13_12" href="../r_2/ResourceUnknownFaultType.html" title="org.oasis_open.docs.wsrf.r_2.ResourceUnknownFaultType" alt="" coords="3437,113,3621,138"/>
+<area shape="rect" id="node13" href="../r_2/ResourceUnknownFaultType.html" title="&lt;TABLE&gt;" alt="" coords="3427,101,3632,149"/>
+<area shape="rect" id="node14_13" href="../r_2/ResourceUnavailableFaultType.html" title="org.oasis_open.docs.wsrf.r_2.ResourceUnavailableFaultType" alt="" coords="3667,113,3863,138"/>
+<area shape="rect" id="node14" href="../r_2/ResourceUnavailableFaultType.html" title="&lt;TABLE&gt;" alt="" coords="3657,101,3874,149"/>
+</map>

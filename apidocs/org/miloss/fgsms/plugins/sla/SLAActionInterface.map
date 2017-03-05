@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../CustomSLAAction.html" title="org.miloss.fgsms.plugins.CustomSLAAction" alt="" coords="16,219,143,245"/>
+<area shape="rect" id="node1" href="../CustomSLAAction.html" title="&lt;TABLE&gt;" alt="" coords="5,208,153,256"/>
+<area shape="rect" id="node2_1" href="../PluginCommon.html" title="org.miloss.fgsms.plugins.PluginCommon" alt="" coords="815,11,923,53"/>
+<area shape="rect" id="node2" href="../PluginCommon.html" title="&lt;TABLE&gt;" alt="" coords="804,5,933,59"/>
+<area shape="rect" id="node3_2" href="./SLAActionInterface.html" title="org.miloss.fgsms.plugins.sla.SLAActionInterface" alt="" coords="803,112,934,155"/>
+<area shape="rect" id="node3" href="./SLAActionInterface.html" title="&lt;TABLE&gt;" alt="" coords="793,107,945,160"/>
+<area shape="rect" id="node4_3" href="../../sla/actions/WSNotificationAlerter.html" title="org.miloss.fgsms.sla.actions.WSNotificationAlerter" alt="" coords="189,219,333,245"/>
+<area shape="rect" id="node4" href="../../sla/actions/WSNotificationAlerter.html" title="&lt;TABLE&gt;" alt="" coords="178,208,343,256"/>
+<area shape="rect" id="node5_4" href="../../sla/actions/SLAActionRunScript.html" title="org.miloss.fgsms.sla.actions.SLAActionRunScript" alt="" coords="378,219,517,245"/>
+<area shape="rect" id="node5" href="../../sla/actions/SLAActionRunScript.html" title="&lt;TABLE&gt;" alt="" coords="367,208,527,256"/>
+<area shape="rect" id="node6_5" href="../../sla/actions/SLAActionRestart.html" title="org.miloss.fgsms.sla.actions.SLAActionRestart" alt="" coords="563,219,687,245"/>
+<area shape="rect" id="node6" href="../../sla/actions/SLAActionRestart.html" title="&lt;TABLE&gt;" alt="" coords="552,208,697,256"/>
+<area shape="rect" id="node7_6" href="../../sla/actions/SLAActionLog.html" title="org.miloss.fgsms.sla.actions.SLAActionLog" alt="" coords="732,219,835,245"/>
+<area shape="rect" id="node7" href="../../sla/actions/SLAActionLog.html" title="&lt;TABLE&gt;" alt="" coords="721,208,845,256"/>
+<area shape="rect" id="node8_7" href="../../sla/actions/SimpleMulticastAlerter.html" title="org.miloss.fgsms.sla.actions.SimpleMulticastAlerter" alt="" coords="880,219,1031,245"/>
+<area shape="rect" id="node8" href="../../sla/actions/SimpleMulticastAlerter.html" title="&lt;TABLE&gt;" alt="" coords="869,208,1041,256"/>
+<area shape="rect" id="node9_8" href="../../sla/actions/JMSAlerter.html" title="org.miloss.fgsms.sla.actions.JMSAlerter" alt="" coords="1076,219,1160,245"/>
+<area shape="rect" id="node9" href="../../sla/actions/JMSAlerter.html" title="&lt;TABLE&gt;" alt="" coords="1065,208,1171,256"/>
+<area shape="rect" id="node10_9" href="../../sla/actions/EmailAlerter.html" title="org.miloss.fgsms.sla.actions.EmailAlerter" alt="" coords="1206,219,1297,245"/>
+<area shape="rect" id="node10" href="../../sla/actions/EmailAlerter.html" title="&lt;TABLE&gt;" alt="" coords="1195,208,1307,256"/>
+<area shape="rect" id="node11_10" href="../../sla/actions/AMQPAlerter.html" title="org.miloss.fgsms.sla.actions.AMQPAlerter" alt="" coords="1342,219,1438,245"/>
+<area shape="rect" id="node11" href="../../sla/actions/AMQPAlerter.html" title="&lt;TABLE&gt;" alt="" coords="1331,208,1449,256"/>
+<area shape="rect" id="node12_11" href="../../uddipub/UpdateUddiRegistration.html" title="org.miloss.fgsms.uddipub.UpdateUddiRegistration" alt="" coords="1484,219,1640,245"/>
+<area shape="rect" id="node12" href="../../uddipub/UpdateUddiRegistration.html" title="&lt;TABLE&gt;" alt="" coords="1473,208,1651,256"/>
+</map>

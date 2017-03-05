@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RequestReceivedState.html" title="org.oasis_open.docs.wsdm.mows_2.RequestReceivedState" alt="" coords="16,209,167,234"/>
+<area shape="rect" id="node1" href="./RequestReceivedState.html" title="&lt;TABLE&gt;" alt="" coords="5,197,177,245"/>
+<area shape="rect" id="node2_1" href="./RequestProcessingStateType.html" title="org.oasis_open.docs.wsdm.mows_2.RequestProcessingStateType" alt="" coords="295,113,487,138"/>
+<area shape="rect" id="node2" href="./RequestProcessingStateType.html" title="&lt;TABLE&gt;" alt="" coords="285,101,498,149"/>
+<area shape="rect" id="node3_2" href="./RequestProcessingState.html" title="org.oasis_open.docs.wsdm.mows_2.RequestProcessingState" alt="" coords="212,209,376,234"/>
+<area shape="rect" id="node3" href="./RequestProcessingState.html" title="&lt;TABLE&gt;" alt="" coords="201,197,387,245"/>
+<area shape="rect" id="node4_3" href="./RequestFailedState.html" title="org.oasis_open.docs.wsdm.mows_2.RequestFailedState" alt="" coords="422,209,555,234"/>
+<area shape="rect" id="node4" href="./RequestFailedState.html" title="&lt;TABLE&gt;" alt="" coords="411,197,566,245"/>
+<area shape="rect" id="node5_4" href="./RequestCompletedState.html" title="org.oasis_open.docs.wsdm.mows_2.RequestCompletedState" alt="" coords="601,209,761,234"/>
+<area shape="rect" id="node5" href="./RequestCompletedState.html" title="&lt;TABLE&gt;" alt="" coords="590,197,771,245"/>
+<area shape="rect" id="node6_5" href="../muws2_2/StateType.html" title="org.oasis_open.docs.wsdm.muws2_2.StateType" alt="" coords="352,17,431,42"/>
+<area shape="rect" id="node6" href="../muws2_2/StateType.html" title="&lt;TABLE&gt;" alt="" coords="341,5,441,53"/>
+</map>

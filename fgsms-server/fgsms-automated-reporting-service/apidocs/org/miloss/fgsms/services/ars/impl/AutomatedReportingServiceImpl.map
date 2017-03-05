@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AutomatedReportingServiceImpl.html" title="org.miloss.fgsms.services.ars.impl.AutomatedReportingServiceImpl" alt="" coords="100,118,304,143"/>
+<area shape="rect" id="node1" href="./AutomatedReportingServiceImpl.html" title="&lt;TABLE&gt;" alt="" coords="89,107,315,155"/>
+<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/automatedreportingservice/AutomatedReportingService.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.AutomatedReportingService" alt="" coords="16,11,196,53"/>
+<area shape="rect" id="node2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/automatedreportingservice/AutomatedReportingService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,207,59"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/automatedreportingservice/OpStatusService.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.OpStatusService" alt="" coords="241,11,357,53"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/automatedreportingservice/OpStatusService.html" title="&lt;TABLE&gt;" alt="" coords="231,5,368,59"/>
+</map>

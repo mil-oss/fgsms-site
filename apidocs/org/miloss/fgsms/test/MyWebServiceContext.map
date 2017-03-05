@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./MyWebServiceContext.html" title="org.miloss.fgsms.test.MyWebServiceContext" alt="" coords="101,118,253,143"/>
+<area shape="rect" id="node1" href="./MyWebServiceContext.html" title="&lt;TABLE&gt;" alt="" coords="91,107,264,155"/>
+<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/WebServiceContext.html" title="javax.xml.ws.WebServiceContext" alt="" coords="16,11,149,53"/>
+<area shape="rect" id="node2" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/WebServiceContext.html" title="&lt;TABLE&gt;" alt="" coords="5,5,160,59"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/handler/soap/SOAPMessageContext.html" title="javax.xml.ws.handler.soap.SOAPMessageContext" alt="" coords="195,11,349,53"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/handler/soap/SOAPMessageContext.html" title="&lt;TABLE&gt;" alt="" coords="184,5,360,59"/>
+</map>

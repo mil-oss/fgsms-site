@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Validation.html" title="org.miloss.fgsms.services.ars.impl.Validation" alt="" coords="16,17,92,42"/>
+<area shape="rect" id="node1" href="./Validation.html" title="&lt;TABLE&gt;" alt="" coords="5,5,103,53"/>
+<area shape="rect" id="node2_1" href="./OpStat.html" title="org.miloss.fgsms.services.ars.impl.OpStat" alt="" coords="137,17,197,42"/>
+<area shape="rect" id="node2" href="./OpStat.html" title="&lt;TABLE&gt;" alt="" coords="127,5,208,53"/>
+<area shape="rect" id="node3_2" href="./AutomatedReportingServiceImpl.html" title="org.miloss.fgsms.services.ars.impl.AutomatedReportingServiceImpl" alt="" coords="243,17,447,42"/>
+<area shape="rect" id="node3" href="./AutomatedReportingServiceImpl.html" title="&lt;TABLE&gt;" alt="" coords="232,5,457,53"/>
+</map>

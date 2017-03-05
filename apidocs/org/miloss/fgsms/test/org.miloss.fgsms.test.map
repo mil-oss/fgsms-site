@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./WebServiceBaseTests.html" title="org.miloss.fgsms.test.WebServiceBaseTests" alt="" coords="16,17,169,42"/>
+<area shape="rect" id="node1" href="./WebServiceBaseTests.html" title="&lt;TABLE&gt;" alt="" coords="5,5,180,53"/>
+<area shape="rect" id="node2_1" href="./MyWebServiceContext.html" title="org.miloss.fgsms.test.MyWebServiceContext" alt="" coords="215,17,367,42"/>
+<area shape="rect" id="node2" href="./MyWebServiceContext.html" title="&lt;TABLE&gt;" alt="" coords="205,5,378,53"/>
+<area shape="rect" id="node3_2" href="./MyMessageContext.html" title="org.miloss.fgsms.test.MyMessageContext" alt="" coords="413,17,549,42"/>
+<area shape="rect" id="node3" href="./MyMessageContext.html" title="&lt;TABLE&gt;" alt="" coords="402,5,559,53"/>
+<area shape="rect" id="node4_3" href="./MyHttpServletRequest.html" title="org.miloss.fgsms.test.MyHttpServletRequest" alt="" coords="595,17,743,42"/>
+<area shape="rect" id="node4" href="./MyHttpServletRequest.html" title="&lt;TABLE&gt;" alt="" coords="584,5,753,53"/>
+<area shape="rect" id="node5_4" href="./InitialContextFactoryForTest.html" title="org.miloss.fgsms.test.InitialContextFactoryForTest" alt="" coords="788,17,971,42"/>
+<area shape="rect" id="node5" href="./InitialContextFactoryForTest.html" title="&lt;TABLE&gt;" alt="" coords="777,5,981,53"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../services/interfaces/policyconfiguration/GetPluginInformationResponseMsg.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetPluginInformationResponseMsg" alt="" coords="16,17,239,42"/>
+<area shape="rect" id="node1" href="../services/interfaces/policyconfiguration/GetPluginInformationResponseMsg.html" title="&lt;TABLE&gt;" alt="" coords="5,5,249,53"/>
+<area shape="rect" id="node2_1" href="./GetPluginInformationExt.html" title="org.miloss.fgsms.presentation.GetPluginInformationExt" alt="" coords="47,113,207,138"/>
+<area shape="rect" id="node2" href="./GetPluginInformationExt.html" title="&lt;TABLE&gt;" alt="" coords="37,101,218,149"/>
+</map>

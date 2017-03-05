@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SLARuleGeneric.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.SLARuleGeneric" alt="" coords="16,214,132,239"/>
+<area shape="rect" id="node1" href="./SLARuleGeneric.html" title="&lt;TABLE&gt;" alt="" coords="5,203,143,251"/>
+<area shape="rect" id="node2_1" href="./RuleBaseType.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.RuleBaseType" alt="" coords="93,118,197,143"/>
+<area shape="rect" id="node2" href="./RuleBaseType.html" title="&lt;TABLE&gt;" alt="" coords="82,107,207,155"/>
+<area shape="rect" id="node3_2" href="./AndOrNot.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.AndOrNot" alt="" coords="192,214,268,239"/>
+<area shape="rect" id="node3" href="./AndOrNot.html" title="&lt;TABLE&gt;" alt="" coords="181,203,279,251"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="101,11,188,53"/>
+<area shape="rect" id="node4" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="91,5,199,59"/>
+</map>

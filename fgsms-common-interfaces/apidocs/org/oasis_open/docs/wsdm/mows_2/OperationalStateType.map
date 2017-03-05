@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./UpState.html" title="org.oasis_open.docs.wsdm.mows_2.UpState" alt="" coords="16,209,83,234"/>
+<area shape="rect" id="node1" href="./UpState.html" title="&lt;TABLE&gt;" alt="" coords="5,197,93,245"/>
+<area shape="rect" id="node2_1" href="./StoppedState.html" title="org.oasis_open.docs.wsdm.mows_2.StoppedState" alt="" coords="128,209,227,234"/>
+<area shape="rect" id="node2" href="./StoppedState.html" title="&lt;TABLE&gt;" alt="" coords="117,197,237,245"/>
+<area shape="rect" id="node3_2" href="./SaturatedState.html" title="org.oasis_open.docs.wsdm.mows_2.SaturatedState" alt="" coords="272,209,379,234"/>
+<area shape="rect" id="node3" href="./SaturatedState.html" title="&lt;TABLE&gt;" alt="" coords="261,197,389,245"/>
+<area shape="rect" id="node4_3" href="./OperationalStateType.html" title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" alt="" coords="388,113,532,138"/>
+<area shape="rect" id="node4" href="./OperationalStateType.html" title="&lt;TABLE&gt;" alt="" coords="377,101,543,149"/>
+<area shape="rect" id="node5_4" href="./IdleState.html" title="org.oasis_open.docs.wsdm.mows_2.IdleState" alt="" coords="425,209,495,234"/>
+<area shape="rect" id="node5" href="./IdleState.html" title="&lt;TABLE&gt;" alt="" coords="414,197,506,245"/>
+<area shape="rect" id="node6_5" href="./DownState.html" title="org.oasis_open.docs.wsdm.mows_2.DownState" alt="" coords="541,209,624,234"/>
+<area shape="rect" id="node6" href="./DownState.html" title="&lt;TABLE&gt;" alt="" coords="531,197,635,245"/>
+<area shape="rect" id="node7_6" href="./CrashedState.html" title="org.oasis_open.docs.wsdm.mows_2.CrashedState" alt="" coords="669,209,768,234"/>
+<area shape="rect" id="node7" href="./CrashedState.html" title="&lt;TABLE&gt;" alt="" coords="659,197,779,245"/>
+<area shape="rect" id="node8_7" href="./BusyState.html" title="org.oasis_open.docs.wsdm.mows_2.BusyState" alt="" coords="813,209,893,234"/>
+<area shape="rect" id="node8" href="./BusyState.html" title="&lt;TABLE&gt;" alt="" coords="803,197,904,245"/>
+<area shape="rect" id="node9_8" href="../muws2_2/StateType.html" title="org.oasis_open.docs.wsdm.muws2_2.StateType" alt="" coords="421,17,499,42"/>
+<area shape="rect" id="node9" href="../muws2_2/StateType.html" title="&lt;TABLE&gt;" alt="" coords="410,5,510,53"/>
+</map>

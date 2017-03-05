@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RSWorker.html" title="org.miloss.fgsms.services.rs.impl.RSWorker" alt="" coords="16,19,96,45"/>
+<area shape="rect" id="node1" href="./RSWorker.html" title="&lt;TABLE&gt;" alt="" coords="5,8,107,56"/>
+<area shape="rect" id="node2_1" href="./RSRunner.html" title="org.miloss.fgsms.services.rs.impl.RSRunner" alt="" coords="142,19,221,45"/>
+<area shape="rect" id="node2" href="./RSRunner.html" title="&lt;TABLE&gt;" alt="" coords="131,8,231,56"/>
+<area shape="rect" id="node3_2" href="./RSProcessorSingleton.html" title="org.miloss.fgsms.services.rs.impl.RSProcessorSingleton" alt="" coords="266,19,417,45"/>
+<area shape="rect" id="node3" href="./RSProcessorSingleton.html" title="&lt;TABLE&gt;" alt="" coords="255,8,427,56"/>
+<area shape="rect" id="node4_3" href="./RSProcessorControllerMBean.html" title="org.miloss.fgsms.services.rs.impl.RSProcessorControllerMBean" alt="" coords="463,11,655,53"/>
+<area shape="rect" id="node4" href="./RSProcessorControllerMBean.html" title="&lt;TABLE&gt;" alt="" coords="452,5,665,59"/>
+<area shape="rect" id="node5_4" href="./RSProcessorController.html" title="org.miloss.fgsms.services.rs.impl.RSProcessorController" alt="" coords="483,118,635,143"/>
+<area shape="rect" id="node5" href="./RSProcessorController.html" title="&lt;TABLE&gt;" alt="" coords="472,107,645,155"/>
+<area shape="rect" id="node6_5" href="./ReportDefinitionExtension.html" title="org.miloss.fgsms.services.rs.impl.ReportDefinitionExtension" alt="" coords="700,19,868,45"/>
+<area shape="rect" id="node6" href="./ReportDefinitionExtension.html" title="&lt;TABLE&gt;" alt="" coords="689,8,879,56"/>
+<area shape="rect" id="node7_6" href="./FgsmsReportGenerator.html" title="org.miloss.fgsms.services.rs.impl.FgsmsReportGenerator" alt="" coords="913,19,1068,45"/>
+<area shape="rect" id="node7" href="./FgsmsReportGenerator.html" title="&lt;TABLE&gt;" alt="" coords="903,8,1079,56"/>
+<area shape="rect" id="node8_7" href="./CalendarCalculator.html" title="org.miloss.fgsms.services.rs.impl.CalendarCalculator" alt="" coords="1113,19,1241,45"/>
+<area shape="rect" id="node8" href="./CalendarCalculator.html" title="&lt;TABLE&gt;" alt="" coords="1103,8,1252,56"/>
+</map>

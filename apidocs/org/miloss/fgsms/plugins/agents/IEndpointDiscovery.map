@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./IEndpointDiscovery.html" title="org.miloss.fgsms.plugins.agents.IEndpointDiscovery" alt="" coords="79,11,208,53"/>
+<area shape="rect" id="node1" href="./IEndpointDiscovery.html" title="&lt;TABLE&gt;" alt="" coords="68,5,219,59"/>
+<area shape="rect" id="node2_1" href="../../discovery/UDDIDiscovery.html" title="org.miloss.fgsms.discovery.UDDIDiscovery" alt="" coords="16,118,121,143"/>
+<area shape="rect" id="node2" href="../../discovery/UDDIDiscovery.html" title="&lt;TABLE&gt;" alt="" coords="5,107,132,155"/>
+<area shape="rect" id="node3_2" href="../../discovery/dns/DNSDiscovery.html" title="org.miloss.fgsms.discovery.dns.DNSDiscovery" alt="" coords="167,118,269,143"/>
+<area shape="rect" id="node3" href="../../discovery/dns/DNSDiscovery.html" title="&lt;TABLE&gt;" alt="" coords="156,107,280,155"/>
+</map>

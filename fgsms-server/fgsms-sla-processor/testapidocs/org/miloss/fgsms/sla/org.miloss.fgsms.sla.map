@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./WSNotificationAlerterTest.html" title="org.miloss.fgsms.sla.WSNotificationAlerterTest" alt="" coords="16,17,184,42"/>
+<area shape="rect" id="node1" href="./WSNotificationAlerterTest.html" title="&lt;TABLE&gt;" alt="" coords="5,5,195,53"/>
+<area shape="rect" id="node2_1" href="./TransactionalSLAProcessorTest.html" title="org.miloss.fgsms.sla.TransactionalSLAProcessorTest" alt="" coords="229,17,435,42"/>
+<area shape="rect" id="node2" href="./TransactionalSLAProcessorTest.html" title="&lt;TABLE&gt;" alt="" coords="219,5,445,53"/>
+<area shape="rect" id="node3_2" href="./SlaSuite.html" title="org.miloss.fgsms.sla.SlaSuite" alt="" coords="481,17,549,42"/>
+<area shape="rect" id="node3" href="./SlaSuite.html" title="&lt;TABLE&gt;" alt="" coords="470,5,559,53"/>
+<area shape="rect" id="node4_3" href="./NonTransactionalSLAProcessorTest.html" title="org.miloss.fgsms.sla.NonTransactionalSLAProcessorTest" alt="" coords="594,17,822,42"/>
+<area shape="rect" id="node4" href="./NonTransactionalSLAProcessorTest.html" title="&lt;TABLE&gt;" alt="" coords="583,5,833,53"/>
+<area shape="rect" id="node5_4" href="./MainTest.html" title="org.miloss.fgsms.sla.MainTest" alt="" coords="868,17,940,42"/>
+<area shape="rect" id="node5" href="./MainTest.html" title="&lt;TABLE&gt;" alt="" coords="857,5,951,53"/>
+<area shape="rect" id="node6_5" href="./InitialContextFactoryForTest.html" title="org.miloss.fgsms.sla.InitialContextFactoryForTest" alt="" coords="986,17,1169,42"/>
+<area shape="rect" id="node6" href="./InitialContextFactoryForTest.html" title="&lt;TABLE&gt;" alt="" coords="975,5,1179,53"/>
+</map>

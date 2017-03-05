@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TimeSeriesContainer.html" title="org.miloss.fgsms.services.rs.impl.TimeSeriesContainer" alt="" coords="16,19,156,45"/>
+<area shape="rect" id="node1" href="./TimeSeriesContainer.html" title="&lt;TABLE&gt;" alt="" coords="5,8,167,56"/>
+<area shape="rect" id="node2_1" href="./StatusRecordsExt.html" title="org.miloss.fgsms.services.rs.impl.StatusRecordsExt" alt="" coords="202,19,327,45"/>
+<area shape="rect" id="node2" href="./StatusRecordsExt.html" title="&lt;TABLE&gt;" alt="" coords="191,8,338,56"/>
+<area shape="rect" id="node3_2" href="./Reporting.html" title="org.miloss.fgsms.services.rs.impl.Reporting" alt="" coords="373,19,447,45"/>
+<area shape="rect" id="node3" href="./Reporting.html" title="&lt;TABLE&gt;" alt="" coords="362,8,458,56"/>
+<area shape="rect" id="node4_3" href="./ReportGeneratorPlugin.html" title="org.miloss.fgsms.services.rs.impl.ReportGeneratorPlugin" alt="" coords="493,11,644,53"/>
+<area shape="rect" id="node4" href="./ReportGeneratorPlugin.html" title="&lt;TABLE&gt;" alt="" coords="483,5,655,59"/>
+<area shape="rect" id="node5_4" href="./OpStat.html" title="org.miloss.fgsms.services.rs.impl.OpStat" alt="" coords="689,19,749,45"/>
+<area shape="rect" id="node5" href="./OpStat.html" title="&lt;TABLE&gt;" alt="" coords="679,8,760,56"/>
+<area shape="rect" id="node6_5" href="./CsvExporter.html" title="org.miloss.fgsms.services.rs.impl.CsvExporter" alt="" coords="795,19,884,45"/>
+<area shape="rect" id="node6" href="./CsvExporter.html" title="&lt;TABLE&gt;" alt="" coords="784,8,895,56"/>
+</map>

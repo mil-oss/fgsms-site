@@ -1,0 +1,17 @@
+org.miloss.fgsms.agentcore
+org.miloss.fgsms.bueller
+org.miloss.fgsms.common
+org.miloss.fgsms.osagent
+org.miloss.fgsms.osagent.callbacks
+org.miloss.fgsms.plugins
+org.miloss.fgsms.presentation
+org.miloss.fgsms.services.ars.impl
+org.miloss.fgsms.services.das.impl
+org.miloss.fgsms.services.dcs.impl
+org.miloss.fgsms.services.interfaces.test
+org.miloss.fgsms.services.pcs.impl
+org.miloss.fgsms.services.rs.impl
+org.miloss.fgsms.services.status.impl
+org.miloss.fgsms.sla
+org.miloss.fgsms.wsn.broker
+org.oasis_open.docs.wsn.client

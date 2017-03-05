@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TransactionalWebServicePolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy" alt="" coords="16,214,217,239"/>
+<area shape="rect" id="node1" href="./TransactionalWebServicePolicy.html" title="&lt;TABLE&gt;" alt="" coords="5,203,228,251"/>
+<area shape="rect" id="node2_1" href="./StatusServicePolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy" alt="" coords="263,214,399,239"/>
+<area shape="rect" id="node2" href="./StatusServicePolicy.html" title="&lt;TABLE&gt;" alt="" coords="253,203,410,251"/>
+<area shape="rect" id="node3_2" href="./StatisticalServicePolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy" alt="" coords="445,214,601,239"/>
+<area shape="rect" id="node3" href="./StatisticalServicePolicy.html" title="&lt;TABLE&gt;" alt="" coords="435,203,612,251"/>
+<area shape="rect" id="node4_3" href="./ServicePolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy" alt="" coords="421,118,519,143"/>
+<area shape="rect" id="node4" href="./ServicePolicy.html" title="&lt;TABLE&gt;" alt="" coords="411,107,529,155"/>
+<area shape="rect" id="node5_4" href="./ProcessPolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy" alt="" coords="647,214,751,239"/>
+<area shape="rect" id="node5" href="./ProcessPolicy.html" title="&lt;TABLE&gt;" alt="" coords="637,203,762,251"/>
+<area shape="rect" id="node6_5" href="./MachinePolicy.html" title="org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy" alt="" coords="797,214,901,239"/>
+<area shape="rect" id="node6" href="./MachinePolicy.html" title="&lt;TABLE&gt;" alt="" coords="786,203,911,251"/>
+<area shape="rect" id="node7_6" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="475,11,561,53"/>
+<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="464,5,572,59"/>
+</map>

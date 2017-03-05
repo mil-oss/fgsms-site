@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../interfaces/dataaccessservice/OpStatusService.html" title="org.miloss.fgsms.services.interfaces.dataaccessservice.OpStatusService" alt="" coords="16,11,132,53"/>
+<area shape="rect" id="node1" href="../../interfaces/dataaccessservice/OpStatusService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,143,59"/>
+<area shape="rect" id="node3_1" href="./DAS4jBean.html" title="org.miloss.fgsms.services.das.impl.DAS4jBean" alt="" coords="115,118,201,143"/>
+<area shape="rect" id="node3" href="./DAS4jBean.html" title="&lt;TABLE&gt;" alt="" coords="104,107,212,155"/>
+<area shape="rect" id="node2_2" href="../../interfaces/dataaccessservice/DataAccessService.html" title="org.miloss.fgsms.services.interfaces.dataaccessservice.DataAccessService" alt="" coords="177,11,309,53"/>
+<area shape="rect" id="node2" href="../../interfaces/dataaccessservice/DataAccessService.html" title="&lt;TABLE&gt;" alt="" coords="167,5,320,59"/>
+</map>

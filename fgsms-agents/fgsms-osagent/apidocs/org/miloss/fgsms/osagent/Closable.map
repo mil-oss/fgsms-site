@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SysInfo.html" title="org.miloss.fgsms.osagent.SysInfo" alt="" coords="16,118,79,143"/>
+<area shape="rect" id="node1" href="./SysInfo.html" title="&lt;TABLE&gt;" alt="" coords="5,107,89,155"/>
+<area shape="rect" id="node2_1" href="./Ps.html" title="org.miloss.fgsms.osagent.Ps" alt="" coords="132,118,168,143"/>
+<area shape="rect" id="node2" href="./Ps.html" title="&lt;TABLE&gt;" alt="" coords="114,107,186,155"/>
+<area shape="rect" id="node3_2" href="./ProcInfo.html" title="org.miloss.fgsms.osagent.ProcInfo" alt="" coords="221,118,287,143"/>
+<area shape="rect" id="node3" href="./ProcInfo.html" title="&lt;TABLE&gt;" alt="" coords="210,107,298,155"/>
+<area shape="rect" id="node4_3" href="./ProcFileInfo.html" title="org.miloss.fgsms.osagent.ProcFileInfo" alt="" coords="333,118,421,143"/>
+<area shape="rect" id="node4" href="./ProcFileInfo.html" title="&lt;TABLE&gt;" alt="" coords="322,107,431,155"/>
+<area shape="rect" id="node5_4" href="./NetInfo.html" title="org.miloss.fgsms.osagent.NetInfo" alt="" coords="467,118,527,143"/>
+<area shape="rect" id="node5" href="./NetInfo.html" title="&lt;TABLE&gt;" alt="" coords="456,107,537,155"/>
+<area shape="rect" id="node6_5" href="./Iostat.html" title="org.miloss.fgsms.osagent.Iostat" alt="" coords="572,118,624,143"/>
+<area shape="rect" id="node6" href="./Iostat.html" title="&lt;TABLE&gt;" alt="" coords="561,107,635,155"/>
+<area shape="rect" id="node7_6" href="./Ifconfig.html" title="org.miloss.fgsms.osagent.Ifconfig" alt="" coords="669,118,729,143"/>
+<area shape="rect" id="node7" href="./Ifconfig.html" title="&lt;TABLE&gt;" alt="" coords="659,107,740,155"/>
+<area shape="rect" id="node8_7" href="./Df.html" title="org.miloss.fgsms.osagent.Df" alt="" coords="785,118,817,143"/>
+<area shape="rect" id="node8" href="./Df.html" title="&lt;TABLE&gt;" alt="" coords="765,107,837,155"/>
+<area shape="rect" id="node9_8" href="./Closable.html" title="org.miloss.fgsms.osagent.Closable" alt="" coords="395,11,478,53"/>
+<area shape="rect" id="node9" href="./Closable.html" title="&lt;TABLE&gt;" alt="" coords="385,5,489,59"/>
+</map>

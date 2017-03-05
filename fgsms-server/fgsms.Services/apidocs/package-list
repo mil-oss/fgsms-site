@@ -1,0 +1,5 @@
+org.miloss.fgsms.auth
+org.miloss.fgsms.auxsrv
+org.miloss.fgsms.auxsrv.status
+org.miloss.fgsms.quartz
+org.miloss.fgsms.services.reporting

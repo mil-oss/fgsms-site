@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../plugins/sla/SLARuleInterface.html" title="org.miloss.fgsms.plugins.sla.SLARuleInterface" alt="" coords="55,11,175,53"/>
+<area shape="rect" id="node1" href="../../plugins/sla/SLARuleInterface.html" title="&lt;TABLE&gt;" alt="" coords="44,5,185,59"/>
+<area shape="rect" id="node2_1" href="./InvocationsOverTimeGreatThan.html" title="org.miloss.fgsms.sla.rules.InvocationsOverTimeGreatThan" alt="" coords="16,118,213,143"/>
+<area shape="rect" id="node2" href="./InvocationsOverTimeGreatThan.html" title="&lt;TABLE&gt;" alt="" coords="5,107,224,155"/>
+</map>

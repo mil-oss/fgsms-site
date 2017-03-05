@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./WeeklySchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.WeeklySchedule" alt="" coords="16,214,133,239"/>
+<area shape="rect" id="node1" href="./WeeklySchedule.html" title="&lt;TABLE&gt;" alt="" coords="5,203,144,251"/>
+<area shape="rect" id="node2_1" href="./OneTimeSchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.OneTimeSchedule" alt="" coords="179,214,304,239"/>
+<area shape="rect" id="node2" href="./OneTimeSchedule.html" title="&lt;TABLE&gt;" alt="" coords="168,203,315,251"/>
+<area shape="rect" id="node3_2" href="./MonthlySchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.MonthlySchedule" alt="" coords="349,214,469,239"/>
+<area shape="rect" id="node3" href="./MonthlySchedule.html" title="&lt;TABLE&gt;" alt="" coords="339,203,480,251"/>
+<area shape="rect" id="node4_3" href="./ImmediateSchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.ImmediateSchedule" alt="" coords="515,214,648,239"/>
+<area shape="rect" id="node4" href="./ImmediateSchedule.html" title="&lt;TABLE&gt;" alt="" coords="504,203,659,251"/>
+<area shape="rect" id="node5_4" href="./DailySchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.DailySchedule" alt="" coords="694,214,797,239"/>
+<area shape="rect" id="node5" href="./DailySchedule.html" title="&lt;TABLE&gt;" alt="" coords="683,203,807,251"/>
+<area shape="rect" id="node6_5" href="./AbstractSchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.AbstractSchedule" alt="" coords="315,118,439,143"/>
+<area shape="rect" id="node6" href="./AbstractSchedule.html" title="&lt;TABLE&gt;" alt="" coords="305,107,450,155"/>
+<area shape="rect" id="node7_6" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="389,11,475,53"/>
+<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="378,5,486,59"/>
+</map>

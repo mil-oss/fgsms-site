@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./WSNotificationAlerter.html" title="org.miloss.fgsms.sla.actions.WSNotificationAlerter" alt="" coords="16,17,160,42"/>
+<area shape="rect" id="node1" href="./WSNotificationAlerter.html" title="&lt;TABLE&gt;" alt="" coords="5,5,171,53"/>
+<area shape="rect" id="node2_1" href="./SLAActionRunScript.html" title="org.miloss.fgsms.sla.actions.SLAActionRunScript" alt="" coords="205,17,344,42"/>
+<area shape="rect" id="node2" href="./SLAActionRunScript.html" title="&lt;TABLE&gt;" alt="" coords="195,5,355,53"/>
+<area shape="rect" id="node3_2" href="./SLAActionRestart.html" title="org.miloss.fgsms.sla.actions.SLAActionRestart" alt="" coords="390,17,514,42"/>
+<area shape="rect" id="node3" href="./SLAActionRestart.html" title="&lt;TABLE&gt;" alt="" coords="379,5,525,53"/>
+<area shape="rect" id="node4_3" href="./SLAActionLog.html" title="org.miloss.fgsms.sla.actions.SLAActionLog" alt="" coords="559,17,662,42"/>
+<area shape="rect" id="node4" href="./SLAActionLog.html" title="&lt;TABLE&gt;" alt="" coords="549,5,673,53"/>
+<area shape="rect" id="node5_4" href="./SimpleMulticastAlerter.html" title="org.miloss.fgsms.sla.actions.SimpleMulticastAlerter" alt="" coords="707,17,858,42"/>
+<area shape="rect" id="node5" href="./SimpleMulticastAlerter.html" title="&lt;TABLE&gt;" alt="" coords="697,5,869,53"/>
+<area shape="rect" id="node6_5" href="./JMSAlerter.html" title="org.miloss.fgsms.sla.actions.JMSAlerter" alt="" coords="903,17,987,42"/>
+<area shape="rect" id="node6" href="./JMSAlerter.html" title="&lt;TABLE&gt;" alt="" coords="893,5,998,53"/>
+<area shape="rect" id="node7_6" href="./EmailAlerter.html" title="org.miloss.fgsms.sla.actions.EmailAlerter" alt="" coords="1033,17,1124,42"/>
+<area shape="rect" id="node7" href="./EmailAlerter.html" title="&lt;TABLE&gt;" alt="" coords="1023,5,1135,53"/>
+<area shape="rect" id="node8_7" href="./AMQPAlerter.html" title="org.miloss.fgsms.sla.actions.AMQPAlerter" alt="" coords="1169,17,1265,42"/>
+<area shape="rect" id="node8" href="./AMQPAlerter.html" title="&lt;TABLE&gt;" alt="" coords="1159,5,1276,53"/>
+</map>

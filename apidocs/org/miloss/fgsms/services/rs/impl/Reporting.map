@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../interfaces/reportingservice/ReportingService.html" title="org.miloss.fgsms.services.interfaces.reportingservice.ReportingService" alt="" coords="16,11,132,53"/>
+<area shape="rect" id="node1" href="../../interfaces/reportingservice/ReportingService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,143,59"/>
+<area shape="rect" id="node3_1" href="./Reporting.html" title="org.miloss.fgsms.services.rs.impl.Reporting" alt="" coords="117,118,191,143"/>
+<area shape="rect" id="node3" href="./Reporting.html" title="&lt;TABLE&gt;" alt="" coords="106,107,202,155"/>
+<area shape="rect" id="node2_2" href="../../interfaces/status/OpStatusService.html" title="org.miloss.fgsms.services.interfaces.status.OpStatusService" alt="" coords="177,11,293,53"/>
+<area shape="rect" id="node2" href="../../interfaces/status/OpStatusService.html" title="&lt;TABLE&gt;" alt="" coords="167,5,304,59"/>
+</map>

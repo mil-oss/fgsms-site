@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Triggers.html" title="org.miloss.fgsms.auxsrv.status.Triggers" alt="" coords="16,17,81,42"/>
+<area shape="rect" id="node1" href="./Triggers.html" title="&lt;TABLE&gt;" alt="" coords="5,5,92,53"/>
+<area shape="rect" id="node2_1" href="./TriggerGroup.html" title="org.miloss.fgsms.auxsrv.status.TriggerGroup" alt="" coords="127,17,221,42"/>
+<area shape="rect" id="node2" href="./TriggerGroup.html" title="&lt;TABLE&gt;" alt="" coords="117,5,231,53"/>
+<area shape="rect" id="node3_2" href="./Trigger.html" title="org.miloss.fgsms.auxsrv.status.Trigger" alt="" coords="266,17,325,42"/>
+<area shape="rect" id="node3" href="./Trigger.html" title="&lt;TABLE&gt;" alt="" coords="255,5,335,53"/>
+<area shape="rect" id="node4_3" href="./QuartzStatus.html" title="org.miloss.fgsms.auxsrv.status.QuartzStatus" alt="" coords="370,17,466,42"/>
+<area shape="rect" id="node4" href="./QuartzStatus.html" title="&lt;TABLE&gt;" alt="" coords="359,5,477,53"/>
+<area shape="rect" id="node5_4" href="./ObjectFactory.html" title="org.miloss.fgsms.auxsrv.status.ObjectFactory" alt="" coords="511,17,613,42"/>
+<area shape="rect" id="node5" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="501,5,623,53"/>
+<area shape="rect" id="node6_5" href="./Jobs.html" title="org.miloss.fgsms.auxsrv.status.Jobs" alt="" coords="660,17,707,42"/>
+<area shape="rect" id="node6" href="./Jobs.html" title="&lt;TABLE&gt;" alt="" coords="647,5,719,53"/>
+<area shape="rect" id="node7_6" href="./Job.html" title="org.miloss.fgsms.auxsrv.status.Job" alt="" coords="759,17,799,42"/>
+<area shape="rect" id="node7" href="./Job.html" title="&lt;TABLE&gt;" alt="" coords="743,5,815,53"/>
+<area shape="rect" id="node8_7" href="./GroupNames.html" title="org.miloss.fgsms.auxsrv.status.GroupNames" alt="" coords="850,17,946,42"/>
+<area shape="rect" id="node8" href="./GroupNames.html" title="&lt;TABLE&gt;" alt="" coords="839,5,957,53"/>
+<area shape="rect" id="node9_8" href="./Group.html" title="org.miloss.fgsms.auxsrv.status.Group" alt="" coords="992,17,1047,42"/>
+<area shape="rect" id="node9" href="./Group.html" title="&lt;TABLE&gt;" alt="" coords="981,5,1057,53"/>
+</map>

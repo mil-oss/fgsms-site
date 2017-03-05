@@ -1,0 +1,5 @@
+org.miloss.fgsms.services.rs.impl
+org.miloss.fgsms.services.rs.impl.reports
+org.miloss.fgsms.services.rs.impl.reports.broker
+org.miloss.fgsms.services.rs.impl.reports.os
+org.miloss.fgsms.services.rs.impl.reports.ws

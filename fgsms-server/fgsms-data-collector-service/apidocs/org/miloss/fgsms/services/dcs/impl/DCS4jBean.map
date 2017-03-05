@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DCS4jBean.html" title="org.miloss.fgsms.services.dcs.impl.DCS4jBean" alt="" coords="86,118,173,143"/>
+<area shape="rect" id="node1" href="./DCS4jBean.html" title="&lt;TABLE&gt;" alt="" coords="75,107,183,155"/>
+<area shape="rect" id="node2_1" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/datacollector/DCS.html" title="org.miloss.fgsms.services.interfaces.datacollector.DCS" alt="" coords="16,11,99,53"/>
+<area shape="rect" id="node2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/datacollector/DCS.html" title="&lt;TABLE&gt;" alt="" coords="5,5,109,59"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/datacollector/OpStatusService.html" title="org.miloss.fgsms.services.interfaces.datacollector.OpStatusService" alt="" coords="145,11,261,53"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/org/miloss/fgsms/services/interfaces/datacollector/OpStatusService.html" title="&lt;TABLE&gt;" alt="" coords="134,5,271,59"/>
+</map>

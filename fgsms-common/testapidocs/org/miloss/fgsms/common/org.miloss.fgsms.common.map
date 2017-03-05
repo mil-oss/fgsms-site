@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./UtilityTest.html" title="org.miloss.fgsms.common.UtilityTest" alt="" coords="16,17,93,42"/>
+<area shape="rect" id="node1" href="./UtilityTest.html" title="&lt;TABLE&gt;" alt="" coords="5,5,104,53"/>
+<area shape="rect" id="node2_1" href="./UserIdentityUtilTest.html" title="org.miloss.fgsms.common.UserIdentityUtilTest" alt="" coords="139,17,271,42"/>
+<area shape="rect" id="node2" href="./UserIdentityUtilTest.html" title="&lt;TABLE&gt;" alt="" coords="129,5,282,53"/>
+<area shape="rect" id="node3_2" href="./SimplePrincipal.html" title="org.miloss.fgsms.common.SimplePrincipal" alt="" coords="317,17,427,42"/>
+<area shape="rect" id="node3" href="./SimplePrincipal.html" title="&lt;TABLE&gt;" alt="" coords="307,5,437,53"/>
+<area shape="rect" id="node4_3" href="./PropertyLoaderTest.html" title="org.miloss.fgsms.common.PropertyLoaderTest" alt="" coords="473,17,605,42"/>
+<area shape="rect" id="node4" href="./PropertyLoaderTest.html" title="&lt;TABLE&gt;" alt="" coords="462,5,615,53"/>
+<area shape="rect" id="node5_4" href="./MyWebServiceContext.html" title="org.miloss.fgsms.common.MyWebServiceContext" alt="" coords="651,17,803,42"/>
+<area shape="rect" id="node5" href="./MyWebServiceContext.html" title="&lt;TABLE&gt;" alt="" coords="640,5,813,53"/>
+<area shape="rect" id="node6_5" href="./MyMessageContext.html" title="org.miloss.fgsms.common.MyMessageContext" alt="" coords="848,17,984,42"/>
+<area shape="rect" id="node6" href="./MyMessageContext.html" title="&lt;TABLE&gt;" alt="" coords="837,5,995,53"/>
+<area shape="rect" id="node7_6" href="./MyHttpServletRequest.html" title="org.miloss.fgsms.common.MyHttpServletRequest" alt="" coords="1030,17,1178,42"/>
+<area shape="rect" id="node7" href="./MyHttpServletRequest.html" title="&lt;TABLE&gt;" alt="" coords="1019,5,1189,53"/>
+<area shape="rect" id="node8_7" href="./MainTest.html" title="org.miloss.fgsms.common.MainTest" alt="" coords="1224,17,1296,42"/>
+<area shape="rect" id="node8" href="./MainTest.html" title="&lt;TABLE&gt;" alt="" coords="1213,5,1307,53"/>
+<area shape="rect" id="node9_8" href="./LoggerTest.html" title="org.miloss.fgsms.common.LoggerTest" alt="" coords="1342,17,1426,42"/>
+<area shape="rect" id="node9" href="./LoggerTest.html" title="&lt;TABLE&gt;" alt="" coords="1331,5,1437,53"/>
+<area shape="rect" id="node10_9" href="./IpAddressUtilityTest.html" title="org.miloss.fgsms.common.IpAddressUtilityTest" alt="" coords="1472,17,1608,42"/>
+<area shape="rect" id="node10" href="./IpAddressUtilityTest.html" title="&lt;TABLE&gt;" alt="" coords="1461,5,1619,53"/>
+<area shape="rect" id="node11_10" href="./InitialContextFactoryForTest.html" title="org.miloss.fgsms.common.InitialContextFactoryForTest" alt="" coords="1654,17,1837,42"/>
+<area shape="rect" id="node11" href="./InitialContextFactoryForTest.html" title="&lt;TABLE&gt;" alt="" coords="1643,5,1847,53"/>
+<area shape="rect" id="node12_11" href="./ConstantsTest.html" title="org.miloss.fgsms.common.ConstantsTest" alt="" coords="1883,17,1987,42"/>
+<area shape="rect" id="node12" href="./ConstantsTest.html" title="&lt;TABLE&gt;" alt="" coords="1872,5,1997,53"/>
+<area shape="rect" id="node13_12" href="./CommonSuite.html" title="org.miloss.fgsms.common.CommonSuite" alt="" coords="2032,17,2133,42"/>
+<area shape="rect" id="node13" href="./CommonSuite.html" title="&lt;TABLE&gt;" alt="" coords="2021,5,2144,53"/>
+<area shape="rect" id="node14_13" href="./AuditLoggerTest.html" title="org.miloss.fgsms.common.AuditLoggerTest" alt="" coords="2179,17,2293,42"/>
+<area shape="rect" id="node14" href="./AuditLoggerTest.html" title="&lt;TABLE&gt;" alt="" coords="2169,5,2303,53"/>
+<area shape="rect" id="node15_14" href="./AESTest.html" title="org.miloss.fgsms.common.AESTest" alt="" coords="2339,17,2411,42"/>
+<area shape="rect" id="node15" href="./AESTest.html" title="&lt;TABLE&gt;" alt="" coords="2328,5,2421,53"/>
+</map>

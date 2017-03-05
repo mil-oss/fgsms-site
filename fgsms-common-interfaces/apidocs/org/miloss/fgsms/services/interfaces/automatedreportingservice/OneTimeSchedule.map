@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./OneTimeSchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.OneTimeSchedule" alt="" coords="16,214,141,239"/>
+<area shape="rect" id="node1" href="./OneTimeSchedule.html" title="&lt;TABLE&gt;" alt="" coords="5,203,152,251"/>
+<area shape="rect" id="node2_1" href="./AbstractSchedule.html" title="org.miloss.fgsms.services.interfaces.automatedreportingservice.AbstractSchedule" alt="" coords="73,118,197,143"/>
+<area shape="rect" id="node2" href="./AbstractSchedule.html" title="&lt;TABLE&gt;" alt="" coords="62,107,207,155"/>
+<area shape="rect" id="node3_2" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="35,11,122,53"/>
+<area shape="rect" id="node3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="25,5,133,59"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ResourceNotDestroyedFaultType.html" title="org.oasis_open.docs.wsn.br_2.ResourceNotDestroyedFaultType" alt="" coords="16,17,227,42"/>
+<area shape="rect" id="node1" href="./ResourceNotDestroyedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="5,5,237,53"/>
+<area shape="rect" id="node2_1" href="./RegisterPublisherResponse.html" title="org.oasis_open.docs.wsn.br_2.RegisterPublisherResponse" alt="" coords="273,17,453,42"/>
+<area shape="rect" id="node2" href="./RegisterPublisherResponse.html" title="&lt;TABLE&gt;" alt="" coords="262,5,463,53"/>
+<area shape="rect" id="node3_2" href="./RegisterPublisher.html" title="org.oasis_open.docs.wsn.br_2.RegisterPublisher" alt="" coords="498,17,619,42"/>
+<area shape="rect" id="node3" href="./RegisterPublisher.html" title="&lt;TABLE&gt;" alt="" coords="487,5,630,53"/>
+<area shape="rect" id="node4_3" href="./PublisherRegistrationRP.html" title="org.oasis_open.docs.wsn.br_2.PublisherRegistrationRP" alt="" coords="665,17,825,42"/>
+<area shape="rect" id="node4" href="./PublisherRegistrationRP.html" title="&lt;TABLE&gt;" alt="" coords="655,5,836,53"/>
+<area shape="rect" id="node5_4" href="./PublisherRegistrationRejectedFaultType.html" title="org.oasis_open.docs.wsn.br_2.PublisherRegistrationRejectedFaultType" alt="" coords="871,17,1121,42"/>
+<area shape="rect" id="node5" href="./PublisherRegistrationRejectedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="860,5,1132,53"/>
+<area shape="rect" id="node6_5" href="./PublisherRegistrationFailedFaultType.html" title="org.oasis_open.docs.wsn.br_2.PublisherRegistrationFailedFaultType" alt="" coords="1167,17,1401,42"/>
+<area shape="rect" id="node6" href="./PublisherRegistrationFailedFaultType.html" title="&lt;TABLE&gt;" alt="" coords="1156,5,1412,53"/>
+<area shape="rect" id="node7_6" href="./ObjectFactory.html" title="org.oasis_open.docs.wsn.br_2.ObjectFactory" alt="" coords="1447,17,1548,42"/>
+<area shape="rect" id="node7" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="1436,5,1559,53"/>
+<area shape="rect" id="node8_7" href="./NotificationBrokerRP.html" title="org.oasis_open.docs.wsn.br_2.NotificationBrokerRP" alt="" coords="1594,17,1734,42"/>
+<area shape="rect" id="node8" href="./NotificationBrokerRP.html" title="&lt;TABLE&gt;" alt="" coords="1583,5,1745,53"/>
+<area shape="rect" id="node9_8" href="./DestroyRegistrationResponse.html" title="org.oasis_open.docs.wsn.br_2.DestroyRegistrationResponse" alt="" coords="1780,17,1972,42"/>
+<area shape="rect" id="node9" href="./DestroyRegistrationResponse.html" title="&lt;TABLE&gt;" alt="" coords="1769,5,1983,53"/>
+<area shape="rect" id="node10_9" href="./DestroyRegistration.html" title="org.oasis_open.docs.wsn.br_2.DestroyRegistration" alt="" coords="2017,17,2151,42"/>
+<area shape="rect" id="node10" href="./DestroyRegistration.html" title="&lt;TABLE&gt;" alt="" coords="2007,5,2161,53"/>
+</map>

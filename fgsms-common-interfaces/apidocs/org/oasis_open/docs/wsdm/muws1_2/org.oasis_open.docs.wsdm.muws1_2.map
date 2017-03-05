@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ObjectFactory.html" title="org.oasis_open.docs.wsdm.muws1_2.ObjectFactory" alt="" coords="16,17,117,42"/>
+<area shape="rect" id="node1" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="5,5,128,53"/>
+<area shape="rect" id="node2_1" href="./ManagementEventType.html" title="org.oasis_open.docs.wsdm.muws1_2.ManagementEventType" alt="" coords="163,17,317,42"/>
+<area shape="rect" id="node2" href="./ManagementEventType.html" title="&lt;TABLE&gt;" alt="" coords="152,5,328,53"/>
+<area shape="rect" id="node3_2" href="./CorrelatablePropertiesType.html" title="org.oasis_open.docs.wsdm.muws1_2.CorrelatablePropertiesType" alt="" coords="363,17,539,42"/>
+<area shape="rect" id="node3" href="./CorrelatablePropertiesType.html" title="&lt;TABLE&gt;" alt="" coords="352,5,549,53"/>
+<area shape="rect" id="node4_3" href="./ComponentType.html" title="org.oasis_open.docs.wsdm.muws1_2.ComponentType" alt="" coords="585,17,698,42"/>
+<area shape="rect" id="node4" href="./ComponentType.html" title="&lt;TABLE&gt;" alt="" coords="574,5,709,53"/>
+<area shape="rect" id="node5_4" href="./ComponentAddressType.html" title="org.oasis_open.docs.wsdm.muws1_2.ComponentAddressType" alt="" coords="743,17,905,42"/>
+<area shape="rect" id="node5" href="./ComponentAddressType.html" title="&lt;TABLE&gt;" alt="" coords="733,5,915,53"/>
+</map>

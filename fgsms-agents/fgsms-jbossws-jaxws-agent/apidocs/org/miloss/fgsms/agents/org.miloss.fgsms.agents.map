@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./JbossWSMonitor.html" title="org.miloss.fgsms.agents.JbossWSMonitor" alt="" coords="16,17,135,42"/>
+<area shape="rect" id="node1" href="./JbossWSMonitor.html" title="&lt;TABLE&gt;" alt="" coords="5,5,145,53"/>
+<area shape="rect" id="node2_1" href="./JbossWSCommonMessageHandler.html" title="org.miloss.fgsms.agents.JbossWSCommonMessageHandler" alt="" coords="181,17,405,42"/>
+<area shape="rect" id="node2" href="./JbossWSCommonMessageHandler.html" title="&lt;TABLE&gt;" alt="" coords="170,5,415,53"/>
+<area shape="rect" id="node3_2" href="./JbossWSClientAgent.html" title="org.miloss.fgsms.agents.JbossWSClientAgent" alt="" coords="451,17,593,42"/>
+<area shape="rect" id="node3" href="./JbossWSClientAgent.html" title="&lt;TABLE&gt;" alt="" coords="440,5,604,53"/>
+</map>

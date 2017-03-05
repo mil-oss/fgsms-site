@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BuellerWorker.html" title="org.miloss.fgsms.bueller.BuellerWorker" alt="" coords="16,17,117,42"/>
+<area shape="rect" id="node1" href="./BuellerWorker.html" title="&lt;TABLE&gt;" alt="" coords="5,5,128,53"/>
+<area shape="rect" id="node2_1" href="./Bueller.html" title="org.miloss.fgsms.bueller.Bueller" alt="" coords="163,17,223,42"/>
+<area shape="rect" id="node2" href="./Bueller.html" title="&lt;TABLE&gt;" alt="" coords="153,5,234,53"/>
+<area shape="rect" id="node3_2" href="./Bueller.RunWhenShuttingDown.html" title="org.miloss.fgsms.bueller.Bueller.RunWhenShuttingDown" alt="" coords="269,17,425,42"/>
+<area shape="rect" id="node3" href="./Bueller.RunWhenShuttingDown.html" title="&lt;TABLE&gt;" alt="" coords="258,5,435,53"/>
+</map>

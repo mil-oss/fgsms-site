@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PullPointService.html" title="org.oasis_open.docs.wsn.client.PullPointService" alt="" coords="16,17,129,42"/>
+<area shape="rect" id="node1" href="./PullPointService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,140,53"/>
+<area shape="rect" id="node2_1" href="./PublisherRegistrationManagerService.html" title="org.oasis_open.docs.wsn.client.PublisherRegistrationManagerService" alt="" coords="175,17,410,42"/>
+<area shape="rect" id="node2" href="./PublisherRegistrationManagerService.html" title="&lt;TABLE&gt;" alt="" coords="165,5,421,53"/>
+<area shape="rect" id="node3_2" href="./PausableSubscriptionManagerService.html" title="org.oasis_open.docs.wsn.client.PausableSubscriptionManagerService" alt="" coords="455,17,693,42"/>
+<area shape="rect" id="node3" href="./PausableSubscriptionManagerService.html" title="&lt;TABLE&gt;" alt="" coords="445,5,703,53"/>
+<area shape="rect" id="node4_3" href="./NotificationService.html" title="org.oasis_open.docs.wsn.client.NotificationService" alt="" coords="738,17,863,42"/>
+<area shape="rect" id="node4" href="./NotificationService.html" title="&lt;TABLE&gt;" alt="" coords="727,5,874,53"/>
+<area shape="rect" id="node5_4" href="./CreatePullPointService.html" title="org.oasis_open.docs.wsn.client.CreatePullPointService" alt="" coords="909,17,1061,42"/>
+<area shape="rect" id="node5" href="./CreatePullPointService.html" title="&lt;TABLE&gt;" alt="" coords="898,5,1071,53"/>
+</map>

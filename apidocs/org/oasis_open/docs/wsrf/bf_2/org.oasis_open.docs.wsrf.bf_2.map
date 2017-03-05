@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ObjectFactory.html" title="org.oasis_open.docs.wsrf.bf_2.ObjectFactory" alt="" coords="16,17,117,42"/>
+<area shape="rect" id="node1" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="5,5,128,53"/>
+<area shape="rect" id="node2_1" href="./BaseFaultType.html" title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" alt="" coords="163,17,269,42"/>
+<area shape="rect" id="node2" href="./BaseFaultType.html" title="&lt;TABLE&gt;" alt="" coords="152,5,280,53"/>
+<area shape="rect" id="node3_2" href="./BaseFaultType.Description.html" title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description" alt="" coords="315,17,399,42"/>
+<area shape="rect" id="node3" href="./BaseFaultType.Description.html" title="&lt;TABLE&gt;" alt="" coords="305,5,410,53"/>
+<area shape="rect" id="node4_3" href="./BaseFaultType.ErrorCode.html" title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.ErrorCode" alt="" coords="445,17,523,42"/>
+<area shape="rect" id="node4" href="./BaseFaultType.ErrorCode.html" title="&lt;TABLE&gt;" alt="" coords="435,5,533,53"/>
+<area shape="rect" id="node5_4" href="./BaseFaultType.FaultCause.html" title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.FaultCause" alt="" coords="568,17,653,42"/>
+<area shape="rect" id="node5" href="./BaseFaultType.FaultCause.html" title="&lt;TABLE&gt;" alt="" coords="557,5,664,53"/>
+</map>

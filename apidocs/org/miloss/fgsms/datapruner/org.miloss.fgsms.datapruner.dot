@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.datapruner.DataPruner
-	c57392 [label=<<table title="org.miloss.fgsms.datapruner.DataPruner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPruner.html">
+	c62246 [label=<<table title="org.miloss.fgsms.datapruner.DataPruner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPruner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DataPruner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DataPruner.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.datapruner.DataPruner.RunWhenShuttingDown
-	c57393 [label=<<table title="org.miloss.fgsms.datapruner.DataPruner.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPruner.RunWhenShuttingDown.html">
+	c62247 [label=<<table title="org.miloss.fgsms.datapruner.DataPruner.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPruner.RunWhenShuttingDown.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RunWhenShuttingDown </td></tr>
 		</table></td></tr>

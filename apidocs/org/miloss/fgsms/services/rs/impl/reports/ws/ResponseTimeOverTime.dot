@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime
-	c970318 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResponseTimeOverTime.html">
+	c1023225 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResponseTimeOverTime.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResponseTimeOverTime </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResponseTimeOverTime.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c970327 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c1023234 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c970327:p -> c970318:p [dir=back,arrowtail=empty];
+	c1023234:p -> c1023225:p [dir=back,arrowtail=empty];
 }
 

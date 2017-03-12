@@ -119,52 +119,46 @@ digraph G {
 <tr><td align="center" balign="center"> DependencyHelper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DependencyHelper.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.miloss.fgsms.agentcore.DefaultMessageProcessor
-	c18 [label=<<table title="org.miloss.fgsms.agentcore.DefaultMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultMessageProcessor.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DefaultMessageProcessor </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DefaultMessageProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.DataPusher
-	c19 [label=<<table title="org.miloss.fgsms.agentcore.DataPusher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPusher.html">
+	c18 [label=<<table title="org.miloss.fgsms.agentcore.DataPusher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataPusher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DataPusher </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DataPusher.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ConfigurationException
-	c20 [label=<<table title="org.miloss.fgsms.agentcore.ConfigurationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationException.html">
+	c19 [label=<<table title="org.miloss.fgsms.agentcore.ConfigurationException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigurationException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigurationException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigurationException.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ConfigLoader
-	c21 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.html">
+	c20 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConfigLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ConfigLoader.Algorithm
-	c22 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader.Algorithm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.Algorithm.html">
+	c21 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader.Algorithm" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.Algorithm.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> Algorithm </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigLoader.Algorithm.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ConfigLoader.UnavailableBehavior
-	c23 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader.UnavailableBehavior" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.UnavailableBehavior.html">
+	c22 [label=<<table title="org.miloss.fgsms.agentcore.ConfigLoader.UnavailableBehavior" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConfigLoader.UnavailableBehavior.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> UnavailableBehavior </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConfigLoader.UnavailableBehavior.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ApacheCxfSSlHelperGo
-	c24 [label=<<table title="org.miloss.fgsms.agentcore.ApacheCxfSSlHelperGo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApacheCxfSSlHelperGo.html">
+	c23 [label=<<table title="org.miloss.fgsms.agentcore.ApacheCxfSSlHelperGo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApacheCxfSSlHelperGo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ApacheCxfSSlHelperGo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ApacheCxfSSlHelperGo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agentcore.ApacheCxfSslHelper
-	c25 [label=<<table title="org.miloss.fgsms.agentcore.ApacheCxfSslHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApacheCxfSslHelper.html">
+	c24 [label=<<table title="org.miloss.fgsms.agentcore.ApacheCxfSslHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ApacheCxfSslHelper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ApacheCxfSslHelper </td></tr>
 		</table></td></tr>
@@ -179,7 +173,5 @@ digraph G {
 	c15:p -> c7:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.agentcore.MessageProcessorAdapter implements org.miloss.fgsms.agentcore.MessageProcessorAdapterMBean
 	c10:p -> c11:p [dir=back,arrowtail=empty,style=dashed];
-	//org.miloss.fgsms.agentcore.DefaultMessageProcessor implements org.miloss.fgsms.agentcore.IMessageProcessor
-	c14:p -> c18:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,20 +10,20 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.federation.FederationInterface
-	c102787 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FederationInterface.html">
+	c103596 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FederationInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FederationInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FederationInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.PluginCommon
-	c102788 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
+	c103597 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PluginCommon </td></tr>
 		</table></td></tr>
 		</table>>, URL="../PluginCommon.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.plugins.federation.FederationInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c102788:p -> c102787:p [dir=back,arrowtail=empty,style=dashed];
+	c103597:p -> c103596:p [dir=back,arrowtail=empty,style=dashed];
 }
 

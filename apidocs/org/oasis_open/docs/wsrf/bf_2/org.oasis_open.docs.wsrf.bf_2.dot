@@ -10,31 +10,31 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsrf.bf_2.ObjectFactory
-	c6745 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
+	c6913 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.ObjectFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ObjectFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ObjectFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ObjectFactory.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c6746 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.html">
+	c6914 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description
-	c6747 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.Description.html">
+	c6915 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.Description.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Description </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseFaultType.Description.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType.ErrorCode
-	c6748 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.ErrorCode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.ErrorCode.html">
+	c6916 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.ErrorCode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.ErrorCode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ErrorCode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseFaultType.ErrorCode.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType.FaultCause
-	c6749 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.FaultCause" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.FaultCause.html">
+	c6917 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.FaultCause" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseFaultType.FaultCause.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FaultCause </td></tr>
 		</table></td></tr>

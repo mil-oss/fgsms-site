@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.muws2_2.Self
-	c339557 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.Self" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Self.html">
+	c341381 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.Self" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Self.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Self </td></tr>
 		</table></td></tr>

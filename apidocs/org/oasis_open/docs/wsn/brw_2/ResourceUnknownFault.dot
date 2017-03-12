@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.ResourceUnknownFault
-	c961629 [label=<<table title="org.oasis_open.docs.wsn.brw_2.ResourceUnknownFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResourceUnknownFault.html">
+	c1014316 [label=<<table title="org.oasis_open.docs.wsn.brw_2.ResourceUnknownFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResourceUnknownFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResourceUnknownFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResourceUnknownFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.ResourceUnknownFault extends java.lang.Exception
-	c962721:p -> c961629:p [dir=back,arrowtail=empty];
+	c1015436:p -> c1014316:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c962721 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c1015436 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

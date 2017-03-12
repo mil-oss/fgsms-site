@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.dataaccessservice.GetMostRecentProcessDataRequestMsg
-	c508190 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetMostRecentProcessDataRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMostRecentProcessDataRequestMsg.html">
+	c547129 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetMostRecentProcessDataRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMostRecentProcessDataRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetMostRecentProcessDataRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetMostRecentProcessDataRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.dataaccessservice.GetMostRecentProcessDataRequestMsg implements java.io.Serializable
-	c509038:p -> c508190:p [dir=back,arrowtail=empty,style=dashed];
+	c548004:p -> c547129:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c509038 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c548004 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

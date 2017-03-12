@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.presentation.ProxyLoaderCXF
-	c646228 [label=<<table title="org.miloss.fgsms.presentation.ProxyLoaderCXF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyLoaderCXF.html">
+	c689800 [label=<<table title="org.miloss.fgsms.presentation.ProxyLoaderCXF" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyLoaderCXF.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyLoaderCXF </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProxyLoaderCXF.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.presentation.ProxyLoader
-	c646229 [label=<<table title="org.miloss.fgsms.presentation.ProxyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyLoader.html">
+	c689801 [label=<<table title="org.miloss.fgsms.presentation.ProxyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProxyLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProxyLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProxyLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.presentation.IProxyLoader
-	c646252 [label=<<table title="org.miloss.fgsms.presentation.IProxyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IProxyLoader.html">
+	c689824 [label=<<table title="org.miloss.fgsms.presentation.IProxyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IProxyLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IProxyLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IProxyLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.presentation.ProxyLoaderCXF implements org.miloss.fgsms.presentation.IProxyLoader
-	c646252:p -> c646228:p [dir=back,arrowtail=empty,style=dashed];
+	c689824:p -> c689800:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.presentation.ProxyLoader implements org.miloss.fgsms.presentation.IProxyLoader
-	c646252:p -> c646229:p [dir=back,arrowtail=empty,style=dashed];
+	c689824:p -> c689801:p [dir=back,arrowtail=empty,style=dashed];
 }
 

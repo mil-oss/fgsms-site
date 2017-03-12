@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.muws2_2.StateType
-	c49346 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.StateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StateType.html">
+	c50073 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.StateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c49352 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
+	c50079 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SituationCategoryType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SituationCategoryType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.RelationshipTypeType
-	c49360 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.RelationshipTypeType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RelationshipTypeType.html">
+	c50087 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.RelationshipTypeType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RelationshipTypeType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RelationshipTypeType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RelationshipTypeType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.CategoryType
-	c49391 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.CategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CategoryType.html">
+	c50118 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.CategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CategoryType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CategoryType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CategoryType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.muws2_2.StateType extends org.oasis_open.docs.wsdm.muws2_2.CategoryType
-	c49391:p -> c49346:p [dir=back,arrowtail=empty];
+	c50118:p -> c50073:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType extends org.oasis_open.docs.wsdm.muws2_2.CategoryType
-	c49391:p -> c49352:p [dir=back,arrowtail=empty];
+	c50118:p -> c50079:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.muws2_2.RelationshipTypeType extends org.oasis_open.docs.wsdm.muws2_2.CategoryType
-	c49391:p -> c49360:p [dir=back,arrowtail=empty];
+	c50118:p -> c50087:p [dir=back,arrowtail=empty];
 }
 

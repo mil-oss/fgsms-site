@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.GetManageabilityReferencesResponse
-	c167767 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.GetManageabilityReferencesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetManageabilityReferencesResponse.html">
+	c168676 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.GetManageabilityReferencesResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetManageabilityReferencesResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetManageabilityReferencesResponse </td></tr>
 		</table></td></tr>

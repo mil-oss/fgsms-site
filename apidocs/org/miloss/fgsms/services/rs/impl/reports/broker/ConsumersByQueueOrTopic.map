@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="../../ReportGeneratorPlugin.html" title="org.miloss.fgsms.services.rs.impl.ReportGeneratorPlugin" alt="" coords="33,11,183,53"/>
-<area shape="rect" id="node1" href="../../ReportGeneratorPlugin.html" title="&lt;TABLE&gt;" alt="" coords="22,5,194,59"/>
+<area shape="rect" id="node1_0" href="../../../../../plugins/reporting/ReportGeneratorPlugin.html" title="org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin" alt="" coords="33,11,183,53"/>
+<area shape="rect" id="node1" href="../../../../../plugins/reporting/ReportGeneratorPlugin.html" title="&lt;TABLE&gt;" alt="" coords="22,5,194,59"/>
 <area shape="rect" id="node2_1" href="./ConsumersByQueueOrTopic.html" title="org.miloss.fgsms.services.rs.impl.reports.broker.ConsumersByQueueOrTopic" alt="" coords="16,118,200,143"/>
 <area shape="rect" id="node2" href="./ConsumersByQueueOrTopic.html" title="&lt;TABLE&gt;" alt="" coords="5,107,211,155"/>
 </map>

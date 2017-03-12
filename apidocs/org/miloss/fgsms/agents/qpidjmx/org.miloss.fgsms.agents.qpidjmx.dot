@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent
-	c62933 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QpidJMXAgent.html">
+	c67927 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QpidJMXAgent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> QpidJMXAgent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./QpidJMXAgent.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent.RunWhenShuttingDown
-	c62934 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QpidJMXAgent.RunWhenShuttingDown.html">
+	c67928 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QpidJMXAgent.RunWhenShuttingDown.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RunWhenShuttingDown </td></tr>
 		</table></td></tr>

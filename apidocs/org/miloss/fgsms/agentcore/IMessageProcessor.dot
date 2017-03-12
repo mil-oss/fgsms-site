@@ -10,19 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.agentcore.IMessageProcessor
-	c644854 [label=<<table title="org.miloss.fgsms.agentcore.IMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IMessageProcessor.html">
+	c688393 [label=<<table title="org.miloss.fgsms.agentcore.IMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IMessageProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IMessageProcessor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IMessageProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.miloss.fgsms.agentcore.DefaultMessageProcessor
-	c644858 [label=<<table title="org.miloss.fgsms.agentcore.DefaultMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DefaultMessageProcessor.html">
+	// org.miloss.fgsms.agentcore.mp.DropAllMessageProcessor
+	c688404 [label=<<table title="org.miloss.fgsms.agentcore.mp.DropAllMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./mp/DropAllMessageProcessor.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DropAllMessageProcessor </td></tr>
+		</table></td></tr>
+		</table>>, URL="./mp/DropAllMessageProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.agentcore.mp.DefaultMessageProcessor
+	c688405 [label=<<table title="org.miloss.fgsms.agentcore.mp.DefaultMessageProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./mp/DefaultMessageProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DefaultMessageProcessor </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DefaultMessageProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	//org.miloss.fgsms.agentcore.DefaultMessageProcessor implements org.miloss.fgsms.agentcore.IMessageProcessor
-	c644854:p -> c644858:p [dir=back,arrowtail=empty,style=dashed];
+		</table>>, URL="./mp/DefaultMessageProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	//org.miloss.fgsms.agentcore.mp.DropAllMessageProcessor implements org.miloss.fgsms.agentcore.IMessageProcessor
+	c688393:p -> c688404:p [dir=back,arrowtail=empty,style=dashed];
+	//org.miloss.fgsms.agentcore.mp.DefaultMessageProcessor implements org.miloss.fgsms.agentcore.IMessageProcessor
+	c688393:p -> c688405:p [dir=back,arrowtail=empty,style=dashed];
 }
 

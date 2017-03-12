@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.UserServicePermissionType
-	c410825 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.UserServicePermissionType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UserServicePermissionType.html">
+	c412759 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.UserServicePermissionType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UserServicePermissionType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserServicePermissionType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserServicePermissionType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.UserServicePermissionType implements java.io.Serializable
-	c411213:p -> c410825:p [dir=back,arrowtail=empty,style=dashed];
+	c413147:p -> c412759:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c411213 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c413147 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

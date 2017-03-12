@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.SubscribeCreationFailedFault
-	c1114330 [label=<<table title="org.oasis_open.docs.wsn.brw_2.SubscribeCreationFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubscribeCreationFailedFault.html">
+	c1176553 [label=<<table title="org.oasis_open.docs.wsn.brw_2.SubscribeCreationFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SubscribeCreationFailedFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SubscribeCreationFailedFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SubscribeCreationFailedFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.SubscribeCreationFailedFault extends java.lang.Exception
-	c1115424:p -> c1114330:p [dir=back,arrowtail=empty];
+	c1177675:p -> c1176553:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c1115424 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c1177675 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

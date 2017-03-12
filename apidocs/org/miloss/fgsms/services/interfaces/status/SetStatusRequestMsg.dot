@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.status.SetStatusRequestMsg
-	c1075100 [label=<<table title="org.miloss.fgsms.services.interfaces.status.SetStatusRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetStatusRequestMsg.html">
+	c1130644 [label=<<table title="org.miloss.fgsms.services.interfaces.status.SetStatusRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetStatusRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SetStatusRequestMsg </td></tr>
 		</table></td></tr>

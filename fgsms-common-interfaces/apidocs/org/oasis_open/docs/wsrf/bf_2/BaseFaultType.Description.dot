@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description
-	c44845 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BaseFaultType.Description.html">
+	c45565 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType.Description" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BaseFaultType.Description.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Description </td></tr>
 		</table></td></tr>

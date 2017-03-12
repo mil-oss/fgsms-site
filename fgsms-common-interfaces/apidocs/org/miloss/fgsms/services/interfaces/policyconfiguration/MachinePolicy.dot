@@ -10,25 +10,25 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c268436 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServicePolicy.html">
+	c269500 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServicePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServicePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServicePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy
-	c268457 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MachinePolicy.html">
+	c269521 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MachinePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MachinePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MachinePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy implements java.io.Serializable
-	c268757:p -> c268436:p [dir=back,arrowtail=empty,style=dashed];
+	c269821:p -> c269500:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c268436:p -> c268457:p [dir=back,arrowtail=empty];
+	c269500:p -> c269521:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy implements java.io.Serializable
-	c268757:p -> c268457:p [dir=back,arrowtail=empty,style=dashed];
+	c269821:p -> c269521:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c268757 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c269821 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

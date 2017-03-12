@@ -10,47 +10,56 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.federation.FederationInterface
-	c286966 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./federation/FederationInterface.html">
+	c288058 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./federation/FederationInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FederationInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./federation/FederationInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.PluginCommon
-	c286967 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PluginCommon.html">
+	c288059 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PluginCommon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PluginCommon </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PluginCommon.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin
+	c288060 [label=<<table title="org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./reporting/ReportGeneratorPlugin.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> ReportGeneratorPlugin </td></tr>
+		</table></td></tr>
+		</table>>, URL="./reporting/ReportGeneratorPlugin.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c286968 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLARuleInterface.html">
+	c288061 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLARuleInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLARuleInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./sla/SLARuleInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.sla.SLAActionInterface
-	c286969 [label=<<table title="org.miloss.fgsms.plugins.sla.SLAActionInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLAActionInterface.html">
+	c288062 [label=<<table title="org.miloss.fgsms.plugins.sla.SLAActionInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLAActionInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLAActionInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./sla/SLAActionInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.status.StatusProviderInterface
-	c286972 [label=<<table title="org.miloss.fgsms.plugins.status.StatusProviderInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./status/StatusProviderInterface.html">
+	c288065 [label=<<table title="org.miloss.fgsms.plugins.status.StatusProviderInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./status/StatusProviderInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> StatusProviderInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./status/StatusProviderInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.plugins.federation.FederationInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c286967:p -> c286966:p [dir=back,arrowtail=empty,style=dashed];
+	c288059:p -> c288058:p [dir=back,arrowtail=empty,style=dashed];
+	//org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin implements org.miloss.fgsms.plugins.PluginCommon
+	c288059:p -> c288060:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.plugins.sla.SLARuleInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c286967:p -> c286968:p [dir=back,arrowtail=empty,style=dashed];
+	c288059:p -> c288061:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.plugins.sla.SLAActionInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c286967:p -> c286969:p [dir=back,arrowtail=empty,style=dashed];
+	c288059:p -> c288062:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.plugins.status.StatusProviderInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c286967:p -> c286972:p [dir=back,arrowtail=empty,style=dashed];
+	c288059:p -> c288065:p [dir=back,arrowtail=empty,style=dashed];
 }
 

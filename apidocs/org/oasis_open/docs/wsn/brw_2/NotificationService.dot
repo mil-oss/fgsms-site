@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.NotificationService
-	c776865 [label=<<table title="org.oasis_open.docs.wsn.brw_2.NotificationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NotificationService.html">
+	c824876 [label=<<table title="org.oasis_open.docs.wsn.brw_2.NotificationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./NotificationService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NotificationService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NotificationService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.NotificationService extends javax.xml.ws.Service
-	c777945:p -> c776865:p [dir=back,arrowtail=empty];
+	c825984:p -> c824876:p [dir=back,arrowtail=empty];
 	// javax.xml.ws.Service
-	c777945 [label=<<table title="javax.xml.ws.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/Service.html">
+	c825984 [label=<<table title="javax.xml.ws.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/xml/ws/Service.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Service </td></tr>
 		</table></td></tr>

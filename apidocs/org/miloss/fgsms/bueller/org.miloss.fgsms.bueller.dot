@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.bueller.BuellerWorker
-	c66258 [label=<<table title="org.miloss.fgsms.bueller.BuellerWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BuellerWorker.html">
+	c72474 [label=<<table title="org.miloss.fgsms.bueller.BuellerWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BuellerWorker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BuellerWorker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BuellerWorker.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.bueller.Bueller
-	c66259 [label=<<table title="org.miloss.fgsms.bueller.Bueller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Bueller.html">
+	c72475 [label=<<table title="org.miloss.fgsms.bueller.Bueller" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Bueller.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Bueller </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Bueller.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.bueller.Bueller.RunWhenShuttingDown
-	c66260 [label=<<table title="org.miloss.fgsms.bueller.Bueller.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Bueller.RunWhenShuttingDown.html">
+	c72476 [label=<<table title="org.miloss.fgsms.bueller.Bueller.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Bueller.RunWhenShuttingDown.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RunWhenShuttingDown </td></tr>
 		</table></td></tr>

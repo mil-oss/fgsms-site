@@ -10,28 +10,28 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.federation.FederationInterface
-	c343126 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FederationInterface.html">
+	c379027 [label=<<table title="org.miloss.fgsms.plugins.federation.FederationInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FederationInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> FederationInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./FederationInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.PluginCommon
-	c343129 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
+	c379030 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PluginCommon </td></tr>
 		</table></td></tr>
 		</table>>, URL="../PluginCommon.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.uddipub.UddiPublisher
-	c343998 [label=<<table title="org.miloss.fgsms.uddipub.UddiPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../uddipub/UddiPublisher.html">
+	c379923 [label=<<table title="org.miloss.fgsms.uddipub.UddiPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../uddipub/UddiPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UddiPublisher </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../uddipub/UddiPublisher.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.plugins.federation.FederationInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c343129:p -> c343126:p [dir=back,arrowtail=empty,style=dashed];
+	c379030:p -> c379027:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.uddipub.UddiPublisher implements org.miloss.fgsms.plugins.federation.FederationInterface
-	c343126:p -> c343998:p [dir=back,arrowtail=empty,style=dashed];
+	c379027:p -> c379923:p [dir=back,arrowtail=empty,style=dashed];
 }
 

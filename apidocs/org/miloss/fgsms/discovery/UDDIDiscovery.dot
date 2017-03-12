@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.agents.IEndpointDiscovery
-	c1171959 [label=<<table title="org.miloss.fgsms.plugins.agents.IEndpointDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../plugins/agents/IEndpointDiscovery.html">
+	c1236772 [label=<<table title="org.miloss.fgsms.plugins.agents.IEndpointDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../plugins/agents/IEndpointDiscovery.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IEndpointDiscovery </td></tr>
 		</table></td></tr>
 		</table>>, URL="../plugins/agents/IEndpointDiscovery.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.discovery.UDDIDiscovery
-	c1172646 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UDDIDiscovery.html">
+	c1237483 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UDDIDiscovery.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UDDIDiscovery </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UDDIDiscovery.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.discovery.UDDIDiscovery implements org.miloss.fgsms.plugins.agents.IEndpointDiscovery
-	c1171959:p -> c1172646:p [dir=back,arrowtail=empty,style=dashed];
+	c1236772:p -> c1237483:p [dir=back,arrowtail=empty,style=dashed];
 }
 

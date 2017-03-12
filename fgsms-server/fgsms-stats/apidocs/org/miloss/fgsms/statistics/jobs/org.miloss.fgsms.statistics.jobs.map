@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TransactionalStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.TransactionalStatisticsJob" alt="" coords="16,113,188,138"/>
+<area shape="rect" id="node1" href="./TransactionalStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="5,101,199,149"/>
+<area shape="rect" id="node2_1" href="./StatusStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.StatusStatisticsJob" alt="" coords="233,113,365,138"/>
+<area shape="rect" id="node2" href="./StatusStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="223,101,376,149"/>
+<area shape="rect" id="node3_2" href="./MachineProcessJob.html" title="org.miloss.fgsms.statistics.jobs.MachineProcessJob" alt="" coords="411,113,547,138"/>
+<area shape="rect" id="node3" href="./MachineProcessJob.html" title="&lt;TABLE&gt;" alt="" coords="401,101,558,149"/>
+<area shape="rect" id="node4_3" href="./BrokerStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.BrokerStatisticsJob" alt="" coords="593,113,725,138"/>
+<area shape="rect" id="node4" href="./BrokerStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="583,101,736,149"/>
+<area shape="rect" id="node5_4" href="./BaseJob.html" title="org.miloss.fgsms.statistics.jobs.BaseJob" alt="" coords="353,17,425,42"/>
+<area shape="rect" id="node5" href="./BaseJob.html" title="&lt;TABLE&gt;" alt="" coords="342,5,435,53"/>
+</map>

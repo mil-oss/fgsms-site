@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.OperationDurationMetric
-	c280339 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationDurationMetric" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationDurationMetric.html">
+	c281421 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationDurationMetric" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationDurationMetric.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationDurationMetric </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationDurationMetric.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.DurationMetric
-	c280351 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DurationMetric" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DurationMetric.html">
+	c281433 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DurationMetric" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DurationMetric.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DurationMetric </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DurationMetric.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.OperationDurationMetric extends org.oasis_open.docs.wsdm.mows_2.DurationMetric
-	c280351:p -> c280339:p [dir=back,arrowtail=empty];
+	c281433:p -> c281421:p [dir=back,arrowtail=empty];
 }
 

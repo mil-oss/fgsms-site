@@ -45,7 +45,7 @@
 <a class="jxr_linenumber" name="L37" href="#L37">37</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>      @Override
-<a class="jxr_linenumber" name="L40" href="#L40">40</a>      <strong class="jxr_keyword">public</strong> String getDisplayName() {
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>      <strong class="jxr_keyword">public</strong> String GetDisplayName() {
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"Success/Failure Count by Hosting Server"</span>;
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>      }
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>  
@@ -55,7 +55,7 @@
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>      @Override
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> generateReport(OutputStreamWriter data, List&lt;String&gt; urls, String path, List&lt;String&gt; files, TimeRange range, String currentuser, SecurityWrapper classification, WebServiceContext ctx) <strong class="jxr_keyword">throws</strong> IOException {
 <a class="jxr_linenumber" name="L49" href="#L49">49</a>          <strong class="jxr_keyword">if</strong> (!UserIdentityUtil.hasGlobalAdministratorRole(currentuser, <span class="jxr_string">"SUCCESS_FAILURE_COUNT_BY_HOSTING_SERVER"</span>, classification, ctx)) {
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>              data.append(<span class="jxr_string">"&lt;h2&gt;Access for "</span> + getDisplayName() + <span class="jxr_string">" was denied for non-global admin users&lt;/h2&gt;"</span>);
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>              data.append(<span class="jxr_string">"&lt;h2&gt;Access for "</span> + GetDisplayName() + <span class="jxr_string">" was denied for non-global admin users&lt;/h2&gt;"</span>);
 <a class="jxr_linenumber" name="L51" href="#L51">51</a>          }
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>  
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>          Connection con = Utility.getPerformanceDBConnection();
@@ -64,7 +64,7 @@
 <a class="jxr_linenumber" name="L56" href="#L56">56</a>              ResultSet rs = <strong class="jxr_keyword">null</strong>;
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>              DefaultCategoryDataset set = <strong class="jxr_keyword">new</strong> DefaultCategoryDataset();
 <a class="jxr_linenumber" name="L58" href="#L58">58</a>              JFreeChart chart = <strong class="jxr_keyword">null</strong>;
-<a class="jxr_linenumber" name="L59" href="#L59">59</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(getDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(GetDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
 <a class="jxr_linenumber" name="L60" href="#L60">60</a>              data.append(<span class="jxr_string">"This represents Web Application Server utilization (host) by success and failure rates.&lt;br /&gt;"</span>);
 <a class="jxr_linenumber" name="L61" href="#L61">61</a>              data.append(<span class="jxr_string">"&lt;table class=\&quot;table table-hover\&quot;&gt;&lt;tr&gt;&lt;th&gt;Host&lt;/th&gt;&lt;th&gt;Successes&lt;/th&gt;&lt;th&gt;Failures&lt;/th&gt;&lt;/tr&gt;"</span>);
 <a class="jxr_linenumber" name="L62" href="#L62">62</a>              List&lt;String&gt; dcs = <strong class="jxr_keyword">new</strong> ArrayList&lt;String&gt;();
@@ -140,7 +140,7 @@
 <a class="jxr_linenumber" name="L132" href="#L132">132</a>             } <strong class="jxr_keyword">catch</strong> (Exception ex) {
 <a class="jxr_linenumber" name="L133" href="#L133">133</a>                 log.log(Level.ERROR, <span class="jxr_string">"Error generating chart information."</span>, ex);
 <a class="jxr_linenumber" name="L134" href="#L134">134</a>             }
-<a class="jxr_linenumber" name="L135" href="#L135">135</a>             chart = org.jfree.chart.ChartFactory.createBarChart(getDisplayName(), <span class="jxr_string">"Hosting Servers"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
+<a class="jxr_linenumber" name="L135" href="#L135">135</a>             chart = org.jfree.chart.ChartFactory.createBarChart(GetDisplayName(), <span class="jxr_string">"Hosting Servers"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
 <a class="jxr_linenumber" name="L136" href="#L136">136</a>             data.append(<span class="jxr_string">"&lt;/table&gt;"</span>);
 <a class="jxr_linenumber" name="L137" href="#L137">137</a>             <strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="L138" href="#L138">138</a>                 ChartUtilities.saveChartAsPNG(<strong class="jxr_keyword">new</strong> File(path + getFilePathDelimitor() + <span class="jxr_string">"image_"</span> + <strong class="jxr_keyword">this</strong>.getClass().getSimpleName() + <span class="jxr_string">".png"</span>), chart, 1500, pixelHeightCalc(set.getRowCount()));

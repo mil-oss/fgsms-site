@@ -61,7 +61,7 @@
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L54" href="#L54">54</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L55" href="#L55">55</a>      @Override
-<a class="jxr_linenumber" name="L56" href="#L56">56</a>      <strong class="jxr_keyword">public</strong> String getDisplayName() {
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>      <strong class="jxr_keyword">public</strong> String GetDisplayName() {
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"Mean time between faults (MTBF)"</span>;
 <a class="jxr_linenumber" name="L58" href="#L58">58</a>      }
 <a class="jxr_linenumber" name="L59" href="#L59">59</a>  
@@ -69,10 +69,10 @@
 <a class="jxr_linenumber" name="L61" href="#L61">61</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L62" href="#L62">62</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L63" href="#L63">63</a>      @Override
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>      <strong class="jxr_keyword">public</strong> String getDescription() {
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"For transactional/web services, this is the measure of average time between failed service invocations. Failed invocations for a service can be "</span>
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>                  + <span class="jxr_string">"for a number of reasons and may not necessarily be due to a problem with the service (could be network related, faulty clients, etc)/"</span>
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>                  + <span class="jxr_string">"Applies to web services and transactional services only and generally have a request/response messaging pattern."</span>;
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>      <strong class="jxr_keyword">public</strong> String GetHtmlFormattedHelp() {
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">super</strong>.GetHtmlFormattedHelp() + <span class="jxr_string">"This is the measure of average time between failed service invocations. Failed invocations for a service can be "</span>
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>                  + <span class="jxr_string">"for a number of reasons and may not necessarily be due to a problem with the service (could be network related, faulty clients, etc)."</span>
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>                  + <span class="jxr_string">"This report does not necessarily represent service up time."</span>;
 <a class="jxr_linenumber" name="L68" href="#L68">68</a>      }
 <a class="jxr_linenumber" name="L69" href="#L69">69</a>  
 <a class="jxr_linenumber" name="L70" href="#L70">70</a>      <em class="jxr_javadoccomment">/**</em>
@@ -83,8 +83,8 @@
 <a class="jxr_linenumber" name="L75" href="#L75">75</a>  
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>          DefaultCategoryDataset set = <strong class="jxr_keyword">new</strong> DefaultCategoryDataset();
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>          JFreeChart chart = <strong class="jxr_keyword">null</strong>;
-<a class="jxr_linenumber" name="L78" href="#L78">78</a>          data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(getDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
-<a class="jxr_linenumber" name="L79" href="#L79">79</a>          data.append(getDescription() + <span class="jxr_string">"&lt;br /&gt;"</span>);
+<a class="jxr_linenumber" name="L78" href="#L78">78</a>          data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(GetDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>          data.append(GetHtmlFormattedHelp() + <span class="jxr_string">"&lt;br /&gt;"</span>);
 <a class="jxr_linenumber" name="L80" href="#L80">80</a>          data.append(<span class="jxr_string">"&lt;table class=\&quot;table table-hover\&quot;&gt;&lt;tr&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;MTBF (ms)&lt;/th&gt;&lt;th&gt;Timespan&lt;/th&gt;&lt;th&gt;XML Duration Value&lt;/th&gt;&lt;/tr&gt;"</span>);
 <a class="jxr_linenumber" name="L81" href="#L81">81</a>  
 <a class="jxr_linenumber" name="L82" href="#L82">82</a>          <strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i = 0; i &lt; urls.size(); i++) {
@@ -114,7 +114,7 @@
 <a class="jxr_linenumber" name="L106" href="#L106">106</a>                 log.log(Level.ERROR, <span class="jxr_string">"Error opening or querying the database."</span>, ex);
 <a class="jxr_linenumber" name="L107" href="#L107">107</a>             }
 <a class="jxr_linenumber" name="L108" href="#L108">108</a>         }
-<a class="jxr_linenumber" name="L109" href="#L109">109</a>         chart = org.jfree.chart.ChartFactory.createBarChart(getDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
+<a class="jxr_linenumber" name="L109" href="#L109">109</a>         chart = org.jfree.chart.ChartFactory.createBarChart(GetDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
 <a class="jxr_linenumber" name="L110" href="#L110">110</a>         data.append(<span class="jxr_string">"&lt;/table&gt;"</span>);
 <a class="jxr_linenumber" name="L111" href="#L111">111</a>         <strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="L112" href="#L112">112</a>             <strong class="jxr_keyword">if</strong> (set.getRowCount() != 0) {

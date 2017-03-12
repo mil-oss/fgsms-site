@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c933536 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
+	c985496 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SituationCategoryType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SituationCategoryType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.ReportSituation
-	c933543 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.ReportSituation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportSituation.html">
+	c985503 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.ReportSituation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportSituation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportSituation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReportSituation.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.muws2_2.ReportSituation extends org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c933536:p -> c933543:p [dir=back,arrowtail=empty];
+	c985496:p -> c985503:p [dir=back,arrowtail=empty];
 }
 

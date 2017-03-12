@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.CustomSLARule
-	c238012 [label=<<table title="org.miloss.fgsms.plugins.CustomSLARule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CustomSLARule.html">
+	c265581 [label=<<table title="org.miloss.fgsms.plugins.CustomSLARule" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CustomSLARule.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CustomSLARule </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CustomSLARule.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c238015 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLARuleInterface.html">
+	c265585 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./sla/SLARuleInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLARuleInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./sla/SLARuleInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.plugins.CustomSLARule implements org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c238015:p -> c238012:p [dir=back,arrowtail=empty,style=dashed];
+	c265585:p -> c265581:p [dir=back,arrowtail=empty,style=dashed];
 }
 

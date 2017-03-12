@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.PublisherRegistrationFailedFault
-	c851002 [label=<<table title="org.oasis_open.docs.wsn.brw_2.PublisherRegistrationFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherRegistrationFailedFault.html">
+	c900889 [label=<<table title="org.oasis_open.docs.wsn.brw_2.PublisherRegistrationFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherRegistrationFailedFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PublisherRegistrationFailedFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PublisherRegistrationFailedFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.PublisherRegistrationFailedFault extends java.lang.Exception
-	c852087:p -> c851002:p [dir=back,arrowtail=empty];
+	c902002:p -> c900889:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c852087 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c902002 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c325899 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
+	c327702 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SituationCategoryType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SituationCategoryType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.RequestSituation
-	c325903 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.RequestSituation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestSituation.html">
+	c327706 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.RequestSituation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestSituation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RequestSituation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RequestSituation.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.muws2_2.RequestSituation extends org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c325899:p -> c325903:p [dir=back,arrowtail=empty];
+	c327702:p -> c327706:p [dir=back,arrowtail=empty];
 }
 

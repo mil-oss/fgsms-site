@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.status.impl.StatusServiceImpl
-	c61825 [label=<<table title="org.miloss.fgsms.services.status.impl.StatusServiceImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusServiceImpl.html">
+	c66791 [label=<<table title="org.miloss.fgsms.services.status.impl.StatusServiceImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusServiceImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatusServiceImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StatusServiceImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.status.impl.OpStat
-	c61826 [label=<<table title="org.miloss.fgsms.services.status.impl.OpStat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpStat.html">
+	c66792 [label=<<table title="org.miloss.fgsms.services.status.impl.OpStat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpStat.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OpStat </td></tr>
 		</table></td></tr>

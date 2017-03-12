@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.automatedreportingservice.GetMyScheduledReportsResponse
-	c194602 [label=<<table title="org.miloss.fgsms.services.interfaces.automatedreportingservice.GetMyScheduledReportsResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMyScheduledReportsResponse.html">
+	c195553 [label=<<table title="org.miloss.fgsms.services.interfaces.automatedreportingservice.GetMyScheduledReportsResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMyScheduledReportsResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetMyScheduledReportsResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetMyScheduledReportsResponse.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.automatedreportingservice.GetMyScheduledReportsResponse implements java.io.Serializable
-	c195221:p -> c194602:p [dir=back,arrowtail=empty,style=dashed];
+	c196172:p -> c195553:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c195221 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c196172 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

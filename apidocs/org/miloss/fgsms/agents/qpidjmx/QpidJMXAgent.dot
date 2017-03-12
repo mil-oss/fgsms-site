@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent
-	c868576 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QpidJMXAgent.html">
+	c918907 [label=<<table title="org.miloss.fgsms.agents.qpidjmx.QpidJMXAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QpidJMXAgent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> QpidJMXAgent </td></tr>
 		</table></td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.b_2.UnableToCreatePullPointFaultType
-	c1177429 [label=<<table title="org.oasis_open.docs.wsn.b_2.UnableToCreatePullPointFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnableToCreatePullPointFaultType.html">
+	c1242382 [label=<<table title="org.oasis_open.docs.wsn.b_2.UnableToCreatePullPointFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnableToCreatePullPointFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnableToCreatePullPointFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnableToCreatePullPointFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1177483 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
+	c1242436 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../wsrf/bf_2/BaseFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.b_2.UnableToCreatePullPointFaultType extends org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1177483:p -> c1177429:p [dir=back,arrowtail=empty];
+	c1242436:p -> c1242382:p [dir=back,arrowtail=empty];
 }
 

@@ -15,12 +15,12 @@ digraph G {
 <tr><td align="center" balign="center"> ThreadCount </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ThreadCount.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.miloss.fgsms.services.rs.impl.reports.os.OpenFilesByService
-	c136 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.OpenFilesByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenFilesByService.html">
+	// org.miloss.fgsms.services.rs.impl.reports.os.OpenFilesByProcess
+	c136 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.OpenFilesByProcess" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OpenFilesByProcess.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> OpenFilesByService </td></tr>
+<tr><td align="center" balign="center"> OpenFilesByProcess </td></tr>
 		</table></td></tr>
-		</table>>, URL="./OpenFilesByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./OpenFilesByProcess.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.os.NetworkIOReport
 	c137 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.NetworkIOReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NetworkIOReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

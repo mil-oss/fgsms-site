@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.GetPluginInformationResponse
-	c213169 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetPluginInformationResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetPluginInformationResponse.html">
+	c214148 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetPluginInformationResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetPluginInformationResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetPluginInformationResponse </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetPluginInformationResponse.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.GetPluginInformationResponse implements java.io.Serializable
-	c213444:p -> c213169:p [dir=back,arrowtail=empty,style=dashed];
+	c214423:p -> c214148:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c213444 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c214423 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

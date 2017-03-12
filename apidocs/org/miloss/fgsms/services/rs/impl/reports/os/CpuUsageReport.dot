@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c222238 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
+	c249411 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseReportGenerator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../BaseReportGenerator.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.os.CpuUsageReport
-	c222249 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.CpuUsageReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CpuUsageReport.html">
+	c249422 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.CpuUsageReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CpuUsageReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CpuUsageReport </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CpuUsageReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.os.CpuUsageReport extends org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c222238:p -> c222249:p [dir=back,arrowtail=empty];
+	c249411:p -> c249422:p [dir=back,arrowtail=empty];
 }
 

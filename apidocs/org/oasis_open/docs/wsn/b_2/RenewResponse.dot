@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.b_2.RenewResponse
-	c925179 [label=<<table title="org.oasis_open.docs.wsn.b_2.RenewResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RenewResponse.html">
+	c976942 [label=<<table title="org.oasis_open.docs.wsn.b_2.RenewResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RenewResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RenewResponse </td></tr>
 		</table></td></tr>

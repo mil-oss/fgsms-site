@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.dcs.impl.DCS4jBeanTest
-	c529 [label=<<table title="org.miloss.fgsms.services.dcs.impl.DCS4jBeanTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DCS4jBeanTest.html">
+	c541 [label=<<table title="org.miloss.fgsms.services.dcs.impl.DCS4jBeanTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DCS4jBeanTest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DCS4jBeanTest </td></tr>
 		</table></td></tr>

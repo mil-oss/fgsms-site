@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.SetAlertRegistrationsRequestMsg
-	c1026229 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetAlertRegistrationsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetAlertRegistrationsRequestMsg.html">
+	c1080541 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetAlertRegistrationsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetAlertRegistrationsRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SetAlertRegistrationsRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SetAlertRegistrationsRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.SetAlertRegistrationsRequestMsg implements java.io.Serializable
-	c1026900:p -> c1026229:p [dir=back,arrowtail=empty,style=dashed];
+	c1081239:p -> c1080541:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c1026900 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c1081239 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

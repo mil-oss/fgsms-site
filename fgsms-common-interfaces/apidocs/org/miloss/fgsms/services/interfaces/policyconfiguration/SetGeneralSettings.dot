@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.SetGeneralSettings
-	c355576 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetGeneralSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetGeneralSettings.html">
+	c357425 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetGeneralSettings" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetGeneralSettings.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SetGeneralSettings </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SetGeneralSettings.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.SetGeneralSettings implements java.io.Serializable
-	c355917:p -> c355576:p [dir=back,arrowtail=empty,style=dashed];
+	c357766:p -> c357425:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c355917 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c357766 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

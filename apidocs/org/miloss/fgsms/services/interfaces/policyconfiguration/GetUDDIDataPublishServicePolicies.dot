@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.GetUDDIDataPublishServicePolicies
-	c615775 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetUDDIDataPublishServicePolicies" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetUDDIDataPublishServicePolicies.html">
+	c657430 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetUDDIDataPublishServicePolicies" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetUDDIDataPublishServicePolicies.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetUDDIDataPublishServicePolicies </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetUDDIDataPublishServicePolicies.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.GetUDDIDataPublishServicePolicies implements java.io.Serializable
-	c616403:p -> c615775:p [dir=back,arrowtail=empty,style=dashed];
+	c658085:p -> c657430:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c616403 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c658085 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

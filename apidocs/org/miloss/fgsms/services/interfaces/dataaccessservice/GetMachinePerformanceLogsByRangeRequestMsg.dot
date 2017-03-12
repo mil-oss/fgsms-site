@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.dataaccessservice.GetMachinePerformanceLogsByRangeRequestMsg
-	c458408 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetMachinePerformanceLogsByRangeRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMachinePerformanceLogsByRangeRequestMsg.html">
+	c496087 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetMachinePerformanceLogsByRangeRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetMachinePerformanceLogsByRangeRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetMachinePerformanceLogsByRangeRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetMachinePerformanceLogsByRangeRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.dataaccessservice.GetMachinePerformanceLogsByRangeRequestMsg implements java.io.Serializable
-	c459226:p -> c458408:p [dir=back,arrowtail=empty,style=dashed];
+	c496932:p -> c496087:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c459226 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c496932 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

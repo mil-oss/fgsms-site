@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.dataaccessservice.HostInstanceStats
-	c255192 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.HostInstanceStats" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HostInstanceStats.html">
+	c256236 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.HostInstanceStats" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HostInstanceStats.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HostInstanceStats </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HostInstanceStats.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.dataaccessservice.HostInstanceStats implements java.io.Serializable
-	c255750:p -> c255192:p [dir=back,arrowtail=empty,style=dashed];
+	c256794:p -> c256236:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c255750 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c256794 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

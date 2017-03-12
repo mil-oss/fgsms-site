@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.UnacceptableTerminationTimeFault
-	c1189547 [label=<<table title="org.oasis_open.docs.wsn.brw_2.UnacceptableTerminationTimeFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnacceptableTerminationTimeFault.html">
+	c1254808 [label=<<table title="org.oasis_open.docs.wsn.brw_2.UnacceptableTerminationTimeFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnacceptableTerminationTimeFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnacceptableTerminationTimeFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnacceptableTerminationTimeFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.UnacceptableTerminationTimeFault extends java.lang.Exception
-	c1190649:p -> c1189547:p [dir=back,arrowtail=empty];
+	c1255938:p -> c1254808:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c1190649 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c1255938 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

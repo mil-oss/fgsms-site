@@ -1,12 +1,14 @@
 <map id="G" name="G">
 <area shape="rect" id="node1_0" href="./federation/FederationInterface.html" title="org.miloss.fgsms.plugins.federation.FederationInterface" alt="" coords="16,112,145,155"/>
 <area shape="rect" id="node1" href="./federation/FederationInterface.html" title="&lt;TABLE&gt;" alt="" coords="5,107,156,160"/>
-<area shape="rect" id="node2_1" href="./PluginCommon.html" title="org.miloss.fgsms.plugins.PluginCommon" alt="" coords="283,11,391,53"/>
-<area shape="rect" id="node2" href="./PluginCommon.html" title="&lt;TABLE&gt;" alt="" coords="272,5,401,59"/>
-<area shape="rect" id="node3_2" href="./sla/SLARuleInterface.html" title="org.miloss.fgsms.plugins.sla.SLARuleInterface" alt="" coords="191,112,311,155"/>
-<area shape="rect" id="node3" href="./sla/SLARuleInterface.html" title="&lt;TABLE&gt;" alt="" coords="181,107,322,160"/>
-<area shape="rect" id="node4_3" href="./sla/SLAActionInterface.html" title="org.miloss.fgsms.plugins.sla.SLAActionInterface" alt="" coords="357,112,487,155"/>
-<area shape="rect" id="node4" href="./sla/SLAActionInterface.html" title="&lt;TABLE&gt;" alt="" coords="346,107,498,160"/>
-<area shape="rect" id="node5_4" href="./status/StatusProviderInterface.html" title="org.miloss.fgsms.plugins.status.StatusProviderInterface" alt="" coords="533,112,685,155"/>
-<area shape="rect" id="node5" href="./status/StatusProviderInterface.html" title="&lt;TABLE&gt;" alt="" coords="522,107,695,160"/>
+<area shape="rect" id="node2_1" href="./PluginCommon.html" title="org.miloss.fgsms.plugins.PluginCommon" alt="" coords="393,11,501,53"/>
+<area shape="rect" id="node2" href="./PluginCommon.html" title="&lt;TABLE&gt;" alt="" coords="383,5,512,59"/>
+<area shape="rect" id="node3_2" href="./reporting/ReportGeneratorPlugin.html" title="org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin" alt="" coords="191,112,341,155"/>
+<area shape="rect" id="node3" href="./reporting/ReportGeneratorPlugin.html" title="&lt;TABLE&gt;" alt="" coords="180,107,352,160"/>
+<area shape="rect" id="node4_3" href="./sla/SLARuleInterface.html" title="org.miloss.fgsms.plugins.sla.SLARuleInterface" alt="" coords="387,112,507,155"/>
+<area shape="rect" id="node4" href="./sla/SLARuleInterface.html" title="&lt;TABLE&gt;" alt="" coords="377,107,518,160"/>
+<area shape="rect" id="node5_4" href="./sla/SLAActionInterface.html" title="org.miloss.fgsms.plugins.sla.SLAActionInterface" alt="" coords="553,112,683,155"/>
+<area shape="rect" id="node5" href="./sla/SLAActionInterface.html" title="&lt;TABLE&gt;" alt="" coords="542,107,694,160"/>
+<area shape="rect" id="node6_5" href="./status/StatusProviderInterface.html" title="org.miloss.fgsms.plugins.status.StatusProviderInterface" alt="" coords="729,112,881,155"/>
+<area shape="rect" id="node6" href="./status/StatusProviderInterface.html" title="&lt;TABLE&gt;" alt="" coords="718,107,891,160"/>
 </map>

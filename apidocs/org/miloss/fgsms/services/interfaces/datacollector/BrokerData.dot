@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.datacollector.BrokerData
-	c171868 [label=<<table title="org.miloss.fgsms.services.interfaces.datacollector.BrokerData" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerData.html">
+	c193222 [label=<<table title="org.miloss.fgsms.services.interfaces.datacollector.BrokerData" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BrokerData.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BrokerData </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BrokerData.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.datacollector.BrokerData implements java.io.Serializable
-	c172615:p -> c171868:p [dir=back,arrowtail=empty,style=dashed];
+	c193996:p -> c193222:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c172615 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c193996 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

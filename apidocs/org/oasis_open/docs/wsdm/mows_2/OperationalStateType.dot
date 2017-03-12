@@ -10,74 +10,74 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.UpState
-	c800699 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.UpState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpState.html">
+	c849299 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.UpState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.StoppedState
-	c800703 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.StoppedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StoppedState.html">
+	c849303 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.StoppedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StoppedState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StoppedState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StoppedState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.SaturatedState
-	c800704 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.SaturatedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SaturatedState.html">
+	c849304 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.SaturatedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SaturatedState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SaturatedState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SaturatedState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationalStateType.html">
+	c849316 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationalStateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationalStateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationalStateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.IdleState
-	c800724 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IdleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IdleState.html">
+	c849324 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IdleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IdleState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IdleState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IdleState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.DownState
-	c800728 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DownState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DownState.html">
+	c849328 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DownState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DownState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DownState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DownState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.CrashedState
-	c800729 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.CrashedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CrashedState.html">
+	c849329 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.CrashedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CrashedState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CrashedState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CrashedState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.BusyState
-	c800730 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.BusyState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusyState.html">
+	c849330 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.BusyState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BusyState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BusyState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BusyState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.StateType
-	c800743 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.StateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../muws2_2/StateType.html">
+	c849343 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.StateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../muws2_2/StateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../muws2_2/StateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.UpState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800699:p [dir=back,arrowtail=empty];
+	c849316:p -> c849299:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.StoppedState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800703:p [dir=back,arrowtail=empty];
+	c849316:p -> c849303:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.SaturatedState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800704:p [dir=back,arrowtail=empty];
+	c849316:p -> c849304:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.OperationalStateType extends org.oasis_open.docs.wsdm.muws2_2.StateType
-	c800743:p -> c800716:p [dir=back,arrowtail=empty];
+	c849343:p -> c849316:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.IdleState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800724:p [dir=back,arrowtail=empty];
+	c849316:p -> c849324:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.DownState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800728:p [dir=back,arrowtail=empty];
+	c849316:p -> c849328:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.CrashedState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800729:p [dir=back,arrowtail=empty];
+	c849316:p -> c849329:p [dir=back,arrowtail=empty];
 	//org.oasis_open.docs.wsdm.mows_2.BusyState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c800716:p -> c800730:p [dir=back,arrowtail=empty];
+	c849316:p -> c849330:p [dir=back,arrowtail=empty];
 }
 

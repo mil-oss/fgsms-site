@@ -10,98 +10,128 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.common.Utility
-	c30623 [label=<<table title="org.miloss.fgsms.common.Utility" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Utility.html">
+	c32514 [label=<<table title="org.miloss.fgsms.common.Utility" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Utility.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Utility </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Utility.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.UserIdentityUtil
-	c30624 [label=<<table title="org.miloss.fgsms.common.UserIdentityUtil" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserIdentityUtil.html">
+	c32515 [label=<<table title="org.miloss.fgsms.common.UserIdentityUtil" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UserIdentityUtil.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UserIdentityUtil </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UserIdentityUtil.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.SLAUtils
-	c30625 [label=<<table title="org.miloss.fgsms.common.SLAUtils" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAUtils.html">
+	c32516 [label=<<table title="org.miloss.fgsms.common.SLAUtils" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAUtils.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLAUtils </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLAUtils.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.PublicationConstants
-	c30626 [label=<<table title="org.miloss.fgsms.common.PublicationConstants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PublicationConstants.html">
+	c32517 [label=<<table title="org.miloss.fgsms.common.PublicationConstants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PublicationConstants.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PublicationConstants </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PublicationConstants.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.PropertyLoader
-	c30627 [label=<<table title="org.miloss.fgsms.common.PropertyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyLoader.html">
+	c32518 [label=<<table title="org.miloss.fgsms.common.PropertyLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PropertyLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> PropertyLoader </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./PropertyLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.Main
-	c30628 [label=<<table title="org.miloss.fgsms.common.Main" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Main.html">
+	c32519 [label=<<table title="org.miloss.fgsms.common.Main" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Main.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Main </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Main.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.Logger
-	c30629 [label=<<table title="org.miloss.fgsms.common.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.html">
+	c32520 [label=<<table title="org.miloss.fgsms.common.Logger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Logger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Logger </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Logger.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.IpAddressUtility
-	c30630 [label=<<table title="org.miloss.fgsms.common.IpAddressUtility" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IpAddressUtility.html">
+	c32521 [label=<<table title="org.miloss.fgsms.common.IpAddressUtility" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IpAddressUtility.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IpAddressUtility </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IpAddressUtility.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.DBUtils
-	c30631 [label=<<table title="org.miloss.fgsms.common.DBUtils" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DBUtils.html">
+	c32522 [label=<<table title="org.miloss.fgsms.common.DBUtils" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DBUtils.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DBUtils </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DBUtils.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.DBSettingsLoader
-	c30632 [label=<<table title="org.miloss.fgsms.common.DBSettingsLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DBSettingsLoader.html">
+	c32523 [label=<<table title="org.miloss.fgsms.common.DBSettingsLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DBSettingsLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DBSettingsLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DBSettingsLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.CXFUserIdentifyUtil
-	c30633 [label=<<table title="org.miloss.fgsms.common.CXFUserIdentifyUtil" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CXFUserIdentifyUtil.html">
+	c32524 [label=<<table title="org.miloss.fgsms.common.CXFUserIdentifyUtil" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CXFUserIdentifyUtil.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CXFUserIdentifyUtil </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CXFUserIdentifyUtil.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.Constants
-	c30634 [label=<<table title="org.miloss.fgsms.common.Constants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Constants.html">
+	c32525 [label=<<table title="org.miloss.fgsms.common.Constants" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Constants.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Constants </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Constants.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.Constants.AuthMode
-	c30635 [label=<<table title="org.miloss.fgsms.common.Constants.AuthMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Constants.AuthMode.html">
+	c32526 [label=<<table title="org.miloss.fgsms.common.Constants.AuthMode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Constants.AuthMode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> AuthMode </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Constants.AuthMode.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.BundleLoader
-	c30636 [label=<<table title="org.miloss.fgsms.common.BundleLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BundleLoader.html">
+	c32527 [label=<<table title="org.miloss.fgsms.common.BundleLoader" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BundleLoader.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BundleLoader </td></tr>
 		</table></td></tr>
 		</table>>, URL="./BundleLoader.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.AuditLogger
-	c30637 [label=<<table title="org.miloss.fgsms.common.AuditLogger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuditLogger.html">
+	c32528 [label=<<table title="org.miloss.fgsms.common.AuditLogger" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuditLogger.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuditLogger </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuditLogger.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.common.AesCbcWithIntegrity
+	c32529 [label=<<table title="org.miloss.fgsms.common.AesCbcWithIntegrity" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AesCbcWithIntegrity.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AesCbcWithIntegrity </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AesCbcWithIntegrity.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.common.AesCbcWithIntegrity.SecretKeys
+	c32530 [label=<<table title="org.miloss.fgsms.common.AesCbcWithIntegrity.SecretKeys" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AesCbcWithIntegrity.SecretKeys.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SecretKeys </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AesCbcWithIntegrity.SecretKeys.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.common.AesCbcWithIntegrity.CipherTextIvMac
+	c32531 [label=<<table title="org.miloss.fgsms.common.AesCbcWithIntegrity.CipherTextIvMac" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AesCbcWithIntegrity.CipherTextIvMac.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CipherTextIvMac </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AesCbcWithIntegrity.CipherTextIvMac.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.common.AesCbcWithIntegrity.PrngFixes
+	c32532 [label=<<table title="org.miloss.fgsms.common.AesCbcWithIntegrity.PrngFixes" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AesCbcWithIntegrity.PrngFixes.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PrngFixes </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AesCbcWithIntegrity.PrngFixes.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.common.AesCbcWithIntegrity.PrngFixes.LinuxPRNGSecureRandom
+	c32533 [label=<<table title="org.miloss.fgsms.common.AesCbcWithIntegrity.PrngFixes.LinuxPRNGSecureRandom" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AesCbcWithIntegrity.PrngFixes.LinuxPRNGSecureRandom.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> LinuxPRNGSecureRandom </td></tr>
+		</table></td></tr>
+		</table>>, URL="./AesCbcWithIntegrity.PrngFixes.LinuxPRNGSecureRandom.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.common.AES
-	c30638 [label=<<table title="org.miloss.fgsms.common.AES" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AES.html">
+	c32534 [label=<<table title="org.miloss.fgsms.common.AES" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AES.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AES </td></tr>
 		</table></td></tr>

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer
-	c776 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InvocationsByConsumer.html">
+	c781 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InvocationsByConsumer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByConsumer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByConsumer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c777 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c782 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c777:p -> c776:p [dir=back,arrowtail=empty];
+	c782:p -> c781:p [dir=back,arrowtail=empty];
 }
 

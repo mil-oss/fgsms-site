@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.br_2.PublisherRegistrationRejectedFaultType
-	c857660 [label=<<table title="org.oasis_open.docs.wsn.br_2.PublisherRegistrationRejectedFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherRegistrationRejectedFaultType.html">
+	c907715 [label=<<table title="org.oasis_open.docs.wsn.br_2.PublisherRegistrationRejectedFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PublisherRegistrationRejectedFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PublisherRegistrationRejectedFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PublisherRegistrationRejectedFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c857730 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
+	c907785 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../wsrf/bf_2/BaseFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.br_2.PublisherRegistrationRejectedFaultType extends org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c857730:p -> c857660:p [dir=back,arrowtail=empty];
+	c907785:p -> c907715:p [dir=back,arrowtail=empty];
 }
 

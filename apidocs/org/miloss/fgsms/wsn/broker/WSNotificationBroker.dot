@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.NotificationBroker
-	c1230508 [label=<<table title="org.oasis_open.docs.wsn.brw_2.NotificationBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../oasis_open/docs/wsn/brw_2/NotificationBroker.html">
+	c1296805 [label=<<table title="org.oasis_open.docs.wsn.brw_2.NotificationBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../../oasis_open/docs/wsn/brw_2/NotificationBroker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> NotificationBroker </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../../../oasis_open/docs/wsn/brw_2/NotificationBroker.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.wsn.broker.WSNotificationBroker
-	c1231338 [label=<<table title="org.miloss.fgsms.wsn.broker.WSNotificationBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WSNotificationBroker.html">
+	c1297659 [label=<<table title="org.miloss.fgsms.wsn.broker.WSNotificationBroker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./WSNotificationBroker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WSNotificationBroker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WSNotificationBroker.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.wsn.broker.WSNotificationBroker implements org.oasis_open.docs.wsn.brw_2.NotificationBroker
-	c1230508:p -> c1231338:p [dir=back,arrowtail=empty,style=dashed];
+	c1296805:p -> c1297659:p [dir=back,arrowtail=empty,style=dashed];
 }
 

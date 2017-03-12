@@ -10,74 +10,74 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.sla.TransactionalSLAProcessor
-	c45114 [label=<<table title="org.miloss.fgsms.sla.TransactionalSLAProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransactionalSLAProcessor.html">
+	c49660 [label=<<table title="org.miloss.fgsms.sla.TransactionalSLAProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransactionalSLAProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransactionalSLAProcessor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TransactionalSLAProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.SLAWorker
-	c45115 [label=<<table title="org.miloss.fgsms.sla.SLAWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAWorker.html">
+	c49661 [label=<<table title="org.miloss.fgsms.sla.SLAWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAWorker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLAWorker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLAWorker.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.SLAProcessorSingleton
-	c45116 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorSingleton.html">
+	c49662 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLAProcessorSingleton </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLAProcessorSingleton.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.SLAProcessorControllerMBean
-	c45117 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorControllerMBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorControllerMBean.html">
+	c49663 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorControllerMBean" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorControllerMBean.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLAProcessorControllerMBean </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLAProcessorControllerMBean.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.SLAProcessorController
-	c45118 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorController.html">
+	c49664 [label=<<table title="org.miloss.fgsms.sla.SLAProcessorController" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLAProcessorController.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLAProcessorController </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLAProcessorController.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.SLACommon
-	c45119 [label=<<table title="org.miloss.fgsms.sla.SLACommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLACommon.html">
+	c49665 [label=<<table title="org.miloss.fgsms.sla.SLACommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SLACommon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SLACommon </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SLACommon.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.PolicyExistsException
-	c45120 [label=<<table title="org.miloss.fgsms.sla.PolicyExistsException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PolicyExistsException.html">
+	c49666 [label=<<table title="org.miloss.fgsms.sla.PolicyExistsException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PolicyExistsException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PolicyExistsException </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PolicyExistsException.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.NonTransactionalSLAProcessor
-	c45121 [label=<<table title="org.miloss.fgsms.sla.NonTransactionalSLAProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonTransactionalSLAProcessor.html">
+	c49667 [label=<<table title="org.miloss.fgsms.sla.NonTransactionalSLAProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NonTransactionalSLAProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NonTransactionalSLAProcessor </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NonTransactionalSLAProcessor.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.AuxHelper
-	c45122 [label=<<table title="org.miloss.fgsms.sla.AuxHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuxHelper.html">
+	c49668 [label=<<table title="org.miloss.fgsms.sla.AuxHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuxHelper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AuxHelper </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuxHelper.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.AuxHelper.FLAGS
-	c45123 [label=<<table title="org.miloss.fgsms.sla.AuxHelper.FLAGS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuxHelper.FLAGS.html">
+	c49669 [label=<<table title="org.miloss.fgsms.sla.AuxHelper.FLAGS" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AuxHelper.FLAGS.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> FLAGS </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AuxHelper.FLAGS.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.AlertRunner
-	c45124 [label=<<table title="org.miloss.fgsms.sla.AlertRunner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertRunner.html">
+	c49670 [label=<<table title="org.miloss.fgsms.sla.AlertRunner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AlertRunner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AlertRunner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AlertRunner.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.sla.SLAProcessorController implements org.miloss.fgsms.sla.SLAProcessorControllerMBean
-	c45117:p -> c45118:p [dir=back,arrowtail=empty,style=dashed];
+	c49663:p -> c49664:p [dir=back,arrowtail=empty,style=dashed];
 }
 

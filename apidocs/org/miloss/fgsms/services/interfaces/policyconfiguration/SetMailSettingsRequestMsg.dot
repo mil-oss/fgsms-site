@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.SetMailSettingsRequestMsg
-	c1046137 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetMailSettingsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetMailSettingsRequestMsg.html">
+	c1100953 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.SetMailSettingsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SetMailSettingsRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SetMailSettingsRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SetMailSettingsRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.SetMailSettingsRequestMsg implements java.io.Serializable
-	c1046824:p -> c1046137:p [dir=back,arrowtail=empty,style=dashed];
+	c1101667:p -> c1100953:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c1046824 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c1101667 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

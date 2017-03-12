@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.osagent.callbacks.RemoteAgentCallbackImpl
-	c38452 [label=<<table title="org.miloss.fgsms.osagent.callbacks.RemoteAgentCallbackImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAgentCallbackImpl.html">
+	c42830 [label=<<table title="org.miloss.fgsms.osagent.callbacks.RemoteAgentCallbackImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoteAgentCallbackImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoteAgentCallbackImpl </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoteAgentCallbackImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.callbacks.AdminCommand
-	c38453 [label=<<table title="org.miloss.fgsms.osagent.callbacks.AdminCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AdminCommand.html">
+	c42831 [label=<<table title="org.miloss.fgsms.osagent.callbacks.AdminCommand" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AdminCommand.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AdminCommand </td></tr>
 		</table></td></tr>

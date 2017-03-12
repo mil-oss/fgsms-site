@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c666 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
+	c671 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseReportGenerator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../BaseReportGenerator.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.os.DiskIOReport
-	c676 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.DiskIOReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DiskIOReport.html">
+	c681 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.os.DiskIOReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DiskIOReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DiskIOReport </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DiskIOReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.os.DiskIOReport extends org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c666:p -> c676:p [dir=back,arrowtail=empty];
+	c671:p -> c681:p [dir=back,arrowtail=empty];
 }
 

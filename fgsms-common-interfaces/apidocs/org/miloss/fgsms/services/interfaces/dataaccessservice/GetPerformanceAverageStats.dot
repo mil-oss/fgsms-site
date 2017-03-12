@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.dataaccessservice.GetPerformanceAverageStats
-	c203809 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetPerformanceAverageStats" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetPerformanceAverageStats.html">
+	c204774 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetPerformanceAverageStats" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetPerformanceAverageStats.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetPerformanceAverageStats </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetPerformanceAverageStats.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.dataaccessservice.GetPerformanceAverageStats implements java.io.Serializable
-	c204330:p -> c203809:p [dir=back,arrowtail=empty,style=dashed];
+	c205295:p -> c204774:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c204330 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c205295 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.reporting.ReportFetch
-	c71827 [label=<<table title="org.miloss.fgsms.services.reporting.ReportFetch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportFetch.html">
+	c78183 [label=<<table title="org.miloss.fgsms.services.reporting.ReportFetch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportFetch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportFetch </td></tr>
 		</table></td></tr>

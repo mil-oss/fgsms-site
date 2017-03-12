@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.presentation.PerformanceViewerInvocations
-	c822163 [label=<<table title="org.miloss.fgsms.presentation.PerformanceViewerInvocations" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformanceViewerInvocations.html">
+	c871322 [label=<<table title="org.miloss.fgsms.presentation.PerformanceViewerInvocations" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./PerformanceViewerInvocations.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PerformanceViewerInvocations </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PerformanceViewerInvocations.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.presentation.PerformanceViewerInvocations implements de.laures.cewolf.DatasetProducer
-	c822203:p -> c822163:p [dir=back,arrowtail=empty,style=dashed];
+	c871362:p -> c871322:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.presentation.PerformanceViewerInvocations implements de.laures.cewolf.tooltips.CategoryToolTipGenerator
-	c822205:p -> c822163:p [dir=back,arrowtail=empty,style=dashed];
+	c871364:p -> c871322:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.presentation.PerformanceViewerInvocations implements de.laures.cewolf.links.CategoryItemLinkGenerator
-	c822206:p -> c822163:p [dir=back,arrowtail=empty,style=dashed];
+	c871365:p -> c871322:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.presentation.PerformanceViewerInvocations implements java.io.Serializable
-	c822207:p -> c822163:p [dir=back,arrowtail=empty,style=dashed];
+	c871366:p -> c871322:p [dir=back,arrowtail=empty,style=dashed];
 	// de.laures.cewolf.links.CategoryItemLinkGenerator
-	c822206 [label=<<table title="de.laures.cewolf.links.CategoryItemLinkGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/links/CategoryItemLinkGenerator.html">
+	c871365 [label=<<table title="de.laures.cewolf.links.CategoryItemLinkGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/links/CategoryItemLinkGenerator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CategoryItemLinkGenerator </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/links/CategoryItemLinkGenerator.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// de.laures.cewolf.DatasetProducer
-	c822203 [label=<<table title="de.laures.cewolf.DatasetProducer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/DatasetProducer.html">
+	c871362 [label=<<table title="de.laures.cewolf.DatasetProducer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/DatasetProducer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> DatasetProducer </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/DatasetProducer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// java.io.Serializable
-	c822207 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c871366 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// de.laures.cewolf.tooltips.CategoryToolTipGenerator
-	c822205 [label=<<table title="de.laures.cewolf.tooltips.CategoryToolTipGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/tooltips/CategoryToolTipGenerator.html">
+	c871364 [label=<<table title="de.laures.cewolf.tooltips.CategoryToolTipGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/de/laures/cewolf/tooltips/CategoryToolTipGenerator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CategoryToolTipGenerator </td></tr>

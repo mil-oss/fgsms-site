@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.dataaccessservice.GetBrokerListResponseMsg
-	c423004 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetBrokerListResponseMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetBrokerListResponseMsg.html">
+	c459787 [label=<<table title="org.miloss.fgsms.services.interfaces.dataaccessservice.GetBrokerListResponseMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetBrokerListResponseMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetBrokerListResponseMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetBrokerListResponseMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.dataaccessservice.GetBrokerListResponseMsg implements java.io.Serializable
-	c423804:p -> c423004:p [dir=back,arrowtail=empty,style=dashed];
+	c460614:p -> c459787:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c423804 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c460614 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c629802 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLARuleInterface.html">
+	c672955 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLARuleInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLARuleInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../plugins/sla/SLARuleInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.rules.HighDiskUsageOverTime
-	c630587 [label=<<table title="org.miloss.fgsms.sla.rules.HighDiskUsageOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighDiskUsageOverTime.html">
+	c673763 [label=<<table title="org.miloss.fgsms.sla.rules.HighDiskUsageOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighDiskUsageOverTime.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HighDiskUsageOverTime </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HighDiskUsageOverTime.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.sla.rules.HighDiskUsageOverTime implements org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c629802:p -> c630587:p [dir=back,arrowtail=empty,style=dashed];
+	c672955:p -> c673763:p [dir=back,arrowtail=empty,style=dashed];
 }
 

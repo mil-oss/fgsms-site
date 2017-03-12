@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.GetServicePermissionsResponseMsg
-	c603605 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetServicePermissionsResponseMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetServicePermissionsResponseMsg.html">
+	c644952 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetServicePermissionsResponseMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetServicePermissionsResponseMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetServicePermissionsResponseMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetServicePermissionsResponseMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.GetServicePermissionsResponseMsg implements java.io.Serializable
-	c604230:p -> c603605:p [dir=back,arrowtail=empty,style=dashed];
+	c645604:p -> c644952:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c604230 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c645604 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

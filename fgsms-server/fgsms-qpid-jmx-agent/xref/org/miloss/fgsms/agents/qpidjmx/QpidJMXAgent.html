@@ -16,10 +16,10 @@
 <a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> * file in a relevant directory) where a recipient would be likely to look</em>
 <a class="jxr_linenumber" name="L9" href="#L9">9</a>   <em class="jxr_javadoccomment"> * for such a notice.</em>
 <a class="jxr_linenumber" name="L10" href="#L10">10</a>  <em class="jxr_javadoccomment"> *</em>
-<a class="jxr_linenumber" name="L11" href="#L11">11</a>  <em class="jxr_javadoccomment"> * You may add additional accurate notices of copyright ownership.</em>
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>  <em class="jxr_javadoccomment"> * </em>
 <a class="jxr_linenumber" name="L12" href="#L12">12</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_comment">/*  ---------------------------------------------------------------------------</em>
-<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_comment"> *  US Government, Department of the Army</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_comment"> *  U.S. Government, Department of the Army</em>
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_comment"> *  Army Materiel Command</em>
 <a class="jxr_linenumber" name="L16" href="#L16">16</a>  <em class="jxr_comment"> *  Research Development Engineering Command</em>
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>  <em class="jxr_comment"> *  Communications Electronics Research Development and Engineering Center</em>
@@ -278,169 +278,170 @@
 <a class="jxr_linenumber" name="L270" href="#L270">270</a>             PreparedStatement ps = perfcon.prepareStatement(<span class="jxr_string">"delete from brokerrawdata where host=?"</span>);
 <a class="jxr_linenumber" name="L271" href="#L271">271</a>             ps.setString(1, modifiedurl);
 <a class="jxr_linenumber" name="L272" href="#L272">272</a>             ps.executeUpdate();
-<a class="jxr_linenumber" name="L273" href="#L273">273</a>             AddStatisticalDataRequestMsg req = <strong class="jxr_keyword">new</strong> AddStatisticalDataRequestMsg();
-<a class="jxr_linenumber" name="L274" href="#L274">274</a>             Map currenttopics = <strong class="jxr_keyword">new</strong> HashMap();
-<a class="jxr_linenumber" name="L275" href="#L275">275</a>             <strong class="jxr_keyword">while</strong> (iterator.hasNext()) {
-<a class="jxr_linenumber" name="L276" href="#L276">276</a> 
-<a class="jxr_linenumber" name="L277" href="#L277">277</a>                 ObjectName n = iterator.next();
-<a class="jxr_linenumber" name="L278" href="#L278">278</a>                 <strong class="jxr_keyword">if</strong> (n != <strong class="jxr_keyword">null</strong> &amp;&amp; n.getCanonicalName() != <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="L279" href="#L279">279</a>                     <strong class="jxr_keyword">if</strong> (n.getCanonicalName().startsWith(<span class="jxr_string">"org.apache.qpid"</span>)) {
-<a class="jxr_linenumber" name="L280" href="#L280">280</a>                         {
-<a class="jxr_linenumber" name="L281" href="#L281">281</a>                             <em class="jxr_comment">// log.log(Level.INFO, "###################################################");</em>
-<a class="jxr_linenumber" name="L282" href="#L282">282</a>                             AttributeList attributes = <strong class="jxr_keyword">null</strong>;
-<a class="jxr_linenumber" name="L283" href="#L283">283</a>                             <strong class="jxr_keyword">try</strong> {
-<a class="jxr_linenumber" name="L284" href="#L284">284</a>                                 attributes = mBeanServerConnection.getAttributes(<strong class="jxr_keyword">new</strong> ObjectName(n.getCanonicalName()), queueattribs);
-<a class="jxr_linenumber" name="L285" href="#L285">285</a>                             } <strong class="jxr_keyword">catch</strong> (Exception ex2) {
-<a class="jxr_linenumber" name="L286" href="#L286">286</a>                                 <strong class="jxr_keyword">try</strong> {
-<a class="jxr_linenumber" name="L287" href="#L287">287</a>                                     mBeanServerConnection = c.getMBeanServerConnection();
-<a class="jxr_linenumber" name="L288" href="#L288">288</a>                                     attributes = mBeanServerConnection.getAttributes(<strong class="jxr_keyword">new</strong> ObjectName(n.getCanonicalName()), queueattribs);
-<a class="jxr_linenumber" name="L289" href="#L289">289</a>                                 } <strong class="jxr_keyword">catch</strong> (Exception ex3) {
-<a class="jxr_linenumber" name="L290" href="#L290">290</a>                                 }
-<a class="jxr_linenumber" name="L291" href="#L291">291</a>                             }
-<a class="jxr_linenumber" name="L292" href="#L292">292</a> 
-<a class="jxr_linenumber" name="L293" href="#L293">293</a>                             log.log(Level.DEBUG, <span class="jxr_string">"Updating: "</span> + n.getCanonicalName());
-<a class="jxr_linenumber" name="L294" href="#L294">294</a> 
-<a class="jxr_linenumber" name="L295" href="#L295">295</a>                             String bigname = n.getCanonicalName();
-<a class="jxr_linenumber" name="L296" href="#L296">296</a>                             String ExchangeType = <span class="jxr_string">"queue"</span>;
-<a class="jxr_linenumber" name="L297" href="#L297">297</a>                             <strong class="jxr_keyword">long</strong> ConsumerCount = 0;
-<a class="jxr_linenumber" name="L298" href="#L298">298</a>                             <strong class="jxr_keyword">long</strong> ActiveConsumerCount = 0;
-<a class="jxr_linenumber" name="L299" href="#L299">299</a>                             <strong class="jxr_keyword">long</strong> RecievedMessageCount = 0;
-<a class="jxr_linenumber" name="L300" href="#L300">300</a>                             <strong class="jxr_keyword">long</strong> MessageCount = 0;
-<a class="jxr_linenumber" name="L301" href="#L301">301</a>                             String name = <span class="jxr_string">""</span>;
-<a class="jxr_linenumber" name="L302" href="#L302">302</a>                             <strong class="jxr_keyword">long</strong> QueueDepth = 0;
-<a class="jxr_linenumber" name="L303" href="#L303">303</a>                             <strong class="jxr_keyword">if</strong> (attributes != <strong class="jxr_keyword">null</strong>) {
-<a class="jxr_linenumber" name="L304" href="#L304">304</a>                                 <strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i2 = 0; i2 &lt; attributes.size(); i2++) {
-<a class="jxr_linenumber" name="L305" href="#L305">305</a>                                     <em class="jxr_comment">//log.log(Level.INFO, attributes.get(i2).toString());</em>
-<a class="jxr_linenumber" name="L306" href="#L306">306</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"activeconsumercount = "</span>)) {
-<a class="jxr_linenumber" name="L307" href="#L307">307</a>                                         ActiveConsumerCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"activeconsumercount = "</span>, <span class="jxr_string">""</span>).trim());
-<a class="jxr_linenumber" name="L308" href="#L308">308</a>                                     }
-<a class="jxr_linenumber" name="L309" href="#L309">309</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"receivedmessagecount = "</span>)) {
-<a class="jxr_linenumber" name="L310" href="#L310">310</a>                                         RecievedMessageCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"receivedmessagecount = "</span>, <span class="jxr_string">""</span>).trim());
-<a class="jxr_linenumber" name="L311" href="#L311">311</a>                                     }
-<a class="jxr_linenumber" name="L312" href="#L312">312</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"messagecount = "</span>)) {
-<a class="jxr_linenumber" name="L313" href="#L313">313</a>                                         MessageCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"messagecount = "</span>, <span class="jxr_string">""</span>).trim());
-<a class="jxr_linenumber" name="L314" href="#L314">314</a>                                     }
-<a class="jxr_linenumber" name="L315" href="#L315">315</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"queuedepth = "</span>)) {
-<a class="jxr_linenumber" name="L316" href="#L316">316</a>                                         QueueDepth = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"queuedepth = "</span>, <span class="jxr_string">""</span>).trim());
-<a class="jxr_linenumber" name="L317" href="#L317">317</a>                                     }
-<a class="jxr_linenumber" name="L318" href="#L318">318</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"consumercount = "</span>)) {
-<a class="jxr_linenumber" name="L319" href="#L319">319</a>                                         ConsumerCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"consumercount = "</span>, <span class="jxr_string">""</span>).trim());
-<a class="jxr_linenumber" name="L320" href="#L320">320</a>                                     }
-<a class="jxr_linenumber" name="L321" href="#L321">321</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"name = "</span>)) {
-<a class="jxr_linenumber" name="L322" href="#L322">322</a>                                         name = attributes.get(i2).toString().split(<span class="jxr_string">"="</span>)[1].trim();
-<a class="jxr_linenumber" name="L323" href="#L323">323</a>                                     }
-<a class="jxr_linenumber" name="L324" href="#L324">324</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"exchangetype = "</span>)) {
-<a class="jxr_linenumber" name="L325" href="#L325">325</a>                                         ExchangeType = attributes.get(i2).toString().split(<span class="jxr_string">"="</span>)[1].trim();
-<a class="jxr_linenumber" name="L326" href="#L326">326</a>                                     }
-<a class="jxr_linenumber" name="L327" href="#L327">327</a>                                 }
-<a class="jxr_linenumber" name="L328" href="#L328">328</a>                             }
-<a class="jxr_linenumber" name="L329" href="#L329">329</a>                             <em class="jxr_comment">//log.log(Level.INFO, "item name = " + name + " " + bigname);</em>
-<a class="jxr_linenumber" name="L330" href="#L330">330</a>                             <strong class="jxr_keyword">if</strong> (!Utility.stringIsNullOrEmpty(name)) {
-<a class="jxr_linenumber" name="L331" href="#L331">331</a>                                 currenttopics.put(n.getCanonicalName(), QueueDepth);
-<a class="jxr_linenumber" name="L332" href="#L332">332</a> 
-<a class="jxr_linenumber" name="L333" href="#L333">333</a>                                 req.getData().add(updateData(modifiedurl, name, bigname, MessageCount, RecievedMessageCount, ConsumerCount, ActiveConsumerCount,
-<a class="jxr_linenumber" name="L334" href="#L334">334</a>                                         QueueDepth, ExchangeType, 0, 0, 0, 0, perfcon));
-<a class="jxr_linenumber" name="L335" href="#L335">335</a>                                 <em class="jxr_comment">//  if (slarules) {</em>
-<a class="jxr_linenumber" name="L336" href="#L336">336</a>                                 <em class="jxr_comment">//       SLACommon.ProcessStatisticalSLARules(p, modifiedurl, name, QueueDepth, pooled);</em>
-<a class="jxr_linenumber" name="L337" href="#L337">337</a>                                 <em class="jxr_comment">//   }</em>
-<a class="jxr_linenumber" name="L338" href="#L338">338</a> 
-<a class="jxr_linenumber" name="L339" href="#L339">339</a>                             }
-<a class="jxr_linenumber" name="L340" href="#L340">340</a>                         }
-<a class="jxr_linenumber" name="L341" href="#L341">341</a>                     }
-<a class="jxr_linenumber" name="L342" href="#L342">342</a> 
-<a class="jxr_linenumber" name="L343" href="#L343">343</a>                 }
-<a class="jxr_linenumber" name="L344" href="#L344">344</a> 
-<a class="jxr_linenumber" name="L345" href="#L345">345</a>             }
-<a class="jxr_linenumber" name="L346" href="#L346">346</a> 
-<a class="jxr_linenumber" name="L347" href="#L347">347</a>             <em class="jxr_comment">// SLACommon.ProcessStatisticalSLARules((modifiedurl, currenttopics, pooled);</em>
-<a class="jxr_linenumber" name="L348" href="#L348">348</a>             req.setAgentType(AGENT);
-<a class="jxr_linenumber" name="L349" href="#L349">349</a>             req.setBrokerURI(modifiedurl);
-<a class="jxr_linenumber" name="L350" href="#L350">350</a>             req.setBrokerHostname(p.getMachineName());
-<a class="jxr_linenumber" name="L351" href="#L351">351</a>             req.setDomain(p.getDomainName());
-<a class="jxr_linenumber" name="L352" href="#L352">352</a>             req.setClassification(SLACommon.GetClassLevel(pooled));
-<a class="jxr_linenumber" name="L353" href="#L353">353</a>             req.setOperationalStatus(ok);
-<a class="jxr_linenumber" name="L354" href="#L354">354</a>             req.setOperationalStatusMessage(status);
-<a class="jxr_linenumber" name="L355" href="#L355">355</a>             SLACommon.ProcessStatisticalSLARules(req, pooled);
-<a class="jxr_linenumber" name="L356" href="#L356">356</a>             c.close();
-<a class="jxr_linenumber" name="L357" href="#L357">357</a>             perfcon.close();
-<a class="jxr_linenumber" name="L358" href="#L358">358</a>         }
-<a class="jxr_linenumber" name="L359" href="#L359">359</a> 
-<a class="jxr_linenumber" name="L360" href="#L360">360</a>     }
-<a class="jxr_linenumber" name="L361" href="#L361">361</a> 
-<a class="jxr_linenumber" name="L362" href="#L362">362</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> BrokerData updateData(<strong class="jxr_keyword">final</strong> String url, <strong class="jxr_keyword">final</strong> String name, <strong class="jxr_keyword">final</strong> String bigname,
-<a class="jxr_linenumber" name="L363" href="#L363">363</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> MessageCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> RecievedMessageCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> ConsumerCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> ActiveConsumerCount,
-<a class="jxr_linenumber" name="L364" href="#L364">364</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> QueueDepth,  <strong class="jxr_keyword">final</strong> String ExchangeType,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> bytesin, <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> bytesout, <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> bytesdrop,
-<a class="jxr_linenumber" name="L365" href="#L365">365</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> MessageDropCount, <strong class="jxr_keyword">final</strong>  Connection perf) {
-<a class="jxr_linenumber" name="L366" href="#L366">366</a>         BrokerData bd = <strong class="jxr_keyword">new</strong> BrokerData();
-<a class="jxr_linenumber" name="L367" href="#L367">367</a>         bd.setActiveConsumers(QueueDepth);
-<a class="jxr_linenumber" name="L368" href="#L368">368</a>         bd.setQueueOrTopicCanonicalName(bigname);
-<a class="jxr_linenumber" name="L369" href="#L369">369</a>         bd.setQueueOrTopicName(name);
-<a class="jxr_linenumber" name="L370" href="#L370">370</a>         bd.setMessagesIn(RecievedMessageCount);
-<a class="jxr_linenumber" name="L371" href="#L371">371</a>         bd.setMessagesDropped(MessageDropCount);
-<a class="jxr_linenumber" name="L372" href="#L372">372</a>         bd.setDepth(QueueDepth);
-<a class="jxr_linenumber" name="L373" href="#L373">373</a>         bd.setActiveConsumers(ActiveConsumerCount);
-<a class="jxr_linenumber" name="L374" href="#L374">374</a>         bd.setBytesDropped(bytesdrop);
-<a class="jxr_linenumber" name="L375" href="#L375">375</a>         bd.setBytesIn(bytesin);
-<a class="jxr_linenumber" name="L376" href="#L376">376</a>         bd.setBytesOut(bytesout);
-<a class="jxr_linenumber" name="L377" href="#L377">377</a>         bd.setItemType(ExchangeType);
-<a class="jxr_linenumber" name="L378" href="#L378">378</a>         bd.setMessagesOut(MessageCount);
-<a class="jxr_linenumber" name="L379" href="#L379">379</a>         bd.setTotalConsumers(ConsumerCount);
-<a class="jxr_linenumber" name="L380" href="#L380">380</a>         <strong class="jxr_keyword">if</strong> (!Utility.stringIsNullOrEmpty(name)) {
-<a class="jxr_linenumber" name="L381" href="#L381">381</a>             <strong class="jxr_keyword">try</strong> {
-<a class="jxr_linenumber" name="L382" href="#L382">382</a>                 PreparedStatement comm = perf.prepareStatement(<span class="jxr_string">"Delete from brokerrawdata where host=? and namecol=? and canonicalname=?; "</span>
-<a class="jxr_linenumber" name="L383" href="#L383">383</a>                         + <span class="jxr_string">"INSERT INTO brokerrawdata (host, utcdatetime, namecol, canonicalname, messagecount,recievedmessagecount, consumercount, "</span>
-<a class="jxr_linenumber" name="L384" href="#L384">384</a>                         + <span class="jxr_string">"activeconsumercount, queuedepth, typecol, agenttype, messagedropcount, bytesdropcount, bytesin, bytesout) "</span>
-<a class="jxr_linenumber" name="L385" href="#L385">385</a>                         + <span class="jxr_string">"VALUES (?, ?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"</span>
-<a class="jxr_linenumber" name="L386" href="#L386">386</a>                         + <span class="jxr_string">"INSERT INTO brokerhistory (host, utcdatetime, namecol,canonicalname, messagecount,recievedmessagecount, consumercount, "</span>
-<a class="jxr_linenumber" name="L387" href="#L387">387</a>                         + <span class="jxr_string">"activeconsumercount, queuedepth, typecol, agenttype, messagedropcount, bytesdropcount, bytesin, bytesout) "</span>
-<a class="jxr_linenumber" name="L388" href="#L388">388</a>                         + <span class="jxr_string">"VALUES (?, ?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"</span>);
-<a class="jxr_linenumber" name="L389" href="#L389">389</a>                 comm.setString(1, url);
-<a class="jxr_linenumber" name="L390" href="#L390">390</a>                 comm.setString(2, name);
-<a class="jxr_linenumber" name="L391" href="#L391">391</a>                 comm.setString(3, bigname);
-<a class="jxr_linenumber" name="L392" href="#L392">392</a>                 comm.setString(4, url);
-<a class="jxr_linenumber" name="L393" href="#L393">393</a>                 comm.setLong(5, System.currentTimeMillis());
-<a class="jxr_linenumber" name="L394" href="#L394">394</a>                 comm.setString(6, name);
-<a class="jxr_linenumber" name="L395" href="#L395">395</a>                 comm.setString(7, bigname);
-<a class="jxr_linenumber" name="L396" href="#L396">396</a>                 comm.setLong(8, MessageCount);
-<a class="jxr_linenumber" name="L397" href="#L397">397</a>                 comm.setLong(9, RecievedMessageCount);
-<a class="jxr_linenumber" name="L398" href="#L398">398</a>                 comm.setLong(10, ConsumerCount);
-<a class="jxr_linenumber" name="L399" href="#L399">399</a>                 comm.setLong(11, ActiveConsumerCount);
-<a class="jxr_linenumber" name="L400" href="#L400">400</a>                 comm.setLong(12, QueueDepth);
-<a class="jxr_linenumber" name="L401" href="#L401">401</a>                 comm.setString(13, ExchangeType);
-<a class="jxr_linenumber" name="L402" href="#L402">402</a>                 comm.setString(14, AGENT);
-<a class="jxr_linenumber" name="L403" href="#L403">403</a>                 comm.setLong(15, MessageDropCount);
-<a class="jxr_linenumber" name="L404" href="#L404">404</a>                 comm.setLong(16, bytesdrop);
-<a class="jxr_linenumber" name="L405" href="#L405">405</a>                 comm.setLong(17, bytesin);
-<a class="jxr_linenumber" name="L406" href="#L406">406</a>                 comm.setLong(18, bytesout);
-<a class="jxr_linenumber" name="L407" href="#L407">407</a> 
-<a class="jxr_linenumber" name="L408" href="#L408">408</a>                 comm.setString(19, url);
-<a class="jxr_linenumber" name="L409" href="#L409">409</a>                 comm.setLong(20, System.currentTimeMillis());
-<a class="jxr_linenumber" name="L410" href="#L410">410</a>                 comm.setString(21, name);
-<a class="jxr_linenumber" name="L411" href="#L411">411</a>                 comm.setString(22, bigname);
-<a class="jxr_linenumber" name="L412" href="#L412">412</a>                 comm.setLong(23, MessageCount);
-<a class="jxr_linenumber" name="L413" href="#L413">413</a>                 comm.setLong(24, RecievedMessageCount);
-<a class="jxr_linenumber" name="L414" href="#L414">414</a>                 comm.setLong(25, ConsumerCount);
-<a class="jxr_linenumber" name="L415" href="#L415">415</a>                 comm.setLong(26, ActiveConsumerCount);
-<a class="jxr_linenumber" name="L416" href="#L416">416</a>                 comm.setLong(27, QueueDepth);
-<a class="jxr_linenumber" name="L417" href="#L417">417</a>                 comm.setString(28, ExchangeType);
-<a class="jxr_linenumber" name="L418" href="#L418">418</a>                 comm.setString(29, AGENT);
-<a class="jxr_linenumber" name="L419" href="#L419">419</a>                 comm.setLong(30, MessageDropCount);
-<a class="jxr_linenumber" name="L420" href="#L420">420</a>                 comm.setLong(31, bytesdrop);
-<a class="jxr_linenumber" name="L421" href="#L421">421</a>                 comm.setLong(32, bytesin);
-<a class="jxr_linenumber" name="L422" href="#L422">422</a>                 comm.setLong(33, bytesout);
-<a class="jxr_linenumber" name="L423" href="#L423">423</a>                 comm.execute();
-<a class="jxr_linenumber" name="L424" href="#L424">424</a>                 comm.close();
-<a class="jxr_linenumber" name="L425" href="#L425">425</a>             } <strong class="jxr_keyword">catch</strong> (SQLException ex) {
-<a class="jxr_linenumber" name="L426" href="#L426">426</a>                 log.log(Level.WARN, <span class="jxr_string">"error saving broker data"</span>, ex);
-<a class="jxr_linenumber" name="L427" href="#L427">427</a>             }
-<a class="jxr_linenumber" name="L428" href="#L428">428</a> 
-<a class="jxr_linenumber" name="L429" href="#L429">429</a>         }
-<a class="jxr_linenumber" name="L430" href="#L430">430</a> 
-<a class="jxr_linenumber" name="L431" href="#L431">431</a>         <strong class="jxr_keyword">return</strong> bd;
-<a class="jxr_linenumber" name="L432" href="#L432">432</a>     }
-<a class="jxr_linenumber" name="L433" href="#L433">433</a> 
-<a class="jxr_linenumber" name="L434" href="#L434">434</a>    
-<a class="jxr_linenumber" name="L435" href="#L435">435</a> }
+<a class="jxr_linenumber" name="L273" href="#L273">273</a>             ps.close();
+<a class="jxr_linenumber" name="L274" href="#L274">274</a>             AddStatisticalDataRequestMsg req = <strong class="jxr_keyword">new</strong> AddStatisticalDataRequestMsg();
+<a class="jxr_linenumber" name="L275" href="#L275">275</a>             Map currenttopics = <strong class="jxr_keyword">new</strong> HashMap();
+<a class="jxr_linenumber" name="L276" href="#L276">276</a>             <strong class="jxr_keyword">while</strong> (iterator.hasNext()) {
+<a class="jxr_linenumber" name="L277" href="#L277">277</a> 
+<a class="jxr_linenumber" name="L278" href="#L278">278</a>                 ObjectName n = iterator.next();
+<a class="jxr_linenumber" name="L279" href="#L279">279</a>                 <strong class="jxr_keyword">if</strong> (n != <strong class="jxr_keyword">null</strong> &amp;&amp; n.getCanonicalName() != <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L280" href="#L280">280</a>                     <strong class="jxr_keyword">if</strong> (n.getCanonicalName().startsWith(<span class="jxr_string">"org.apache.qpid"</span>)) {
+<a class="jxr_linenumber" name="L281" href="#L281">281</a>                         {
+<a class="jxr_linenumber" name="L282" href="#L282">282</a>                             <em class="jxr_comment">// log.log(Level.INFO, "###################################################");</em>
+<a class="jxr_linenumber" name="L283" href="#L283">283</a>                             AttributeList attributes = <strong class="jxr_keyword">null</strong>;
+<a class="jxr_linenumber" name="L284" href="#L284">284</a>                             <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="L285" href="#L285">285</a>                                 attributes = mBeanServerConnection.getAttributes(<strong class="jxr_keyword">new</strong> ObjectName(n.getCanonicalName()), queueattribs);
+<a class="jxr_linenumber" name="L286" href="#L286">286</a>                             } <strong class="jxr_keyword">catch</strong> (Exception ex2) {
+<a class="jxr_linenumber" name="L287" href="#L287">287</a>                                 <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="L288" href="#L288">288</a>                                     mBeanServerConnection = c.getMBeanServerConnection();
+<a class="jxr_linenumber" name="L289" href="#L289">289</a>                                     attributes = mBeanServerConnection.getAttributes(<strong class="jxr_keyword">new</strong> ObjectName(n.getCanonicalName()), queueattribs);
+<a class="jxr_linenumber" name="L290" href="#L290">290</a>                                 } <strong class="jxr_keyword">catch</strong> (Exception ex3) {
+<a class="jxr_linenumber" name="L291" href="#L291">291</a>                                 }
+<a class="jxr_linenumber" name="L292" href="#L292">292</a>                             }
+<a class="jxr_linenumber" name="L293" href="#L293">293</a> 
+<a class="jxr_linenumber" name="L294" href="#L294">294</a>                             log.log(Level.DEBUG, <span class="jxr_string">"Updating: "</span> + n.getCanonicalName());
+<a class="jxr_linenumber" name="L295" href="#L295">295</a> 
+<a class="jxr_linenumber" name="L296" href="#L296">296</a>                             String bigname = n.getCanonicalName();
+<a class="jxr_linenumber" name="L297" href="#L297">297</a>                             String ExchangeType = <span class="jxr_string">"queue"</span>;
+<a class="jxr_linenumber" name="L298" href="#L298">298</a>                             <strong class="jxr_keyword">long</strong> ConsumerCount = 0;
+<a class="jxr_linenumber" name="L299" href="#L299">299</a>                             <strong class="jxr_keyword">long</strong> ActiveConsumerCount = 0;
+<a class="jxr_linenumber" name="L300" href="#L300">300</a>                             <strong class="jxr_keyword">long</strong> RecievedMessageCount = 0;
+<a class="jxr_linenumber" name="L301" href="#L301">301</a>                             <strong class="jxr_keyword">long</strong> MessageCount = 0;
+<a class="jxr_linenumber" name="L302" href="#L302">302</a>                             String name = <span class="jxr_string">""</span>;
+<a class="jxr_linenumber" name="L303" href="#L303">303</a>                             <strong class="jxr_keyword">long</strong> QueueDepth = 0;
+<a class="jxr_linenumber" name="L304" href="#L304">304</a>                             <strong class="jxr_keyword">if</strong> (attributes != <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L305" href="#L305">305</a>                                 <strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i2 = 0; i2 &lt; attributes.size(); i2++) {
+<a class="jxr_linenumber" name="L306" href="#L306">306</a>                                     <em class="jxr_comment">//log.log(Level.INFO, attributes.get(i2).toString());</em>
+<a class="jxr_linenumber" name="L307" href="#L307">307</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"activeconsumercount = "</span>)) {
+<a class="jxr_linenumber" name="L308" href="#L308">308</a>                                         ActiveConsumerCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"activeconsumercount = "</span>, <span class="jxr_string">""</span>).trim());
+<a class="jxr_linenumber" name="L309" href="#L309">309</a>                                     }
+<a class="jxr_linenumber" name="L310" href="#L310">310</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"receivedmessagecount = "</span>)) {
+<a class="jxr_linenumber" name="L311" href="#L311">311</a>                                         RecievedMessageCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"receivedmessagecount = "</span>, <span class="jxr_string">""</span>).trim());
+<a class="jxr_linenumber" name="L312" href="#L312">312</a>                                     }
+<a class="jxr_linenumber" name="L313" href="#L313">313</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"messagecount = "</span>)) {
+<a class="jxr_linenumber" name="L314" href="#L314">314</a>                                         MessageCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"messagecount = "</span>, <span class="jxr_string">""</span>).trim());
+<a class="jxr_linenumber" name="L315" href="#L315">315</a>                                     }
+<a class="jxr_linenumber" name="L316" href="#L316">316</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"queuedepth = "</span>)) {
+<a class="jxr_linenumber" name="L317" href="#L317">317</a>                                         QueueDepth = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"queuedepth = "</span>, <span class="jxr_string">""</span>).trim());
+<a class="jxr_linenumber" name="L318" href="#L318">318</a>                                     }
+<a class="jxr_linenumber" name="L319" href="#L319">319</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"consumercount = "</span>)) {
+<a class="jxr_linenumber" name="L320" href="#L320">320</a>                                         ConsumerCount = Long.parseLong(attributes.get(i2).toString().toLowerCase().replace(<span class="jxr_string">"consumercount = "</span>, <span class="jxr_string">""</span>).trim());
+<a class="jxr_linenumber" name="L321" href="#L321">321</a>                                     }
+<a class="jxr_linenumber" name="L322" href="#L322">322</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"name = "</span>)) {
+<a class="jxr_linenumber" name="L323" href="#L323">323</a>                                         name = attributes.get(i2).toString().split(<span class="jxr_string">"="</span>)[1].trim();
+<a class="jxr_linenumber" name="L324" href="#L324">324</a>                                     }
+<a class="jxr_linenumber" name="L325" href="#L325">325</a>                                     <strong class="jxr_keyword">if</strong> (attributes.get(i2).toString().toLowerCase().startsWith(<span class="jxr_string">"exchangetype = "</span>)) {
+<a class="jxr_linenumber" name="L326" href="#L326">326</a>                                         ExchangeType = attributes.get(i2).toString().split(<span class="jxr_string">"="</span>)[1].trim();
+<a class="jxr_linenumber" name="L327" href="#L327">327</a>                                     }
+<a class="jxr_linenumber" name="L328" href="#L328">328</a>                                 }
+<a class="jxr_linenumber" name="L329" href="#L329">329</a>                             }
+<a class="jxr_linenumber" name="L330" href="#L330">330</a>                             <em class="jxr_comment">//log.log(Level.INFO, "item name = " + name + " " + bigname);</em>
+<a class="jxr_linenumber" name="L331" href="#L331">331</a>                             <strong class="jxr_keyword">if</strong> (!Utility.stringIsNullOrEmpty(name)) {
+<a class="jxr_linenumber" name="L332" href="#L332">332</a>                                 currenttopics.put(n.getCanonicalName(), QueueDepth);
+<a class="jxr_linenumber" name="L333" href="#L333">333</a> 
+<a class="jxr_linenumber" name="L334" href="#L334">334</a>                                 req.getData().add(updateData(modifiedurl, name, bigname, MessageCount, RecievedMessageCount, ConsumerCount, ActiveConsumerCount,
+<a class="jxr_linenumber" name="L335" href="#L335">335</a>                                         QueueDepth, ExchangeType, 0, 0, 0, 0, perfcon));
+<a class="jxr_linenumber" name="L336" href="#L336">336</a>                                 <em class="jxr_comment">//  if (slarules) {</em>
+<a class="jxr_linenumber" name="L337" href="#L337">337</a>                                 <em class="jxr_comment">//       SLACommon.ProcessStatisticalSLARules(p, modifiedurl, name, QueueDepth, pooled);</em>
+<a class="jxr_linenumber" name="L338" href="#L338">338</a>                                 <em class="jxr_comment">//   }</em>
+<a class="jxr_linenumber" name="L339" href="#L339">339</a> 
+<a class="jxr_linenumber" name="L340" href="#L340">340</a>                             }
+<a class="jxr_linenumber" name="L341" href="#L341">341</a>                         }
+<a class="jxr_linenumber" name="L342" href="#L342">342</a>                     }
+<a class="jxr_linenumber" name="L343" href="#L343">343</a> 
+<a class="jxr_linenumber" name="L344" href="#L344">344</a>                 }
+<a class="jxr_linenumber" name="L345" href="#L345">345</a> 
+<a class="jxr_linenumber" name="L346" href="#L346">346</a>             }
+<a class="jxr_linenumber" name="L347" href="#L347">347</a> 
+<a class="jxr_linenumber" name="L348" href="#L348">348</a>             <em class="jxr_comment">// SLACommon.ProcessStatisticalSLARules((modifiedurl, currenttopics, pooled);</em>
+<a class="jxr_linenumber" name="L349" href="#L349">349</a>             req.setAgentType(AGENT);
+<a class="jxr_linenumber" name="L350" href="#L350">350</a>             req.setBrokerURI(modifiedurl);
+<a class="jxr_linenumber" name="L351" href="#L351">351</a>             req.setBrokerHostname(p.getMachineName());
+<a class="jxr_linenumber" name="L352" href="#L352">352</a>             req.setDomain(p.getDomainName());
+<a class="jxr_linenumber" name="L353" href="#L353">353</a>             req.setClassification(SLACommon.GetClassLevel(pooled));
+<a class="jxr_linenumber" name="L354" href="#L354">354</a>             req.setOperationalStatus(ok);
+<a class="jxr_linenumber" name="L355" href="#L355">355</a>             req.setOperationalStatusMessage(status);
+<a class="jxr_linenumber" name="L356" href="#L356">356</a>             SLACommon.ProcessStatisticalSLARules(req, pooled);
+<a class="jxr_linenumber" name="L357" href="#L357">357</a>             c.close();
+<a class="jxr_linenumber" name="L358" href="#L358">358</a>             perfcon.close();
+<a class="jxr_linenumber" name="L359" href="#L359">359</a>         }
+<a class="jxr_linenumber" name="L360" href="#L360">360</a> 
+<a class="jxr_linenumber" name="L361" href="#L361">361</a>     }
+<a class="jxr_linenumber" name="L362" href="#L362">362</a> 
+<a class="jxr_linenumber" name="L363" href="#L363">363</a>     <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> BrokerData updateData(<strong class="jxr_keyword">final</strong> String url, <strong class="jxr_keyword">final</strong> String name, <strong class="jxr_keyword">final</strong> String bigname,
+<a class="jxr_linenumber" name="L364" href="#L364">364</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> MessageCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> RecievedMessageCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> ConsumerCount,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> ActiveConsumerCount,
+<a class="jxr_linenumber" name="L365" href="#L365">365</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> QueueDepth,  <strong class="jxr_keyword">final</strong> String ExchangeType,  <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">long</strong> bytesin, <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> bytesout, <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> bytesdrop,
+<a class="jxr_linenumber" name="L366" href="#L366">366</a>             <strong class="jxr_keyword">final</strong>  <strong class="jxr_keyword">long</strong> MessageDropCount, <strong class="jxr_keyword">final</strong>  Connection perf) {
+<a class="jxr_linenumber" name="L367" href="#L367">367</a>         BrokerData bd = <strong class="jxr_keyword">new</strong> BrokerData();
+<a class="jxr_linenumber" name="L368" href="#L368">368</a>         bd.setActiveConsumers(QueueDepth);
+<a class="jxr_linenumber" name="L369" href="#L369">369</a>         bd.setQueueOrTopicCanonicalName(bigname);
+<a class="jxr_linenumber" name="L370" href="#L370">370</a>         bd.setQueueOrTopicName(name);
+<a class="jxr_linenumber" name="L371" href="#L371">371</a>         bd.setMessagesIn(RecievedMessageCount);
+<a class="jxr_linenumber" name="L372" href="#L372">372</a>         bd.setMessagesDropped(MessageDropCount);
+<a class="jxr_linenumber" name="L373" href="#L373">373</a>         bd.setDepth(QueueDepth);
+<a class="jxr_linenumber" name="L374" href="#L374">374</a>         bd.setActiveConsumers(ActiveConsumerCount);
+<a class="jxr_linenumber" name="L375" href="#L375">375</a>         bd.setBytesDropped(bytesdrop);
+<a class="jxr_linenumber" name="L376" href="#L376">376</a>         bd.setBytesIn(bytesin);
+<a class="jxr_linenumber" name="L377" href="#L377">377</a>         bd.setBytesOut(bytesout);
+<a class="jxr_linenumber" name="L378" href="#L378">378</a>         bd.setItemType(ExchangeType);
+<a class="jxr_linenumber" name="L379" href="#L379">379</a>         bd.setMessagesOut(MessageCount);
+<a class="jxr_linenumber" name="L380" href="#L380">380</a>         bd.setTotalConsumers(ConsumerCount);
+<a class="jxr_linenumber" name="L381" href="#L381">381</a>         <strong class="jxr_keyword">if</strong> (!Utility.stringIsNullOrEmpty(name)) {
+<a class="jxr_linenumber" name="L382" href="#L382">382</a>             <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="L383" href="#L383">383</a>                 PreparedStatement comm = perf.prepareStatement(<span class="jxr_string">"Delete from brokerrawdata where host=? and namecol=? and canonicalname=?; "</span>
+<a class="jxr_linenumber" name="L384" href="#L384">384</a>                         + <span class="jxr_string">"INSERT INTO brokerrawdata (host, utcdatetime, namecol, canonicalname, messagecount,recievedmessagecount, consumercount, "</span>
+<a class="jxr_linenumber" name="L385" href="#L385">385</a>                         + <span class="jxr_string">"activeconsumercount, queuedepth, typecol, agenttype, messagedropcount, bytesdropcount, bytesin, bytesout) "</span>
+<a class="jxr_linenumber" name="L386" href="#L386">386</a>                         + <span class="jxr_string">"VALUES (?, ?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"</span>
+<a class="jxr_linenumber" name="L387" href="#L387">387</a>                         + <span class="jxr_string">"INSERT INTO brokerhistory (host, utcdatetime, namecol,canonicalname, messagecount,recievedmessagecount, consumercount, "</span>
+<a class="jxr_linenumber" name="L388" href="#L388">388</a>                         + <span class="jxr_string">"activeconsumercount, queuedepth, typecol, agenttype, messagedropcount, bytesdropcount, bytesin, bytesout) "</span>
+<a class="jxr_linenumber" name="L389" href="#L389">389</a>                         + <span class="jxr_string">"VALUES (?, ?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"</span>);
+<a class="jxr_linenumber" name="L390" href="#L390">390</a>                 comm.setString(1, url);
+<a class="jxr_linenumber" name="L391" href="#L391">391</a>                 comm.setString(2, name);
+<a class="jxr_linenumber" name="L392" href="#L392">392</a>                 comm.setString(3, bigname);
+<a class="jxr_linenumber" name="L393" href="#L393">393</a>                 comm.setString(4, url);
+<a class="jxr_linenumber" name="L394" href="#L394">394</a>                 comm.setLong(5, System.currentTimeMillis());
+<a class="jxr_linenumber" name="L395" href="#L395">395</a>                 comm.setString(6, name);
+<a class="jxr_linenumber" name="L396" href="#L396">396</a>                 comm.setString(7, bigname);
+<a class="jxr_linenumber" name="L397" href="#L397">397</a>                 comm.setLong(8, MessageCount);
+<a class="jxr_linenumber" name="L398" href="#L398">398</a>                 comm.setLong(9, RecievedMessageCount);
+<a class="jxr_linenumber" name="L399" href="#L399">399</a>                 comm.setLong(10, ConsumerCount);
+<a class="jxr_linenumber" name="L400" href="#L400">400</a>                 comm.setLong(11, ActiveConsumerCount);
+<a class="jxr_linenumber" name="L401" href="#L401">401</a>                 comm.setLong(12, QueueDepth);
+<a class="jxr_linenumber" name="L402" href="#L402">402</a>                 comm.setString(13, ExchangeType);
+<a class="jxr_linenumber" name="L403" href="#L403">403</a>                 comm.setString(14, AGENT);
+<a class="jxr_linenumber" name="L404" href="#L404">404</a>                 comm.setLong(15, MessageDropCount);
+<a class="jxr_linenumber" name="L405" href="#L405">405</a>                 comm.setLong(16, bytesdrop);
+<a class="jxr_linenumber" name="L406" href="#L406">406</a>                 comm.setLong(17, bytesin);
+<a class="jxr_linenumber" name="L407" href="#L407">407</a>                 comm.setLong(18, bytesout);
+<a class="jxr_linenumber" name="L408" href="#L408">408</a> 
+<a class="jxr_linenumber" name="L409" href="#L409">409</a>                 comm.setString(19, url);
+<a class="jxr_linenumber" name="L410" href="#L410">410</a>                 comm.setLong(20, System.currentTimeMillis());
+<a class="jxr_linenumber" name="L411" href="#L411">411</a>                 comm.setString(21, name);
+<a class="jxr_linenumber" name="L412" href="#L412">412</a>                 comm.setString(22, bigname);
+<a class="jxr_linenumber" name="L413" href="#L413">413</a>                 comm.setLong(23, MessageCount);
+<a class="jxr_linenumber" name="L414" href="#L414">414</a>                 comm.setLong(24, RecievedMessageCount);
+<a class="jxr_linenumber" name="L415" href="#L415">415</a>                 comm.setLong(25, ConsumerCount);
+<a class="jxr_linenumber" name="L416" href="#L416">416</a>                 comm.setLong(26, ActiveConsumerCount);
+<a class="jxr_linenumber" name="L417" href="#L417">417</a>                 comm.setLong(27, QueueDepth);
+<a class="jxr_linenumber" name="L418" href="#L418">418</a>                 comm.setString(28, ExchangeType);
+<a class="jxr_linenumber" name="L419" href="#L419">419</a>                 comm.setString(29, AGENT);
+<a class="jxr_linenumber" name="L420" href="#L420">420</a>                 comm.setLong(30, MessageDropCount);
+<a class="jxr_linenumber" name="L421" href="#L421">421</a>                 comm.setLong(31, bytesdrop);
+<a class="jxr_linenumber" name="L422" href="#L422">422</a>                 comm.setLong(32, bytesin);
+<a class="jxr_linenumber" name="L423" href="#L423">423</a>                 comm.setLong(33, bytesout);
+<a class="jxr_linenumber" name="L424" href="#L424">424</a>                 comm.execute();
+<a class="jxr_linenumber" name="L425" href="#L425">425</a>                 comm.close();
+<a class="jxr_linenumber" name="L426" href="#L426">426</a>             } <strong class="jxr_keyword">catch</strong> (SQLException ex) {
+<a class="jxr_linenumber" name="L427" href="#L427">427</a>                 log.log(Level.WARN, <span class="jxr_string">"error saving broker data"</span>, ex);
+<a class="jxr_linenumber" name="L428" href="#L428">428</a>             }
+<a class="jxr_linenumber" name="L429" href="#L429">429</a> 
+<a class="jxr_linenumber" name="L430" href="#L430">430</a>         }
+<a class="jxr_linenumber" name="L431" href="#L431">431</a> 
+<a class="jxr_linenumber" name="L432" href="#L432">432</a>         <strong class="jxr_keyword">return</strong> bd;
+<a class="jxr_linenumber" name="L433" href="#L433">433</a>     }
+<a class="jxr_linenumber" name="L434" href="#L434">434</a> 
+<a class="jxr_linenumber" name="L435" href="#L435">435</a>    
+<a class="jxr_linenumber" name="L436" href="#L436">436</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2008&#x2013;2017 <a href="http://www.cerdec.army.mil/inside_cerdec/cpi/">MIL-OSS</a>. All rights reserved.</div>

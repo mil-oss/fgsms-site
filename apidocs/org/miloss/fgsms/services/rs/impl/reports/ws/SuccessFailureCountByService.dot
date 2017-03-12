@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService
-	c1124125 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SuccessFailureCountByService.html">
+	c1186596 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SuccessFailureCountByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SuccessFailureCountByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SuccessFailureCountByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c1124136 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c1186607 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c1124136:p -> c1124125:p [dir=back,arrowtail=empty];
+	c1186607:p -> c1186596:p [dir=back,arrowtail=empty];
 }
 

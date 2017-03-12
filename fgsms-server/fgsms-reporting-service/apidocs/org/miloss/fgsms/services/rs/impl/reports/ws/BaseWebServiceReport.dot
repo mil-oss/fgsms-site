@@ -10,186 +10,186 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c502 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
+	c506 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../BaseReportGenerator.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseReportGenerator </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../BaseReportGenerator.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizesByService
-	c514 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizesByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TotalMessageSizesByService.html">
+	c518 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizesByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TotalMessageSizesByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TotalMessageSizesByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TotalMessageSizesByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizeByServiceByMethod
-	c515 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TotalMessageSizeByServiceByMethod.html">
+	c519 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TotalMessageSizeByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TotalMessageSizeByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TotalMessageSizeByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByServiceByMethod
-	c516 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByServiceByMethod.html">
+	c520 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ThroughputByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ThroughputByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByService
-	c517 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByService.html">
+	c521 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ThroughputByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ThroughputByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByHostingServer
-	c518 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByHostingServer.html">
+	c522 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ThroughputByHostingServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ThroughputByHostingServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ThroughputByHostingServer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByServiceByMethod
-	c519 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByServiceByMethod.html">
+	c523 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SuccessFailureCountByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SuccessFailureCountByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService
-	c520 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByService.html">
+	c524 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SuccessFailureCountByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SuccessFailureCountByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByHostingServer
-	c521 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByHostingServer.html">
+	c525 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SuccessFailureCountByHostingServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SuccessFailureCountByHostingServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SuccessFailureCountByHostingServer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime
-	c522 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResponseTimeOverTime.html">
+	c526 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResponseTimeOverTime.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResponseTimeOverTime </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResponseTimeOverTime.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService
-	c523 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeanTimeBetweenFailureByService.html">
+	c527 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MeanTimeBetweenFailureByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeanTimeBetweenFailureByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeanTimeBetweenFailureByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByServiceByMethod
-	c524 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByServiceByMethod.html">
+	c528 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByService
-	c525 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByService.html">
+	c529 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByHostingServer
-	c526 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByHostingServer.html">
+	c530 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByHostingServer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByHostingServer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByHostingServer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByHostingServer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByDataCollector
-	c527 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByDataCollector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByDataCollector.html">
+	c531 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByDataCollector" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByDataCollector.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByDataCollector </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByDataCollector.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByServiceByMethod
-	c528 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumerByServiceByMethod.html">
+	c532 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumerByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByConsumerByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByConsumerByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByService
-	c529 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumerByService.html">
+	c533 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumerByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByConsumerByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByConsumerByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer
-	c530 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumer.html">
+	c534 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InvocationsByConsumer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InvocationsByConsumer </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InvocationsByConsumer.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BaseWebServiceReport.html">
+	c535 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod
-	c532 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageResponseTimeByServiceByMethod.html">
+	c536 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageResponseTimeByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageResponseTimeByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageResponseTimeByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByService
-	c533 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageResponseTimeByService.html">
+	c537 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageResponseTimeByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageResponseTimeByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageResponseTimeByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByServiceByMethod
-	c534 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageMessageSizeByServiceByMethod.html">
+	c538 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageMessageSizeByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageMessageSizeByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageMessageSizeByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService
-	c535 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageMessageSizeByService.html">
+	c539 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AverageMessageSizeByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageMessageSizeByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageMessageSizeByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizesByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c514:p [dir=back,arrowtail=empty];
+	c535:p -> c518:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.TotalMessageSizeByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c515:p [dir=back,arrowtail=empty];
+	c535:p -> c519:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c516:p [dir=back,arrowtail=empty];
+	c535:p -> c520:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c517:p [dir=back,arrowtail=empty];
+	c535:p -> c521:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.ThroughputByHostingServer extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c518:p [dir=back,arrowtail=empty];
+	c535:p -> c522:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c519:p [dir=back,arrowtail=empty];
+	c535:p -> c523:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c520:p [dir=back,arrowtail=empty];
+	c535:p -> c524:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.SuccessFailureCountByHostingServer extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c521:p [dir=back,arrowtail=empty];
+	c535:p -> c525:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.ResponseTimeOverTime extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c522:p [dir=back,arrowtail=empty];
+	c535:p -> c526:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c523:p [dir=back,arrowtail=empty];
+	c535:p -> c527:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c524:p [dir=back,arrowtail=empty];
+	c535:p -> c528:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c525:p [dir=back,arrowtail=empty];
+	c535:p -> c529:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByHostingServer extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c526:p [dir=back,arrowtail=empty];
+	c535:p -> c530:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByDataCollector extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c527:p [dir=back,arrowtail=empty];
+	c535:p -> c531:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c528:p [dir=back,arrowtail=empty];
+	c535:p -> c532:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumerByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c529:p [dir=back,arrowtail=empty];
+	c535:p -> c533:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.InvocationsByConsumer extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c530:p [dir=back,arrowtail=empty];
+	c535:p -> c534:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport extends org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator
-	c502:p -> c531:p [dir=back,arrowtail=empty];
+	c506:p -> c535:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c532:p [dir=back,arrowtail=empty];
+	c535:p -> c536:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c533:p [dir=back,arrowtail=empty];
+	c535:p -> c537:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c534:p [dir=back,arrowtail=empty];
+	c535:p -> c538:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c531:p -> c535:p [dir=back,arrowtail=empty];
+	c535:p -> c539:p [dir=back,arrowtail=empty];
 }
 

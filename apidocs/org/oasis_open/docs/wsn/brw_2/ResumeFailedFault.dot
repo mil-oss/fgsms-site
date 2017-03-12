@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.ResumeFailedFault
-	c971583 [label=<<table title="org.oasis_open.docs.wsn.brw_2.ResumeFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResumeFailedFault.html">
+	c1024522 [label=<<table title="org.oasis_open.docs.wsn.brw_2.ResumeFailedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ResumeFailedFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResumeFailedFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ResumeFailedFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.ResumeFailedFault extends java.lang.Exception
-	c972676:p -> c971583:p [dir=back,arrowtail=empty];
+	c1025643:p -> c1024522:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c972676 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c1025643 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

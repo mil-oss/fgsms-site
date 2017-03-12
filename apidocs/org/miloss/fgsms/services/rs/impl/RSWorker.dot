@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.RSWorker
-	c896162 [label=<<table title="org.miloss.fgsms.services.rs.impl.RSWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RSWorker.html">
+	c947193 [label=<<table title="org.miloss.fgsms.services.rs.impl.RSWorker" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RSWorker.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RSWorker </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RSWorker.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.RSWorker implements javax.resource.spi.work.Work
-	c896343:p -> c896162:p [dir=back,arrowtail=empty,style=dashed];
+	c947378:p -> c947193:p [dir=back,arrowtail=empty,style=dashed];
 	// javax.resource.spi.work.Work
-	c896343 [label=<<table title="javax.resource.spi.work.Work" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/resource/spi/work/Work.html">
+	c947378 [label=<<table title="javax.resource.spi.work.Work" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/javax/resource/spi/work/Work.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Work </td></tr>

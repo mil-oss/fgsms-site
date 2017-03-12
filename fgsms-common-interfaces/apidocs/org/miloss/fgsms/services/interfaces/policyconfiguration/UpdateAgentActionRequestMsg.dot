@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.UpdateAgentActionRequestMsg
-	c404325 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.UpdateAgentActionRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateAgentActionRequestMsg.html">
+	c406249 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.UpdateAgentActionRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateAgentActionRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpdateAgentActionRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpdateAgentActionRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.UpdateAgentActionRequestMsg implements java.io.Serializable
-	c404707:p -> c404325:p [dir=back,arrowtail=empty,style=dashed];
+	c406631:p -> c406249:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c404707 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c406631 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

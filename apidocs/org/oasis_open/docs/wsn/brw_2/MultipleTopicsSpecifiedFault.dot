@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.brw_2.MultipleTopicsSpecifiedFault
-	c753629 [label=<<table title="org.oasis_open.docs.wsn.brw_2.MultipleTopicsSpecifiedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MultipleTopicsSpecifiedFault.html">
+	c801052 [label=<<table title="org.oasis_open.docs.wsn.brw_2.MultipleTopicsSpecifiedFault" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MultipleTopicsSpecifiedFault.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MultipleTopicsSpecifiedFault </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MultipleTopicsSpecifiedFault.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.brw_2.MultipleTopicsSpecifiedFault extends java.lang.Exception
-	c754706:p -> c753629:p [dir=back,arrowtail=empty];
+	c802157:p -> c801052:p [dir=back,arrowtail=empty];
 	// java.lang.Exception
-	c754706 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
+	c802157 [label=<<table title="java.lang.Exception" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Exception.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Exception </td></tr>
 		</table></td></tr>

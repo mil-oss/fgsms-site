@@ -10,31 +10,31 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.client.PullPointService
-	c4520 [label=<<table title="org.oasis_open.docs.wsn.client.PullPointService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PullPointService.html">
+	c4632 [label=<<table title="org.oasis_open.docs.wsn.client.PullPointService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PullPointService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PullPointService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PullPointService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsn.client.PublisherRegistrationManagerService
-	c4521 [label=<<table title="org.oasis_open.docs.wsn.client.PublisherRegistrationManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PublisherRegistrationManagerService.html">
+	c4633 [label=<<table title="org.oasis_open.docs.wsn.client.PublisherRegistrationManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PublisherRegistrationManagerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PublisherRegistrationManagerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PublisherRegistrationManagerService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsn.client.PausableSubscriptionManagerService
-	c4522 [label=<<table title="org.oasis_open.docs.wsn.client.PausableSubscriptionManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PausableSubscriptionManagerService.html">
+	c4634 [label=<<table title="org.oasis_open.docs.wsn.client.PausableSubscriptionManagerService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PausableSubscriptionManagerService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PausableSubscriptionManagerService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./PausableSubscriptionManagerService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsn.client.NotificationService
-	c4523 [label=<<table title="org.oasis_open.docs.wsn.client.NotificationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NotificationService.html">
+	c4635 [label=<<table title="org.oasis_open.docs.wsn.client.NotificationService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NotificationService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NotificationService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NotificationService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsn.client.CreatePullPointService
-	c4524 [label=<<table title="org.oasis_open.docs.wsn.client.CreatePullPointService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CreatePullPointService.html">
+	c4636 [label=<<table title="org.oasis_open.docs.wsn.client.CreatePullPointService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CreatePullPointService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CreatePullPointService </td></tr>
 		</table></td></tr>

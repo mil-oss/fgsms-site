@@ -1,4 +1,6 @@
 <map id="G" name="G">
 <area shape="rect" id="node1_0" href="./ReportingTest.html" title="org.miloss.fgsms.services.rs.impl.ReportingTest" alt="" coords="16,17,116,42"/>
 <area shape="rect" id="node1" href="./ReportingTest.html" title="&lt;TABLE&gt;" alt="" coords="5,5,127,53"/>
+<area shape="rect" id="node2_1" href="./GenerateDocumentationTest.html" title="org.miloss.fgsms.services.rs.impl.GenerateDocumentationTest" alt="" coords="162,17,346,42"/>
+<area shape="rect" id="node2" href="./GenerateDocumentationTest.html" title="&lt;TABLE&gt;" alt="" coords="151,5,357,53"/>
 </map>

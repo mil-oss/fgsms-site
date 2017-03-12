@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService
-	c732438 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeanTimeBetweenFailureByService.html">
+	c779325 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MeanTimeBetweenFailureByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MeanTimeBetweenFailureByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MeanTimeBetweenFailureByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c732446 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c779333 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.MeanTimeBetweenFailureByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c732446:p -> c732438:p [dir=back,arrowtail=empty];
+	c779333:p -> c779325:p [dir=back,arrowtail=empty];
 }
 

@@ -1,6 +1,7 @@
 org.miloss.fgsms.plugins
 org.miloss.fgsms.plugins.agents
 org.miloss.fgsms.plugins.federation
+org.miloss.fgsms.plugins.reporting
 org.miloss.fgsms.plugins.sla
 org.miloss.fgsms.plugins.status
 org.miloss.fgsms.services.interfaces.agentcallbackservice

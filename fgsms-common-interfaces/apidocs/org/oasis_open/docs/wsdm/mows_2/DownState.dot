@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c89653 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalStateType.html">
+	c90442 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalStateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationalStateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationalStateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.DownState
-	c89665 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DownState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DownState.html">
+	c90454 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.DownState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DownState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DownState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DownState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.DownState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c89653:p -> c89665:p [dir=back,arrowtail=empty];
+	c90442:p -> c90454:p [dir=back,arrowtail=empty];
 }
 

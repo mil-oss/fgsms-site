@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c711674 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLARuleInterface.html">
+	c756899 [label=<<table title="org.miloss.fgsms.plugins.sla.SLARuleInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLARuleInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLARuleInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../plugins/sla/SLARuleInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.rules.LowDiskSpace
-	c712451 [label=<<table title="org.miloss.fgsms.sla.rules.LowDiskSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LowDiskSpace.html">
+	c757699 [label=<<table title="org.miloss.fgsms.sla.rules.LowDiskSpace" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LowDiskSpace.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LowDiskSpace </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LowDiskSpace.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.sla.rules.LowDiskSpace implements org.miloss.fgsms.plugins.sla.SLARuleInterface
-	c711674:p -> c712451:p [dir=back,arrowtail=empty,style=dashed];
+	c756899:p -> c757699:p [dir=back,arrowtail=empty,style=dashed];
 }
 

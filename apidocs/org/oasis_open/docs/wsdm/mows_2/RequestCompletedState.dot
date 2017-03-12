@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.RequestProcessingStateType
-	c941236 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.RequestProcessingStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestProcessingStateType.html">
+	c993392 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.RequestProcessingStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RequestProcessingStateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RequestProcessingStateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RequestProcessingStateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.RequestCompletedState
-	c941241 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.RequestCompletedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestCompletedState.html">
+	c993397 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.RequestCompletedState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RequestCompletedState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RequestCompletedState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RequestCompletedState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.RequestCompletedState extends org.oasis_open.docs.wsdm.mows_2.RequestProcessingStateType
-	c941236:p -> c941241:p [dir=back,arrowtail=empty];
+	c993392:p -> c993397:p [dir=back,arrowtail=empty];
 }
 

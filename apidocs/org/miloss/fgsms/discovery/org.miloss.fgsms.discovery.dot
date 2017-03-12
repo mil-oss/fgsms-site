@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.discovery.UDDIDiscovery
-	c33984 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UDDIDiscovery.html">
+	c38250 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UDDIDiscovery.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UDDIDiscovery </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UDDIDiscovery.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.discovery.UDDIDiscovery.findType
-	c33985 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery.findType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UDDIDiscovery.findType.html">
+	c38251 [label=<<table title="org.miloss.fgsms.discovery.UDDIDiscovery.findType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UDDIDiscovery.findType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> findType </td></tr>

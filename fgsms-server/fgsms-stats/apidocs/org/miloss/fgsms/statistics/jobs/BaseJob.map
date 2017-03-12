@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TransactionalStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.TransactionalStatisticsJob" alt="" coords="193,214,365,239"/>
+<area shape="rect" id="node1" href="./TransactionalStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="183,203,376,251"/>
+<area shape="rect" id="node2_1" href="./StatusStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.StatusStatisticsJob" alt="" coords="16,214,148,239"/>
+<area shape="rect" id="node2" href="./StatusStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="5,203,159,251"/>
+<area shape="rect" id="node3_2" href="./MachineProcessJob.html" title="org.miloss.fgsms.statistics.jobs.MachineProcessJob" alt="" coords="589,214,725,239"/>
+<area shape="rect" id="node3" href="./MachineProcessJob.html" title="&lt;TABLE&gt;" alt="" coords="578,203,735,251"/>
+<area shape="rect" id="node4_3" href="./BrokerStatisticsJob.html" title="org.miloss.fgsms.statistics.jobs.BrokerStatisticsJob" alt="" coords="411,214,543,239"/>
+<area shape="rect" id="node4" href="./BrokerStatisticsJob.html" title="&lt;TABLE&gt;" alt="" coords="400,203,553,251"/>
+<area shape="rect" id="node5_4" href="./BaseJob.html" title="org.miloss.fgsms.statistics.jobs.BaseJob" alt="" coords="317,118,389,143"/>
+<area shape="rect" id="node5" href="./BaseJob.html" title="&lt;TABLE&gt;" alt="" coords="306,107,399,155"/>
+<area shape="rect" id="node6_5" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html" title="java.lang.Runnable" alt="" coords="311,11,394,53"/>
+<area shape="rect" id="node6" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Runnable.html" title="&lt;TABLE&gt;" alt="" coords="301,5,405,59"/>
+</map>

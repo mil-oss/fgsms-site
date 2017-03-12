@@ -10,16 +10,22 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.CalendarCalculatorTest
-	c389 [label=<<table title="org.miloss.fgsms.services.rs.impl.CalendarCalculatorTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CalendarCalculatorTest.html">
+	c397 [label=<<table title="org.miloss.fgsms.services.rs.impl.CalendarCalculatorTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CalendarCalculatorTest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CalendarCalculatorTest </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CalendarCalculatorTest.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.ReportingTest
-	c390 [label=<<table title="org.miloss.fgsms.services.rs.impl.ReportingTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportingTest.html">
+	c398 [label=<<table title="org.miloss.fgsms.services.rs.impl.ReportingTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportingTest.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportingTest </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReportingTest.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.miloss.fgsms.services.rs.impl.GenerateDocumentationTest
+	c399 [label=<<table title="org.miloss.fgsms.services.rs.impl.GenerateDocumentationTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateDocumentationTest.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GenerateDocumentationTest </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GenerateDocumentationTest.html", fontname="arial", fontcolor="black", fontsize=10.0];
 }
 

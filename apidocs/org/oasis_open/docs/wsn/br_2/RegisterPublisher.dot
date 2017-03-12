@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.br_2.RegisterPublisher
-	c904128 [label=<<table title="org.oasis_open.docs.wsn.br_2.RegisterPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegisterPublisher.html">
+	c955359 [label=<<table title="org.oasis_open.docs.wsn.br_2.RegisterPublisher" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RegisterPublisher.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RegisterPublisher </td></tr>
 		</table></td></tr>

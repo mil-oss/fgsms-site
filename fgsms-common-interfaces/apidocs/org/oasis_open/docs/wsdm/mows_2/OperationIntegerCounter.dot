@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.OperationIntegerCounter
-	c280988 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationIntegerCounter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationIntegerCounter.html">
+	c282071 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationIntegerCounter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./OperationIntegerCounter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationIntegerCounter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationIntegerCounter.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.IntegerCounter
-	c280997 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IntegerCounter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IntegerCounter.html">
+	c282080 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IntegerCounter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IntegerCounter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IntegerCounter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IntegerCounter.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.OperationIntegerCounter extends org.oasis_open.docs.wsdm.mows_2.IntegerCounter
-	c280997:p -> c280988:p [dir=back,arrowtail=empty];
+	c282080:p -> c282071:p [dir=back,arrowtail=empty];
 }
 

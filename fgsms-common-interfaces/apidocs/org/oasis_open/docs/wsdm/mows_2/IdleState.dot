@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c256928 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalStateType.html">
+	c257974 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.OperationalStateType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OperationalStateType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OperationalStateType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OperationalStateType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.mows_2.IdleState
-	c256936 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IdleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IdleState.html">
+	c257982 [label=<<table title="org.oasis_open.docs.wsdm.mows_2.IdleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IdleState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IdleState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IdleState.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.mows_2.IdleState extends org.oasis_open.docs.wsdm.mows_2.OperationalStateType
-	c256928:p -> c256936:p [dir=back,arrowtail=empty];
+	c257974:p -> c257982:p [dir=back,arrowtail=empty];
 }
 

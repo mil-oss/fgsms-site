@@ -10,20 +10,20 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.PluginCommon
-	c385198 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
+	c387092 [label=<<table title="org.miloss.fgsms.plugins.PluginCommon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../PluginCommon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PluginCommon </td></tr>
 		</table></td></tr>
 		</table>>, URL="../PluginCommon.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.plugins.status.StatusProviderInterface
-	c385203 [label=<<table title="org.miloss.fgsms.plugins.status.StatusProviderInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StatusProviderInterface.html">
+	c387098 [label=<<table title="org.miloss.fgsms.plugins.status.StatusProviderInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StatusProviderInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> StatusProviderInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StatusProviderInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.plugins.status.StatusProviderInterface implements org.miloss.fgsms.plugins.PluginCommon
-	c385198:p -> c385203:p [dir=back,arrowtail=empty,style=dashed];
+	c387092:p -> c387098:p [dir=back,arrowtail=empty,style=dashed];
 }
 

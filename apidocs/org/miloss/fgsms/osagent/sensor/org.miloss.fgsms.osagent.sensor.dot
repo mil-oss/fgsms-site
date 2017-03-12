@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.osagent.sensor.SensorProviderFactory
-	c39560 [label=<<table title="org.miloss.fgsms.osagent.sensor.SensorProviderFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SensorProviderFactory.html">
+	c43966 [label=<<table title="org.miloss.fgsms.osagent.sensor.SensorProviderFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SensorProviderFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SensorProviderFactory </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SensorProviderFactory.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.sensor.ISensorProvider
-	c39561 [label=<<table title="org.miloss.fgsms.osagent.sensor.ISensorProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ISensorProvider.html">
+	c43967 [label=<<table title="org.miloss.fgsms.osagent.sensor.ISensorProvider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ISensorProvider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ISensorProvider </td></tr>

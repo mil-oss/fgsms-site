@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.GetAvailableAlertRegistrationsRequestMsg
-	c416589 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetAvailableAlertRegistrationsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetAvailableAlertRegistrationsRequestMsg.html">
+	c453204 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GetAvailableAlertRegistrationsRequestMsg" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GetAvailableAlertRegistrationsRequestMsg.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GetAvailableAlertRegistrationsRequestMsg </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GetAvailableAlertRegistrationsRequestMsg.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.GetAvailableAlertRegistrationsRequestMsg implements java.io.Serializable
-	c417162:p -> c416589:p [dir=back,arrowtail=empty,style=dashed];
+	c453804:p -> c453204:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c417162 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c453804 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

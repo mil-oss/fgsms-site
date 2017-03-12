@@ -10,13 +10,13 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.wsn.clientcallback.WSNotifyCallback
-	c41777 [label=<<table title="org.miloss.fgsms.wsn.clientcallback.WSNotifyCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WSNotifyCallback.html">
+	c46239 [label=<<table title="org.miloss.fgsms.wsn.clientcallback.WSNotifyCallback" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./WSNotifyCallback.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WSNotifyCallback </td></tr>
 		</table></td></tr>
 		</table>>, URL="./WSNotifyCallback.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.wsn.clientcallback.IWSNCallBack
-	c41778 [label=<<table title="org.miloss.fgsms.wsn.clientcallback.IWSNCallBack" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IWSNCallBack.html">
+	c46240 [label=<<table title="org.miloss.fgsms.wsn.clientcallback.IWSNCallBack" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IWSNCallBack.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> IWSNCallBack </td></tr>

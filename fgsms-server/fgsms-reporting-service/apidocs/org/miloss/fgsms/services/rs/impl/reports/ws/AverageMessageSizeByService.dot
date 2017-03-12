@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c326 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c329 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService
-	c330 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AverageMessageSizeByService.html">
+	c333 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AverageMessageSizeByService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageMessageSizeByService </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageMessageSizeByService.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageMessageSizeByService extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c326:p -> c330:p [dir=back,arrowtail=empty];
+	c329:p -> c333:p [dir=back,arrowtail=empty];
 }
 

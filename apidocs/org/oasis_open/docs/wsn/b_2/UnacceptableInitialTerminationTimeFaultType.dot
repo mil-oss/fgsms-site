@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsn.b_2.UnacceptableInitialTerminationTimeFaultType
-	c1188489 [label=<<table title="org.oasis_open.docs.wsn.b_2.UnacceptableInitialTerminationTimeFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnacceptableInitialTerminationTimeFaultType.html">
+	c1253722 [label=<<table title="org.oasis_open.docs.wsn.b_2.UnacceptableInitialTerminationTimeFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UnacceptableInitialTerminationTimeFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UnacceptableInitialTerminationTimeFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UnacceptableInitialTerminationTimeFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1188547 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
+	c1253780 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../wsrf/bf_2/BaseFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../wsrf/bf_2/BaseFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsn.b_2.UnacceptableInitialTerminationTimeFaultType extends org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1188547:p -> c1188489:p [dir=back,arrowtail=empty];
+	c1253780:p -> c1253722:p [dir=back,arrowtail=empty];
 }
 

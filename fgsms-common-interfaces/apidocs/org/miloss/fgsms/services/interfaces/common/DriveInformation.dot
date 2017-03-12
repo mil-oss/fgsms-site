@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.common.DriveInformation
-	c89848 [label=<<table title="org.miloss.fgsms.services.interfaces.common.DriveInformation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DriveInformation.html">
+	c90638 [label=<<table title="org.miloss.fgsms.services.interfaces.common.DriveInformation" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DriveInformation.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DriveInformation </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DriveInformation.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.common.DriveInformation implements java.io.Serializable
-	c90426:p -> c89848:p [dir=back,arrowtail=empty,style=dashed];
+	c91216:p -> c90638:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c90426 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c91216 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

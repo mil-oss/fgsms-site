@@ -10,139 +10,139 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.osagent.SysInfo
-	c37329 [label=<<table title="org.miloss.fgsms.osagent.SysInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SysInfo.html">
+	c41679 [label=<<table title="org.miloss.fgsms.osagent.SysInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SysInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SysInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SysInfo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.SigarCommandBase
-	c37330 [label=<<table title="org.miloss.fgsms.osagent.SigarCommandBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SigarCommandBase.html">
+	c41680 [label=<<table title="org.miloss.fgsms.osagent.SigarCommandBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SigarCommandBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> SigarCommandBase </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./SigarCommandBase.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Ps
-	c37331 [label=<<table title="org.miloss.fgsms.osagent.Ps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ps.html">
+	c41681 [label=<<table title="org.miloss.fgsms.osagent.Ps" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ps.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ps </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ps.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.ProcInfo
-	c37332 [label=<<table title="org.miloss.fgsms.osagent.ProcInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcInfo.html">
+	c41682 [label=<<table title="org.miloss.fgsms.osagent.ProcInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcInfo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.ProcFileInfo
-	c37333 [label=<<table title="org.miloss.fgsms.osagent.ProcFileInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcFileInfo.html">
+	c41683 [label=<<table title="org.miloss.fgsms.osagent.ProcFileInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcFileInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcFileInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcFileInfo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.OSAgentDaemon
-	c37334 [label=<<table title="org.miloss.fgsms.osagent.OSAgentDaemon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgentDaemon.html">
+	c41684 [label=<<table title="org.miloss.fgsms.osagent.OSAgentDaemon" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgentDaemon.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSAgentDaemon </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSAgentDaemon.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.OSAgent
-	c37335 [label=<<table title="org.miloss.fgsms.osagent.OSAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgent.html">
+	c41685 [label=<<table title="org.miloss.fgsms.osagent.OSAgent" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgent.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> OSAgent </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSAgent.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.OSAgent.RunWhenShuttingDown
-	c37336 [label=<<table title="org.miloss.fgsms.osagent.OSAgent.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgent.RunWhenShuttingDown.html">
+	c41686 [label=<<table title="org.miloss.fgsms.osagent.OSAgent.RunWhenShuttingDown" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./OSAgent.RunWhenShuttingDown.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RunWhenShuttingDown </td></tr>
 		</table></td></tr>
 		</table>>, URL="./OSAgent.RunWhenShuttingDown.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.NetInfo
-	c37337 [label=<<table title="org.miloss.fgsms.osagent.NetInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NetInfo.html">
+	c41687 [label=<<table title="org.miloss.fgsms.osagent.NetInfo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./NetInfo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NetInfo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./NetInfo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.MemWatch
-	c37338 [label=<<table title="org.miloss.fgsms.osagent.MemWatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MemWatch.html">
+	c41688 [label=<<table title="org.miloss.fgsms.osagent.MemWatch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MemWatch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MemWatch </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MemWatch.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Iostat
-	c37339 [label=<<table title="org.miloss.fgsms.osagent.Iostat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Iostat.html">
+	c41689 [label=<<table title="org.miloss.fgsms.osagent.Iostat" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Iostat.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Iostat </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iostat.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Iostat.DiskRates
-	c37340 [label=<<table title="org.miloss.fgsms.osagent.Iostat.DiskRates" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Iostat.DiskRates.html">
+	c41690 [label=<<table title="org.miloss.fgsms.osagent.Iostat.DiskRates" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Iostat.DiskRates.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DiskRates </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Iostat.DiskRates.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Ifconfig
-	c37341 [label=<<table title="org.miloss.fgsms.osagent.Ifconfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ifconfig.html">
+	c41691 [label=<<table title="org.miloss.fgsms.osagent.Ifconfig" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ifconfig.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Ifconfig </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ifconfig.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Ifconfig.NetworkRate
-	c37342 [label=<<table title="org.miloss.fgsms.osagent.Ifconfig.NetworkRate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ifconfig.NetworkRate.html">
+	c41692 [label=<<table title="org.miloss.fgsms.osagent.Ifconfig.NetworkRate" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Ifconfig.NetworkRate.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> NetworkRate </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Ifconfig.NetworkRate.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Df
-	c37343 [label=<<table title="org.miloss.fgsms.osagent.Df" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Df.html">
+	c41693 [label=<<table title="org.miloss.fgsms.osagent.Df" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Df.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Df </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Df.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Closable
-	c37344 [label=<<table title="org.miloss.fgsms.osagent.Closable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Closable.html">
+	c41694 [label=<<table title="org.miloss.fgsms.osagent.Closable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Closable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Closable </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Closable.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.AgentThreadRunner
-	c37345 [label=<<table title="org.miloss.fgsms.osagent.AgentThreadRunner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AgentThreadRunner.html">
+	c41695 [label=<<table title="org.miloss.fgsms.osagent.AgentThreadRunner" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AgentThreadRunner.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AgentThreadRunner </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AgentThreadRunner.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.osagent.SysInfo extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37329:p [dir=back,arrowtail=empty];
+	c41680:p -> c41679:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.SysInfo implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37329:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41679:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.Ps extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37331:p [dir=back,arrowtail=empty];
+	c41680:p -> c41681:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.Ps implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37331:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41681:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.ProcInfo extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37332:p [dir=back,arrowtail=empty];
+	c41680:p -> c41682:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.ProcInfo implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37332:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41682:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.ProcFileInfo extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37333:p [dir=back,arrowtail=empty];
+	c41680:p -> c41683:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.ProcFileInfo implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37333:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41683:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.NetInfo extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37337:p [dir=back,arrowtail=empty];
+	c41680:p -> c41687:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.NetInfo implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37337:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41687:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.Iostat extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37339:p [dir=back,arrowtail=empty];
+	c41680:p -> c41689:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.Iostat implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37339:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41689:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.Ifconfig extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37341:p [dir=back,arrowtail=empty];
+	c41680:p -> c41691:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.Ifconfig implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37341:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41691:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.osagent.Df extends org.miloss.fgsms.osagent.SigarCommandBase
-	c37330:p -> c37343:p [dir=back,arrowtail=empty];
+	c41680:p -> c41693:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.Df implements org.miloss.fgsms.osagent.Closable
-	c37344:p -> c37343:p [dir=back,arrowtail=empty,style=dashed];
+	c41694:p -> c41693:p [dir=back,arrowtail=empty,style=dashed];
 }
 

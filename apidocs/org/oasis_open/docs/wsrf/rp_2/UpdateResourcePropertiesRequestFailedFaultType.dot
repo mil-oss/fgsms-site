@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1210678 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bf_2/BaseFaultType.html">
+	c1276471 [label=<<table title="org.oasis_open.docs.wsrf.bf_2.BaseFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../bf_2/BaseFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> BaseFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="../bf_2/BaseFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsrf.rp_2.UpdateResourcePropertiesRequestFailedFaultType
-	c1211292 [label=<<table title="org.oasis_open.docs.wsrf.rp_2.UpdateResourcePropertiesRequestFailedFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateResourcePropertiesRequestFailedFaultType.html">
+	c1277086 [label=<<table title="org.oasis_open.docs.wsrf.rp_2.UpdateResourcePropertiesRequestFailedFaultType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateResourcePropertiesRequestFailedFaultType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpdateResourcePropertiesRequestFailedFaultType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpdateResourcePropertiesRequestFailedFaultType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsrf.rp_2.UpdateResourcePropertiesRequestFailedFaultType extends org.oasis_open.docs.wsrf.bf_2.BaseFaultType
-	c1210678:p -> c1211292:p [dir=back,arrowtail=empty];
+	c1276471:p -> c1277086:p [dir=back,arrowtail=empty];
 }
 

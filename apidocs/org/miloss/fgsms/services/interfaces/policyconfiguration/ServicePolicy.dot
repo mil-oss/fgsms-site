@@ -10,65 +10,65 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy
-	c1007368 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransactionalWebServicePolicy.html">
+	c1061204 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TransactionalWebServicePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TransactionalWebServicePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TransactionalWebServicePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy
-	c1007369 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusServicePolicy.html">
+	c1061205 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatusServicePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatusServicePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StatusServicePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy
-	c1007370 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatisticalServicePolicy.html">
+	c1061206 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StatisticalServicePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StatisticalServicePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StatisticalServicePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServicePolicy.html">
+	c1061258 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ServicePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ServicePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ServicePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy
-	c1007436 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessPolicy.html">
+	c1061272 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ProcessPolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessPolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ProcessPolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy
-	c1007443 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MachinePolicy.html">
+	c1061279 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MachinePolicy.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MachinePolicy </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MachinePolicy.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422:p -> c1007368:p [dir=back,arrowtail=empty];
+	c1061258:p -> c1061204:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.TransactionalWebServicePolicy implements java.io.Serializable
-	c1008080:p -> c1007368:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061204:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422:p -> c1007369:p [dir=back,arrowtail=empty];
+	c1061258:p -> c1061205:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.StatusServicePolicy implements java.io.Serializable
-	c1008080:p -> c1007369:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061205:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422:p -> c1007370:p [dir=back,arrowtail=empty];
+	c1061258:p -> c1061206:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.StatisticalServicePolicy implements java.io.Serializable
-	c1008080:p -> c1007370:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061206:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy implements java.io.Serializable
-	c1008080:p -> c1007422:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061258:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422:p -> c1007436:p [dir=back,arrowtail=empty];
+	c1061258:p -> c1061272:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.ProcessPolicy implements java.io.Serializable
-	c1008080:p -> c1007436:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061272:p [dir=back,arrowtail=empty,style=dashed];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy extends org.miloss.fgsms.services.interfaces.policyconfiguration.ServicePolicy
-	c1007422:p -> c1007443:p [dir=back,arrowtail=empty];
+	c1061258:p -> c1061279:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.MachinePolicy implements java.io.Serializable
-	c1008080:p -> c1007443:p [dir=back,arrowtail=empty,style=dashed];
+	c1061943:p -> c1061279:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c1008080 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c1061943 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

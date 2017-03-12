@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c162522 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
+	c176842 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BaseWebServiceReport.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> BaseWebServiceReport </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./BaseWebServiceReport.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod
-	c162523 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AverageResponseTimeByServiceByMethod.html">
+	c176843 [label=<<table title="org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AverageResponseTimeByServiceByMethod.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AverageResponseTimeByServiceByMethod </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AverageResponseTimeByServiceByMethod.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.rs.impl.reports.ws.AverageResponseTimeByServiceByMethod extends org.miloss.fgsms.services.rs.impl.reports.ws.BaseWebServiceReport
-	c162522:p -> c162523:p [dir=back,arrowtail=empty];
+	c176842:p -> c176843:p [dir=back,arrowtail=empty];
 }
 

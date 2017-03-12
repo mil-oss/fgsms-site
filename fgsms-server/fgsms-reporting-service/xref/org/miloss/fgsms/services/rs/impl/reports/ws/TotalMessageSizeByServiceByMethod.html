@@ -46,7 +46,7 @@
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>      @Override
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>      <strong class="jxr_keyword">public</strong> String getDisplayName() {
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>      <strong class="jxr_keyword">public</strong> String GetDisplayName() {
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"Total Message Size By Service By Method"</span>;
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>      }
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  
@@ -54,12 +54,12 @@
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>      @Override
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>      <strong class="jxr_keyword">public</strong> String getDescription() {
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">super</strong>.getDescription() + <span class="jxr_string">"Displays the sum of all request and response messages sizes, assuming it was recorded, grouped by service, by method. "</span>
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>      <strong class="jxr_keyword">public</strong> String GetHtmlFormattedHelp() {
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">super</strong>.GetHtmlFormattedHelp() + <span class="jxr_string">"Displays the sum of all request and response messages sizes, assuming it was recorded, grouped by service, by method. "</span>
 <a class="jxr_linenumber" name="L51" href="#L51">51</a>                  + <span class="jxr_string">" This data does not necessarily include transport headers, encryption, or any kind transport overhead or packet level"</span>
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>                  + <span class="jxr_string">" retransmissions and represents the payload sizes that was recorded by the agent."</span>
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>                  + <span class="jxr_string">" The accuracy of the data"</span>
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>                  + <span class="jxr_string">" is limited to the time range this report was generated from."</span>;
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>                  + <span class="jxr_string">" is limited to the time range this report was generated from. . For the chart, X axis is service, Y axis is bytes total for all messages by method. "</span>;
 <a class="jxr_linenumber" name="L55" href="#L55">55</a>      }
 <a class="jxr_linenumber" name="L56" href="#L56">56</a>  
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>      <em class="jxr_javadoccomment">/**</em>
@@ -75,7 +75,7 @@
 <a class="jxr_linenumber" name="L67" href="#L67">67</a>              ResultSet rs = <strong class="jxr_keyword">null</strong>;
 <a class="jxr_linenumber" name="L68" href="#L68">68</a>              DefaultCategoryDataset set = <strong class="jxr_keyword">new</strong> DefaultCategoryDataset();
 <a class="jxr_linenumber" name="L69" href="#L69">69</a>              JFreeChart chart = <strong class="jxr_keyword">null</strong>;
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(getDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(GetDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>              data.append(<span class="jxr_string">"This represents the total combined request and response message size of each service grouped by method.&lt;br /&gt;"</span>);
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>              <em class="jxr_comment">//add description</em>
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>              data.append(<span class="jxr_string">"&lt;table class=\&quot;table table-hover\&quot;&gt;&lt;tr&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;th&gt;Total Message Size (bytes)&lt;/th&gt;&lt;/tr&gt;"</span>);
@@ -136,7 +136,7 @@
 <a class="jxr_linenumber" name="L128" href="#L128">128</a>                 }
 <a class="jxr_linenumber" name="L129" href="#L129">129</a>             }
 <a class="jxr_linenumber" name="L130" href="#L130">130</a> 
-<a class="jxr_linenumber" name="L131" href="#L131">131</a>             chart = org.jfree.chart.ChartFactory.createBarChart(getDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
+<a class="jxr_linenumber" name="L131" href="#L131">131</a>             chart = org.jfree.chart.ChartFactory.createBarChart(GetDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
 <a class="jxr_linenumber" name="L132" href="#L132">132</a>             data.append(<span class="jxr_string">"&lt;/table&gt;"</span>);
 <a class="jxr_linenumber" name="L133" href="#L133">133</a>             <strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="L134" href="#L134">134</a>                 ChartUtilities.saveChartAsPNG(<strong class="jxr_keyword">new</strong> File(path + getFilePathDelimitor() + <span class="jxr_string">"image_"</span> + <strong class="jxr_keyword">this</strong>.getClass().getSimpleName() + <span class="jxr_string">".png"</span>), chart, 1500, pixelHeightCalc(set.getRowCount()));

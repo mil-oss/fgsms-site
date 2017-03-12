@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c86436 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
+	c87220 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SituationCategoryType.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SituationCategoryType </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SituationCategoryType.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.oasis_open.docs.wsdm.muws2_2.DestroyCompleted
-	c86465 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.DestroyCompleted" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DestroyCompleted.html">
+	c87249 [label=<<table title="org.oasis_open.docs.wsdm.muws2_2.DestroyCompleted" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DestroyCompleted.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DestroyCompleted </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DestroyCompleted.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.oasis_open.docs.wsdm.muws2_2.DestroyCompleted extends org.oasis_open.docs.wsdm.muws2_2.SituationCategoryType
-	c86436:p -> c86465:p [dir=back,arrowtail=empty];
+	c87220:p -> c87249:p [dir=back,arrowtail=empty];
 }
 

@@ -10,27 +10,27 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.osagent.SigarCommandBase
-	c307328 [label=<<table title="org.miloss.fgsms.osagent.SigarCommandBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SigarCommandBase.html">
+	c338926 [label=<<table title="org.miloss.fgsms.osagent.SigarCommandBase" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SigarCommandBase.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> SigarCommandBase </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./SigarCommandBase.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Df
-	c307341 [label=<<table title="org.miloss.fgsms.osagent.Df" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Df.html">
+	c338939 [label=<<table title="org.miloss.fgsms.osagent.Df" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Df.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Df </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Df.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.osagent.Closable
-	c307342 [label=<<table title="org.miloss.fgsms.osagent.Closable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Closable.html">
+	c338940 [label=<<table title="org.miloss.fgsms.osagent.Closable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Closable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Closable </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Closable.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.osagent.Df extends org.miloss.fgsms.osagent.SigarCommandBase
-	c307328:p -> c307341:p [dir=back,arrowtail=empty];
+	c338926:p -> c338939:p [dir=back,arrowtail=empty];
 	//org.miloss.fgsms.osagent.Df implements org.miloss.fgsms.osagent.Closable
-	c307342:p -> c307341:p [dir=back,arrowtail=empty,style=dashed];
+	c338940:p -> c338939:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -10,15 +10,15 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.services.interfaces.policyconfiguration.GeoTag
-	c105170 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GeoTag" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeoTag.html">
+	c105983 [label=<<table title="org.miloss.fgsms.services.interfaces.policyconfiguration.GeoTag" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeoTag.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GeoTag </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GeoTag.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.services.interfaces.policyconfiguration.GeoTag implements java.io.Serializable
-	c105388:p -> c105170:p [dir=back,arrowtail=empty,style=dashed];
+	c106201:p -> c105983:p [dir=back,arrowtail=empty,style=dashed];
 	// java.io.Serializable
-	c105388 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
+	c106201 [label=<<table title="java.io.Serializable" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Serializable </td></tr>

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../PluginCommon.html" title="org.miloss.fgsms.plugins.PluginCommon" alt="" coords="221,11,329,53"/>
+<area shape="rect" id="node1" href="../PluginCommon.html" title="&lt;TABLE&gt;" alt="" coords="210,5,339,59"/>
+<area shape="rect" id="node2_1" href="./ReportGeneratorPlugin.html" title="org.miloss.fgsms.plugins.reporting.ReportGeneratorPlugin" alt="" coords="199,112,350,155"/>
+<area shape="rect" id="node2" href="./ReportGeneratorPlugin.html" title="&lt;TABLE&gt;" alt="" coords="189,107,361,160"/>
+<area shape="rect" id="node3_2" href="../../services/rs/impl/reports/BaseReportGenerator.html" title="org.miloss.fgsms.services.rs.impl.reports.BaseReportGenerator" alt="" coords="16,219,160,245"/>
+<area shape="rect" id="node3" href="../../services/rs/impl/reports/BaseReportGenerator.html" title="&lt;TABLE&gt;" alt="" coords="5,208,171,256"/>
+<area shape="rect" id="node4_3" href="../../services/rs/impl/reports/AvailabilityByService.html" title="org.miloss.fgsms.services.rs.impl.reports.AvailabilityByService" alt="" coords="205,219,344,245"/>
+<area shape="rect" id="node4" href="../../services/rs/impl/reports/AvailabilityByService.html" title="&lt;TABLE&gt;" alt="" coords="195,208,355,256"/>
+<area shape="rect" id="node5_4" href="../../services/rs/impl/reports/broker/ConsumersByQueueOrTopic.html" title="org.miloss.fgsms.services.rs.impl.reports.broker.ConsumersByQueueOrTopic" alt="" coords="389,219,573,245"/>
+<area shape="rect" id="node5" href="../../services/rs/impl/reports/broker/ConsumersByQueueOrTopic.html" title="&lt;TABLE&gt;" alt="" coords="379,208,584,256"/>
+</map>

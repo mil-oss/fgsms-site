@@ -10,19 +10,19 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// org.miloss.fgsms.plugins.sla.SLAActionInterface
-	c318791 [label=<<table title="org.miloss.fgsms.plugins.sla.SLAActionInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLAActionInterface.html">
+	c351808 [label=<<table title="org.miloss.fgsms.plugins.sla.SLAActionInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../plugins/sla/SLAActionInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> SLAActionInterface </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../plugins/sla/SLAActionInterface.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// org.miloss.fgsms.sla.actions.EmailAlerter
-	c319540 [label=<<table title="org.miloss.fgsms.sla.actions.EmailAlerter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EmailAlerter.html">
+	c352580 [label=<<table title="org.miloss.fgsms.sla.actions.EmailAlerter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./EmailAlerter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> EmailAlerter </td></tr>
 		</table></td></tr>
 		</table>>, URL="./EmailAlerter.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	//org.miloss.fgsms.sla.actions.EmailAlerter implements org.miloss.fgsms.plugins.sla.SLAActionInterface
-	c318791:p -> c319540:p [dir=back,arrowtail=empty,style=dashed];
+	c351808:p -> c352580:p [dir=back,arrowtail=empty,style=dashed];
 }
 

@@ -46,7 +46,7 @@
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>      @Override
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>      <strong class="jxr_keyword">public</strong> String getDisplayName() {
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>      <strong class="jxr_keyword">public</strong> String GetDisplayName() {
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"Throughput By Service By Method"</span>;
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>      }
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  
@@ -54,10 +54,10 @@
 <a class="jxr_linenumber" name="L46" href="#L46">46</a>  <em class="jxr_javadoccomment">     * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="L47" href="#L47">47</a>  <em class="jxr_javadoccomment">     */</em>
 <a class="jxr_linenumber" name="L48" href="#L48">48</a>      @Override
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>      <strong class="jxr_keyword">public</strong> String getDescription() {
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>          <strong class="jxr_keyword">return</strong> <span class="jxr_string">"This represents the average invocation rate over the given period of time grouped by method. "</span>
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>                  + <span class="jxr_string">"Applies to web services and transactional services only and generally have a request/response messaging pattern. The accuracy of the data"</span>
-<a class="jxr_linenumber" name="L52" href="#L52">52</a>                  + <span class="jxr_string">" is limited to the time range this report was generated from."</span>;
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>      <strong class="jxr_keyword">public</strong> String GetHtmlFormattedHelp() {
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>          <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">super</strong>.GetHtmlFormattedHelp() + <span class="jxr_string">"This represents the average invocation rate over the given period of time grouped by method. The accuracy of the data"</span>
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>                  + <span class="jxr_string">" is limited to the time range this report was generated from. For the chart, X axis is service, Y axis is throughput (bytes total of all messages/time). "</span>
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>                  + <span class="jxr_string">"This data does not necessarily represent bytes on the wire and may or may not include transport overhead, headers, or packetization."</span>;
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>      }
 <a class="jxr_linenumber" name="L54" href="#L54">54</a>  
 <a class="jxr_linenumber" name="L55" href="#L55">55</a>      <em class="jxr_javadoccomment">/**</em>
@@ -79,8 +79,8 @@
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>              DefaultCategoryDataset set = <strong class="jxr_keyword">new</strong> DefaultCategoryDataset();
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>              JFreeChart chart = <strong class="jxr_keyword">null</strong>;
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>  
-<a class="jxr_linenumber" name="L74" href="#L74">74</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(getDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
-<a class="jxr_linenumber" name="L75" href="#L75">75</a>              data.append(getDescription() + <span class="jxr_string">"&lt;br /&gt;"</span>);
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>              data.append(<span class="jxr_string">"&lt;hr /&gt;&lt;h2&gt;"</span>).append(GetDisplayName()).append(<span class="jxr_string">"&lt;/h2&gt;"</span>);
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>              data.append(GetHtmlFormattedHelp() + <span class="jxr_string">"&lt;br /&gt;"</span>);
 <a class="jxr_linenumber" name="L76" href="#L76">76</a>              data.append(<span class="jxr_string">"&lt;table class=\&quot;table table-hover\&quot;&gt;&lt;tr&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;Method&lt;/th&gt;&lt;th&gt;Invocations&lt;/th&gt;&lt;th&gt;Msg/Day&lt;/th&gt;&lt;th&gt;Msg/Hour&lt;/th&gt;&lt;th&gt;Msg/Min&lt;/th&gt;&lt;th&gt;Msg/Sec&lt;/th&gt;&lt;/tr&gt;"</span>);
 <a class="jxr_linenumber" name="L77" href="#L77">77</a>              <strong class="jxr_keyword">for</strong> (<strong class="jxr_keyword">int</strong> i = 0; i &lt; urls.size(); i++) {
 <a class="jxr_linenumber" name="L78" href="#L78">78</a>                  <strong class="jxr_keyword">if</strong> (!isPolicyTypeOf(urls.get(i), PolicyType.TRANSACTIONAL)) {
@@ -143,7 +143,7 @@
 <a class="jxr_linenumber" name="L135" href="#L135">135</a>                     log.log(Level.ERROR, <span class="jxr_string">"Error opening or querying the database."</span>, ex);
 <a class="jxr_linenumber" name="L136" href="#L136">136</a>                 }
 <a class="jxr_linenumber" name="L137" href="#L137">137</a>             }
-<a class="jxr_linenumber" name="L138" href="#L138">138</a>             chart = org.jfree.chart.ChartFactory.createBarChart(getDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
+<a class="jxr_linenumber" name="L138" href="#L138">138</a>             chart = org.jfree.chart.ChartFactory.createBarChart(GetDisplayName(), <span class="jxr_string">"Service URL"</span>, <span class="jxr_string">""</span>, set, PlotOrientation.HORIZONTAL, <strong class="jxr_keyword">true</strong>, false, false);
 <a class="jxr_linenumber" name="L139" href="#L139">139</a>             data.append(<span class="jxr_string">"&lt;/table&gt;"</span>);
 <a class="jxr_linenumber" name="L140" href="#L140">140</a>             <strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="L141" href="#L141">141</a>                 ChartUtilities.saveChartAsPNG(<strong class="jxr_keyword">new</strong> File(path + getFilePathDelimitor() + <span class="jxr_string">"image_"</span> + <strong class="jxr_keyword">this</strong>.getClass().getSimpleName() + <span class="jxr_string">".png"</span>), chart, 1500, pixelHeightCalc(set.getRowCount()));

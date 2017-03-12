@@ -1,4 +1,5 @@
 org.miloss.fgsms.agentcore
+org.miloss.fgsms.agentcore.mp
 org.miloss.fgsms.agentcore.servlets
 org.miloss.fgsms.agents
 org.miloss.fgsms.agents.qpidjmx
@@ -10,6 +11,7 @@ org.miloss.fgsms.auxsrv
 org.miloss.fgsms.auxsrv.status
 org.miloss.fgsms.bueller
 org.miloss.fgsms.common
+org.miloss.fgsms.common.codec
 org.miloss.fgsms.datapruner
 org.miloss.fgsms.dependency
 org.miloss.fgsms.discovery
@@ -21,6 +23,7 @@ org.miloss.fgsms.osagent.sensor
 org.miloss.fgsms.plugins
 org.miloss.fgsms.plugins.agents
 org.miloss.fgsms.plugins.federation
+org.miloss.fgsms.plugins.reporting
 org.miloss.fgsms.plugins.sla
 org.miloss.fgsms.plugins.sla.alertservice
 org.miloss.fgsms.plugins.status
@@ -52,6 +55,7 @@ org.miloss.fgsms.sla
 org.miloss.fgsms.sla.actions
 org.miloss.fgsms.sla.rules
 org.miloss.fgsms.statistics
+org.miloss.fgsms.statistics.jobs
 org.miloss.fgsms.test
 org.miloss.fgsms.tomcat.jdbcp
 org.miloss.fgsms.tools

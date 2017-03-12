@@ -1,2 +1,3 @@
 org.miloss.fgsms.common
+org.miloss.fgsms.common.codec
 org.miloss.fgsms.tomcat.jdbcp
